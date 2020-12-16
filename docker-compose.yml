@@ -1,0 +1,18 @@
+version: '3'
+services:
+  laravel_spa_web:
+    build: .
+    volumes:
+      - ./web:/var/www/html/laravel_spa
+    ports:
+      - 8082:8082
+      - 3001:3001
+  laravel_spa_database:
+    image: postgres:11-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - ./database:/var/lib/postgresql/data
+    ports:
+      - 5434:5432
