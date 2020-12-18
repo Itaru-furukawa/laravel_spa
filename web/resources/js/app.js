@@ -1,6 +1,11 @@
 import VueRouter from 'vue-router';
 import HeaderComponent from "./components/HeaderComponent";
-import TaskListComponent from "./components/TaskListComponent"
+import TopComponent from "./components/TopComponent";
+import ListComponent from "./components/ListComponent";
+import ManageComponent from "./components/ManageComponent";
+import ShijuukunichiComponent from "./components/ShijuukunichiComponent";
+import CreateComponent from "./components/CreateComponent";
+import TaskListComponent from "./components/TaskListComponent";
 import TaskShowComponent from "./components/TaskShowComponent";
 import TaskCreateComponent from "./components/TaskCreateComponent";
 import TaskEditComponent from "./components/TaskEditComponent";
@@ -22,6 +27,31 @@ const router = new VueRouter({
             path: '/tasks',
             name: 'task.list',
             component: TaskListComponent
+        },
+        {
+            path: '/top',
+            name: 'top',
+            component: TopComponent
+        },
+        {
+            path: '/list',
+            name: 'list',
+            component: ListComponent
+        },
+        {
+            path: '/create',
+            name: 'create',
+            component: CreateComponent
+        },
+        {
+            path: '/manage',
+            name: 'manage',
+            component: ManageComponent
+        },
+        {
+            path: '/shijuukunichi',
+            name: 'shijuukunichi',
+            component: ShijuukunichiComponent
         },
         {
             path: '/tasks/create',
