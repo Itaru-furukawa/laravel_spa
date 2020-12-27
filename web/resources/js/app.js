@@ -2,7 +2,13 @@ import VueRouter from 'vue-router';
 import HeaderComponent from "./components/HeaderComponent";
 import TopComponent from "./components/TopComponent";
 import ListComponent from "./components/ListComponent";
+import CustomerListComponent from "./components/CustomerListComponent";
+import SougiShowComponent from "./components/SougiShowComponent";
+import EstimateShowComponent from "./components/EstimateShowComponent";
+import SougiEditComponent from "./components/SougiEditComponent";
+import EstimateEditComponent from "./components/EstimateEditComponent";
 import ManageComponent from "./components/ManageComponent";
+import ManageEditComponent from "./components/ManageEditComponent";
 import ShijuukunichiComponent from "./components/ShijuukunichiComponent";
 import CreateComponent from "./components/CreateComponent";
 import TaskListComponent from "./components/TaskListComponent";
@@ -39,6 +45,35 @@ const router = new VueRouter({
             component: ListComponent
         },
         {
+            path: '/customer',
+            name: 'customer',
+            component: CustomerListComponent
+        },
+        {
+            path: '/list/:sougiId/show1',
+            name: 'sougi.show1',
+            component: SougiShowComponent,
+            props: true
+        },
+        {
+            path: '/list/:sougiId/show2',
+            name: 'sougi.show2',
+            component: EstimateShowComponent,
+            props: true
+        },
+        {
+            path: '/list/:sougiId/edit',
+            name: 'sougi.edit',
+            component: SougiEditComponent,
+            props: true
+        },
+        {
+            path: '/list/:sougiId/estimate',
+            name: 'sougi.estimate.edit',
+            component: EstimateEditComponent,
+            props: true,
+        },
+        {
             path: '/create',
             name: 'create',
             component: CreateComponent
@@ -47,6 +82,12 @@ const router = new VueRouter({
             path: '/manage',
             name: 'manage',
             component: ManageComponent
+        },
+        {
+            path: '/manage/:manageId',
+            name: 'manage.edit',
+            component: ManageEditComponent,
+            props: true
         },
         {
             path: '/shijuukunichi',

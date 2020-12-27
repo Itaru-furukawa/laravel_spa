@@ -1910,591 +1910,617 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+/* harmony import */ var _LoadingDubbles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoadingDubbles */ "./resources/js/components/LoadingDubbles.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
-    var _ref;
-
-    return _ref = {
-      sex: 'male',
-      spouse: 'exist',
-      dead_month: '12',
-      date: moment__WEBPACK_IMPORTED_MODULE_0___default()(),
-      todayYear: moment__WEBPACK_IMPORTED_MODULE_0___default()().format('YYYY'),
-      dead_year: moment__WEBPACK_IMPORTED_MODULE_0___default()().format('YYYY')
-    }, _defineProperty(_ref, "dead_month", moment__WEBPACK_IMPORTED_MODULE_0___default()().format('MM')), _defineProperty(_ref, "dead_day", moment__WEBPACK_IMPORTED_MODULE_0___default()().format('DD')), _defineProperty(_ref, "today", moment__WEBPACK_IMPORTED_MODULE_0___default()().format()), _defineProperty(_ref, "birthYear", '1950'), _defineProperty(_ref, "birthMonth", '01'), _defineProperty(_ref, "birthDay", '01'), _defineProperty(_ref, "pay_way", '振込'), _ref;
+    return {
+      sougi: {
+        "sex": 'male',
+        "spouse": 'いる',
+        "dead_month": '12',
+        "spouseStatus": '未婚',
+        "date": moment__WEBPACK_IMPORTED_MODULE_0___default()(),
+        "today": moment__WEBPACK_IMPORTED_MODULE_0___default()().format(),
+        "kojinBirthYear": '1950',
+        "kojinBirthMonth": '01',
+        "kojinBirthDay": '01',
+        "moshuBirthYear": '1950',
+        "moshuBirthMonth": '01',
+        "moshuBirthDay": '01',
+        "repBirthYear": '1950',
+        "repBirthMonth": '01',
+        "repBirthDay": '01',
+        "payWay": '振込',
+        "cereIndex": 0,
+        "creIndex": 0
+      },
+      comps: {},
+      cres: {},
+      ceres: [{
+        'address': "",
+        'tel1': ""
+      }],
+      emptyEstimate: {
+        "reijoPer": 10000,
+        "dryicePer": 8500,
+        "reijoQ": 0,
+        "dryiceQ": 0
+      },
+      loading1: true,
+      loading2: true,
+      loading3: true,
+      isProcessing: false
+    };
   },
   computed: {
-    "double": function double() {
-      return this.number * 2;
+    age1: function age1() {
+      this.sougi.kojinAge = moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.kojinBirthYear + '-' + this.sougi.kojinBirthMonth + '-' + this.sougi.kojinBirthDay, 'years');
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.kojinBirthYear + '-' + this.sougi.kojinBirthMonth + '-' + this.sougi.kojinBirthDay, 'years');
     },
-    numberClass: function numberClass() {
-      if (this.number > 50) {
-        return "red";
-      }
-
-      return "blue";
+    age2: function age2() {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.moshuBirthYear + '-' + this.sougi.moshuBirthMonth + '-' + this.sougi.moshuBirthDay, 'years');
     },
-    age: function age() {
-      return moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.birthYear + '-' + this.birthMonth + '-' + this.birthDay, 'years');
+    age3: function age3() {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.repBirthYear + '-' + this.sougi.repBirthMonth + '-' + this.sougi.repBirthDay, 'years');
     }
   },
   filters: {
@@ -2503,12 +2529,1294 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     }
   },
   methods: {
-    add: function add(val) {
-      this.number = this.number + val;
+    submit: function submit() {
+      var _this = this;
+
+      this.isProcessing = true;
+      axios.post('/api/estimate', this.emptyEstimate);
+      axios.post('/api/create', this.sougi).then(function (res) {
+        _this.$router.push({
+          name: 'list'
+        });
+      });
     },
-    toInt: function toInt(val) {
-      return parseInt(val);
+    getComps: function getComps() {
+      var _this2 = this;
+
+      axios.get('/api/manage/show1').then(function (res) {
+        _this2.loading1 = false;
+        _this2.comps = res.data;
+        _this2.sougi.compId = res.data[0].id;
+      });
+    },
+    getCeres: function getCeres() {
+      var _this3 = this;
+
+      axios.get('/api/manage/show2').then(function (res) {
+        _this3.loading2 = false;
+        _this3.ceres = res.data;
+        _this3.sougi.cereId = res.data[0].id;
+      });
+    },
+    getCres: function getCres() {
+      var _this4 = this;
+
+      axios.get('/api/manage/show3').then(function (res) {
+        _this4.loading3 = false;
+        _this4.cres = res.data;
+        _this4.sougi.creId = res.data[0].id;
+      });
     }
+  },
+  created: function created() {
+    this.getComps();
+    this.getCeres();
+    this.getCres();
+
+    var year = moment__WEBPACK_IMPORTED_MODULE_0___default()().format('YYYY');
+
+    var month = moment__WEBPACK_IMPORTED_MODULE_0___default()().format('MM');
+
+    var today = moment__WEBPACK_IMPORTED_MODULE_0___default()().format('DD');
+
+    this.sougi.reqYear = year;
+    this.sougi.reqMonth = month;
+    this.sougi.reqDay = today;
+    this.sougi.tuyaYear = year;
+    this.sougi.tuyaMonth = month;
+    this.sougi.tuyaDay = today;
+    this.sougi.kasouYear = year;
+    this.sougi.kasouMonth = month;
+    this.sougi.kasouDay = today;
+    this.sougi.kokubetsuYear = year;
+    this.sougi.kokubetsuMonth = month;
+    this.sougi.kokubetsuDay = today;
+    this.sougi.todayYear = year;
+    this.sougi.deadYear = year;
+    this.sougi.deadMonth = month;
+    this.sougi.deadDay = today;
+  },
+  components: {
+    LoadingDubbles: _LoadingDubbles__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CustomerListComponent.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CustomerListComponent.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      sougi: []
+    };
+  },
+  methods: {
+    getSougis: function getSougis() {
+      var _this = this;
+
+      axios.get('/api/list').then(function (res) {
+        _this.sougi = res.data;
+      });
+    }
+  },
+  mounted: function mounted() {
+    this.getSougis();
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateEditComponent.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _LoadingBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoadingBar */ "./resources/js/components/LoadingBar.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    sougiId: String
+  },
+  data: function data() {
+    return {
+      estimate: {
+        'total1': 0,
+        'total2': 0,
+        'dryicePer': 8500,
+        'dryiceQ': 0,
+        'reijoPer': 10000,
+        'reijoQ': 0
+      },
+      emptyEstimate: {
+        'id': parseInt(this.sougiId)
+      },
+      'consumptionTax': 10,
+      'soukaName': "",
+      'sougiStatus': "",
+      'hoge': "ほげ〜〜〜〜",
+      "loading1": true,
+      "loading2": true
+    };
+  },
+  computed: {
+    calcTotal1: function calcTotal1() {
+      var all = 0;
+
+      if (!Number.isNaN(parseInt(this.estimate.saidan2, 10))) {
+        all += parseInt(this.estimate.saidan2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.butsugu, 10))) {
+        all += parseInt(this.estimate.butsugu);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.facility, 10))) {
+        all += parseInt(this.estimate.facility);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.importCost, 10))) {
+        all += parseInt(this.estimate.importCost);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.bed2, 10))) {
+        all += parseInt(this.estimate.bed2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.nokan, 10))) {
+        all += parseInt(this.estimate.nokan);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.specialDeodorant, 10))) {
+        all += parseInt(this.estimate.specialDeodorant);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.specialYukan, 10))) {
+        all += parseInt(this.estimate.specialYukan);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.specialClear, 10))) {
+        all += parseInt(this.estimate.specialClear);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.specialLastmake, 10))) {
+        all += parseInt(this.estimate.specialLastmake);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.dryice, 10))) {
+        all += parseInt(this.estimate.dryice);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.iei2, 10))) {
+        all += parseInt(this.estimate.iei2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.reijo, 10))) {
+        all += parseInt(this.estimate.reijo);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.flower2, 10))) {
+        all += parseInt(this.estimate.flower2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.mogiri2, 10))) {
+        all += parseInt(this.estimate.mogiri2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.kumotsu2, 10))) {
+        all += parseInt(this.estimate.kumotsu2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.saidanFlower2, 10))) {
+        all += parseInt(this.estimate.saidanFlower2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.garden2, 10))) {
+        all += parseInt(this.estimate.garden2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.chochin2, 10))) {
+        all += parseInt(this.estimate.chochin2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.mizuhiki2, 10))) {
+        all += parseInt(this.estimate.mizuhiki2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.shoko2, 10))) {
+        all += parseInt(this.estimate.shoko2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.mainBoard2, 10))) {
+        all += parseInt(this.estimate.mainBoard2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.guideBoard2, 10))) {
+        all += parseInt(this.estimate.guideBoard2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.tent, 10))) {
+        all += parseInt(this.estimate.tent);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.reception, 10))) {
+        all += parseInt(this.estimate.reception);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.consume, 10))) {
+        all += parseInt(this.estimate.consume);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.moderator, 10))) {
+        all += parseInt(this.estimate.moderator);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.saijo, 10))) {
+        all += parseInt(this.estimate.saijo);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.staff2, 10))) {
+        all += parseInt(this.estimate.staff2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.trans1_1, 10))) {
+        all += parseInt(this.estimate.trans1_1);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.trans1_2, 10))) {
+        all += parseInt(this.estimate.trans1_2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.trans2_2, 10))) {
+        all += parseInt(this.estimate.trans2_2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.transItem, 10))) {
+        all += parseInt(this.estimate.transItem);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.acting, 10))) {
+        all += parseInt(this.estimate.acting);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.manage, 10))) {
+        all += parseInt(this.estimate.manage);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.pillow2, 10))) {
+        all += parseInt(this.estimate.pillow2);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.decoration2, 10))) {
+        all += parseInt(this.estimate.decoration2);
+      }
+
+      this.estimate.subTotal1 = all;
+      this.estimate.totalTax1 = all * this.consumptionTax / 100;
+      this.estimate.total1 = all * (100 + this.consumptionTax) / 100;
+      return all;
+    },
+    calcTotal2: function calcTotal2() {
+      var all = 0;
+
+      if (!Number.isNaN(parseInt(this.estimate.cremation2, 10))) {
+        all += parseInt(this.estimate.cremation2, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.shukotsu2, 10))) {
+        all += parseInt(this.estimate.shukotsu2, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.restRoom2, 10))) {
+        all += parseInt(this.estimate.restRoom2, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.store2, 10))) {
+        all += parseInt(this.estimate.store2, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.vehicle2, 10))) {
+        all += parseInt(this.estimate.vehicle2, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.car2, 10))) {
+        all += parseInt(this.estimate.car2, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.car4, 10))) {
+        all += parseInt(this.estimate.car4, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.bus2, 10))) {
+        all += parseInt(this.estimate.bus2, 10);
+      }
+
+      if (!Number.isNaN(parseInt(this.estimate.fee2, 10))) {
+        all += parseInt(this.estimate.fee2, 10);
+      }
+
+      this.estimate.total2 = all;
+      return all;
+    },
+    calcDryice: function calcDryice() {
+      var price = this.estimate.dryicePer * this.estimate.dryiceQ;
+      this.estimate.dryice = price;
+      return price;
+    },
+    calcReijo: function calcReijo() {
+      var price = parseInt(this.estimate.reijoPer * this.estimate.reijoQ, 10);
+      this.estimate.reijo = price;
+      return price;
+    }
+  },
+  methods: {
+    submitEstimate: function submitEstimate() {
+      var _this = this;
+
+      axios.put('/api/estimate/' + this.estimate.id, this.estimate).then(function (res) {
+        _this.$router.push({
+          name: 'list'
+        });
+      });
+    },
+    getSougi: function getSougi() {
+      var _this2 = this;
+
+      axios.get('/api/estimate/' + this.sougiId).then(function (res) {
+        _this2.loading1 = false;
+        _this2.soukaName = res.data.soukaName;
+      });
+    },
+    getEstimate: function getEstimate() {
+      var _this3 = this;
+
+      axios.get('/api/estimate/' + this.sougiId).then(function (res) {
+        _this3.loading2 = false;
+        _this3.estimate = res.data;
+      });
+    }
+  },
+  created: function created() {
+    this.getSougi();
+    this.getEstimate();
+  },
+  components: {
+    LoadingBar: _LoadingBar__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateShowComponent.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    sougiId: String
+  },
+  data: function data() {
+    return {
+      estimate: {},
+      sougi: {},
+      comp: {}
+    };
+  },
+  methods: {
+    getEstimate: function getEstimate() {
+      var _this = this;
+
+      axios.get('/api/estimate/' + this.sougiId).then(function (res) {
+        _this.estimate = res.data;
+      });
+    },
+    getSougi: function getSougi() {
+      var _this2 = this;
+
+      axios.get('/api/list/' + this.sougiId).then(function (res) {
+        _this2.sougi = res.data;
+
+        _this2.getData();
+
+        _this2.loading = true;
+      });
+    },
+    getData: function getData() {
+      var _this3 = this;
+
+      axios.get('/api/manage/' + this.sougi.compId).then(function (res) {
+        _this3.comp = res.data;
+      });
+    },
+    numberWithCommas: function numberWithCommas(x) {
+      if (x === undefined || x === null) {
+        return null;
+      } else {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+    }
+  },
+  created: function created() {
+    this.getEstimate();
+    this.getSougi();
   }
 });
 
@@ -2556,6 +3864,18 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2641,6 +3961,60 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      sougi: [],
+      compsName: []
+    };
+  },
+  methods: {
+    getSougis: function getSougis() {
+      var _this = this;
+
+      axios.get('/api/list').then(function (res) {
+        _this.sougi = res.data;
+      });
+    },
+    getCompName: function getCompName() {
+      var _this2 = this;
+
+      axios.get('/api/manage/show1').then(function (res) {
+        for (var i in res.data) {
+          _this2.compsName[res.data[i].id] = res.data[i].name;
+        }
+      });
+    },
+    deleteSougi: function deleteSougi(id) {
+      var _this3 = this;
+
+      var ans = confirm("本当に削除してもよろしいですか？");
+      if (!ans) event.preventDefault();
+      axios["delete"]('/api/list/' + id);
+      axios["delete"]('/api/estimate/' + id).then(function (res) {
+        _this3.getSougis();
+      });
+    }
+  },
+  mounted: function mounted() {
+    this.getSougis();
+    this.getCompName();
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingBar.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_loading_template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-loading-template */ "./node_modules/vue-loading-template/dist/vueLoading.common.js");
+/* harmony import */ var vue_loading_template__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_loading_template__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -2652,7 +4026,49 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'loadingBar',
+  components: {
+    VueLoading: vue_loading_template__WEBPACK_IMPORTED_MODULE_0__["VueLoading"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingDubbles.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_loading_template__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-loading-template */ "./node_modules/vue-loading-template/dist/vueLoading.common.js");
+/* harmony import */ var vue_loading_template__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_loading_template__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'LoadingDubbles',
+  components: {
+    VueLoading: vue_loading_template__WEBPACK_IMPORTED_MODULE_0__["VueLoading"]
+  }
+});
 
 /***/ }),
 
@@ -2690,14 +4106,196 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      comps: [],
+      newcomp: {
+        'type': 1
+      },
+      cres: [],
+      newcere: {
+        'type': 2
+      },
+      newcre: {
+        'type': 3
+      },
+      ceres: []
+    };
+  },
+  methods: {
+    getComps: function getComps() {
+      var _this = this;
+
+      axios.get('/api/manage/show1').then(function (res) {
+        _this.comps = res.data;
+      });
+    },
+    getCeres: function getCeres() {
+      var _this2 = this;
+
+      axios.get('/api/manage/show2').then(function (res) {
+        _this2.ceres = res.data;
+      });
+    },
+    getCres: function getCres() {
+      var _this3 = this;
+
+      axios.get('/api/manage/show3').then(function (res) {
+        _this3.cres = res.data;
+      });
+    },
+    submitComp: function submitComp() {
+      axios.post('/api/manage', this.newcomp);
+      this.newcomp = {
+        'type': 1
+      };
+      this.getComps();
+    },
+    submitCere: function submitCere() {
+      axios.post('/api/manage', this.newcere);
+      this.newcere = {
+        'type': 2
+      };
+      this.getCeres();
+    },
+    submitCre: function submitCre() {
+      axios.post('/api/manage', this.newcre);
+      this.newcre = {
+        'type': 3
+      };
+      this.getCres();
+    },
+    deleteComp: function deleteComp(id) {
+      var _this4 = this;
+
+      var ans = confirm("本当に削除してもよろしいですか？");
+      if (!ans) event.preventDefault();
+      axios["delete"]('/api/manage/' + id).then(function (res) {
+        _this4.getComps();
+      });
+    },
+    deleteCere: function deleteCere(id) {
+      var _this5 = this;
+
+      var ans = confirm("本当に削除してもよろしいですか？");
+      if (!ans) event.preventDefault();
+      axios["delete"]('/api/manage/' + id).then(function (res) {
+        _this5.getCeres();
+      });
+    },
+    deleteCre: function deleteCre(id) {
+      var _this6 = this;
+
+      var ans = confirm("本当に削除してもよろしいですか？");
+      if (!ans) event.preventDefault();
+      axios["delete"]('/api/manage/' + id).then(function (res) {
+        _this6.getCres();
+      });
+    }
+  },
+  mounted: function mounted() {
+    this.getComps();
+    this.getCeres();
+    this.getCres();
+  }
+});
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ShijuukunichiComponent.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ShijuukunichiComponent.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ManageEditComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ManageEditComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2728,7 +4326,1069 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    "manageId": String
+  },
+  data: function data() {
+    return {
+      list: {}
+    };
+  },
+  methods: {
+    submit: function submit() {
+      var _this = this;
+
+      axios.put('/api/manage/' + this.manageId, this.list).then(function (res) {
+        _this.$router.push({
+          name: 'manage'
+        });
+      });
+    },
+    getList: function getList() {
+      var _this2 = this;
+
+      axios.get('/api/manage/' + this.manageId).then(function (res) {
+        _this2.list = res.data;
+      });
+    }
+  },
+  mounted: function mounted() {
+    this.getList();
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ShijuukunichiComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ShijuukunichiComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      sougi: [],
+      compsName: []
+    };
+  },
+  methods: {
+    getSougis: function getSougis() {
+      var _this = this;
+
+      axios.get('/api/list').then(function (res) {
+        _this.sougi = res.data;
+      });
+    },
+    getCompName: function getCompName() {
+      var _this2 = this;
+
+      axios.get('/api/manage/show1').then(function (res) {
+        for (var i in res.data) {
+          _this2.compsName[res.data[i].id] = res.data[i].name;
+        }
+      });
+    },
+    sijuukunichi: function sijuukunichi(deadYear, deadMonth, deadDay) {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()(deadYear + "-" + deadMonth + "-" + deadDay).add(48, 'd').format("YYYY-MM-DD");
+    },
+    momentNow: function momentNow() {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()().format("YYYY-MM-DD 00:00:00");
+    },
+    sijuuLast: function sijuuLast(deadYear, deadMonth, deadDay) {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()(this.sijuukunichi(deadYear, deadMonth, deadDay) + " 00:00:00").diff(this.momentNow(), 'days');
+    }
+  },
+  computed: {
+    activeSougi: function activeSougi() {
+      var _this3 = this;
+
+      var data = this.sougi;
+      var result = data.filter(function (x) {
+        return _this3.sijuuLast(x.deadYear, x.deadMonth, x.deadDay) >= 0;
+      });
+      return result;
+    }
+  },
+  filters: {
+    moment: function moment(date) {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()(date).format('YYYY/MM/DD HH:mm');
+    }
+  },
+  mounted: function mounted() {
+    this.getSougis();
+    this.getCompName();
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiEditComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _LoadingBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoadingBar */ "./resources/js/components/LoadingBar.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    sougiId: String
+  },
+  data: function data() {
+    return {
+      sougi: {
+        "sex": 'male',
+        "spouse": 'いる',
+        "dead_month": '12',
+        "spouseStatus": '未婚',
+        "date": moment__WEBPACK_IMPORTED_MODULE_0___default()(),
+        "today": moment__WEBPACK_IMPORTED_MODULE_0___default()().format(),
+        "kojinBirthYear": '1950',
+        "kojinBirthMonth": '01',
+        "kojinBirthDay": '01',
+        "moshuBirthYear": '1950',
+        "moshuBirthMonth": '01',
+        "moshuBirthDay": '01',
+        "repBirthYear": '1950',
+        "repBirthMonth": '01',
+        "repBirthDay": '01',
+        "payWay": '振込',
+        "cereIndex": 0,
+        "creIndex": 0
+      },
+      comps: {},
+      cres: {},
+      ceres: [],
+      emptyEstimate: {},
+      loading1: true,
+      loading2: true,
+      loading3: true,
+      loading4: true
+    };
+  },
+  computed: {
+    age1: function age1() {
+      this.sougi.kojinAge = moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.kojinBirthYear + '-' + this.sougi.kojinBirthMonth + '-' + this.sougi.kojinBirthDay, 'years');
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.kojinBirthYear + '-' + this.sougi.kojinBirthMonth + '-' + this.sougi.kojinBirthDay, 'years');
+    },
+    age2: function age2() {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.moshuBirthYear + '-' + this.sougi.moshuBirthMonth + '-' + this.sougi.moshuBirthDay, 'years');
+    },
+    age3: function age3() {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()().diff(this.sougi.repBirthYear + '-' + this.sougi.repBirthMonth + '-' + this.sougi.repBirthDay, 'years');
+    }
+  },
+  filters: {
+    moment: function moment(date) {
+      return moment__WEBPACK_IMPORTED_MODULE_0___default()(date).format('YYYY/MM/DD HH:mm');
+    }
+  },
+  methods: {
+    submit: function submit() {
+      var _this = this;
+
+      axios.put('/api/list/' + this.sougiId, this.sougi).then(function (res) {
+        _this.$router.push({
+          name: 'list'
+        });
+      });
+    },
+    getSougi: function getSougi() {
+      var _this2 = this;
+
+      axios.get('/api/list/' + this.sougiId).then(function (res) {
+        _this2.loading4 = false;
+        _this2.sougi = res.data;
+
+        var year = moment__WEBPACK_IMPORTED_MODULE_0___default()().format('YYYY');
+
+        var month = moment__WEBPACK_IMPORTED_MODULE_0___default()().format('MM');
+
+        var today = moment__WEBPACK_IMPORTED_MODULE_0___default()().format('DD');
+
+        _this2.sougi.reqYear = year;
+        _this2.sougi.reqMonth = month;
+        _this2.sougi.reqDay = today;
+        _this2.sougi.tuyaYear = year;
+        _this2.sougi.tuyaMonth = month;
+        _this2.sougi.tuyaDay = today;
+        _this2.sougi.kasouYear = year;
+        _this2.sougi.kasouMonth = month;
+        _this2.sougi.kasouDay = today;
+        _this2.sougi.kokubetsuYear = year;
+        _this2.sougi.kokubetsuMonth = month;
+        _this2.sougi.kokubetsuDay = today;
+        _this2.sougi.todayYear = year;
+        _this2.sougi.dead_year = year;
+        _this2.sougi.dead_month = month;
+        _this2.sougi.dead_day = today;
+      });
+    },
+    getComps: function getComps() {
+      var _this3 = this;
+
+      axios.get('/api/manage/show1').then(function (res) {
+        _this3.loading1 = false;
+        _this3.comps = res.data;
+      });
+    },
+    getCeres: function getCeres() {
+      var _this4 = this;
+
+      axios.get('/api/manage/show2').then(function (res) {
+        _this4.loading2 = false;
+        _this4.ceres = res.data;
+      });
+    },
+    getCres: function getCres() {
+      var _this5 = this;
+
+      axios.get('/api/manage/show3').then(function (res) {
+        _this5.loading3 = false;
+        _this5.cres = res.data;
+      });
+    }
+  },
+  created: function created() {
+    this.getComps();
+    this.getCeres();
+    this.getCres();
+    this.getSougi();
+  },
+  components: {
+    LoadingBar: _LoadingBar__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiShowComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    sougiId: String
+  },
+  data: function data() {
+    return {
+      estimate: {},
+      sougi: {},
+      comp: {},
+      cere: {},
+      cre: {},
+      loading: false
+    };
+  },
+  methods: {
+    getSougi: function getSougi() {
+      var _this = this;
+
+      axios.get('/api/list/' + this.sougiId).then(function (res) {
+        _this.sougi = res.data;
+
+        _this.getData();
+
+        _this.loading = true;
+      });
+    },
+    getData: function getData() {
+      var _this2 = this;
+
+      axios.get('/api/manage/' + this.sougi.compId).then(function (res) {
+        _this2.comp = res.data;
+      });
+      axios.get('/api/manage/' + this.sougi.cereId).then(function (res) {
+        _this2.cere = res.data;
+      });
+      axios.get('/api/manage/' + this.sougi.creId).then(function (res) {
+        _this2.cre = res.data;
+      });
+    }
+  },
+  mounted: function mounted() {
+    this.getSougi();
+  }
+});
 
 /***/ }),
 
@@ -2768,7 +5428,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      task: {}
+      task: {
+        "person_in_charge": "おれ"
+      }
     };
   },
   methods: {
@@ -2993,6 +5655,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
 //
 //
 //
@@ -7462,7 +10129,159 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nform{\n    margin-bottom:200px;\n}\n.label_top{\n    margin-top:20px;\n    font-weight:bold;\n    font-size :17px;\n}\n.label_block label{\n    font-size:17px;\n    font-weight: bold;\n}\n.radio_spouse{\n    margin-top: 10px;\n}\n.age_form{\n    font-size :18px;\n    padding-top: 35px;\n    margin-left: 30px;\n}\n.sex{\n    font-size :17px;\n}\n.sex label{\n    margin-right: 5px;\n}\n.moshu{\n    border:1px solid #dadada;\n    padding: 20px;\n    margin-bottom:50px;\n}\n.pay_way{\n    font-size:18px;\n}\n.pay_way input{\n    margin-left:20px;\n}\n.info_tag{\n    font-size:20px;\n}\n", ""]);
+exports.push([module.i, "\nform{\n    margin-bottom:200px;\n}\n.label_top{\n    margin-top:20px;\n    font-weight:bold;\n    font-size :17px;\n}\n.label_block label{\n    font-size:17px;\n    font-weight: bold;\n}\n.radio_spouse{\n    margin-top: 10px;\n}\n.age_form{\n    font-size :18px;\n    padding-top: 35px;\n    margin-left: 30px;\n}\n.sex{\n    font-size :17px;\n}\n.sex label{\n    margin-right: 5px;\n}\n.moshu{\n    border:1px solid #dadada;\n    padding: 20px;\n    margin-bottom:50px;\n}\n.pay_way{\n    font-size:18px;\n}\n.pay_way input{\n    margin-left:20px;\n}\n.info_tag{\n    font-size:20px;\n    margin-bottom:20px;\n}\n.tx-area{\n    height:80px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\nform{\n    margin-bottom:200px;\n}\n.label_top{\n    margin-top:20px;\n    font-weight:bold;\n    font-size :17px;\n}\n.label_block label{\n    font-size:17px;\n    font-weight: bold;\n}\n.info_tag{\n    font-size:20px;\n}\n.big_label_block{\n    border:1px solid #dadada;\n    padding: 20px;\n    margin-bottom:50px;\n}\n.total_box{\n    text-align:right;\n    font-size:20px;\n}\n.soukaName_estimate{\n    font-size:30px;\n    margin:30px 0;\n}\n.flex-box{\n    display:flex;\n    align-items:center;\n    justify-content:space-evenly;\n}\n.calc-per-box{\n    width:100px;\n    font-size:20px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.show2{\n    margin-bottom: 60px;\n}\n.show2 h2{\n    margin-top :10px;\n    -webkit-margin-after: 3px;\n            margin-block-end: 3px;\n}\n.show2 h3{\n    -webkit-margin-before: 0;\n            margin-block-start: 0;\n    font-weight: normal;\n    font-size: 17px;\n}\n.show2 table {\n    border: 1px solid;\n    font-size:14px ;\n    border-spacing: 0px;\n    border-collapse:collapse;\n    text-align: center;\n}\n.show2 table tr {\n    border:1px solid;\n    height: 35px;\n}\n.show2 table td {\n    border:1px solid;\n    min-width: 120px;\n    width: 12vw;\n}\n.show2 .wrapper{\n    margin: 0 auto;\n    width: 78vw;\n    min-width: 750px;\n}\n.show2 .head_flex{\n    display: flex;\n    justify-content: space-between;\n    align-items: baseline;\n    width: 80vw;\n    margin: 0 auto;\n}\n.show2 .table_flex{\n    display: flex;\n    justify-content: space-between;\n    min-width: 750px;\n    width:78vw;\n    margin-bottom: 20px;\n}\n.show2 .table1{\n    width: 39vw;\n    min-width: 400px;\n}\n.show2 .table2{\n    width: 39vw;\n    min-width: 375px;\n    border-top: 0px;\n}\n.show2 .table3{\n    width: 38vw;\n    min-width: 365px;\n    margin-left: auto;\n    border: 3px solid;\n    margin-top: 14px;\n}\n.show2 .fc{\n    width: 11vw;\n    min-width: 110px;\n}\n.show2 .nb{\n    border-top: 0px;\n}\n.show2 .nb td{\n    border-top: 0px;\n}\n.show2 .cost{\n    margin:20px auto;\n    width: 40vw;\n    height: 50px;\n    border: 3px solid;\n    font-size: 30px;\n    text-align: center;\n}\n.show2 .cost span{\n    vertical-align: middle;\n}\n.show2 .name{\n    border-bottom:1px solid;\n    height: 25px;\n    font-size: 18px;\n}\n.show2 .NO{\n    width: 13vw;\n}\n.show2 .company{\n    text-align: center;\n}\n.show2 .notice{\n    text-align: center;\n    font-size:14px;\n}\n.itaku1{\n    text-align:center;\n    width: 100%;\n    border: 3px solid;\n    margin-top: 14px;\n}\n.itakuD{\n    font-size:15px;\n}\n.itakuName{\n    display: flex;\n    align-items: center;\n    height: 60px;\n    justify-content: space-evenly;\n}\n.long-name{\n    width: 80%;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ntable{\n    text-align:center;\n}\n.table td{\n    vertical-align:middle;\n}\n.table th{\n    vertical-align:middle;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.fullview {\n  width: 100%;\n  height: 100%;\n  background: #fefefe;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.loading-spacer {\n  height: 30%;\n  display: flex;\n  align-items: flex-end;\n  justify-content: center;\n}\n.loading-spavcer{}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.fullview {\n  width: 100%;\n  height: 100%;\n  background: #fefefe;\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n.loading-spacer {\n  height: 30%;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\nform{\n    margin-bottom:200px;\n}\n.label_top{\n    margin-top:20px;\n    font-weight:bold;\n    font-size :17px;\n}\n.label_block label{\n    font-size:17px;\n    font-weight: bold;\n}\n.radio_spouse{\n    margin-top: 10px;\n}\n.age_form{\n    font-size :18px;\n    padding-top: 35px;\n    margin-left: 30px;\n}\n.sex{\n    font-size :17px;\n}\n.sex label{\n    margin-right: 5px;\n}\n.moshu{\n    border:1px solid #dadada;\n    padding: 20px;\n    margin-bottom:50px;\n}\n.pay_way{\n    font-size:18px;\n}\n.pay_way input{\n    margin-left:20px;\n}\n.info_tag{\n    font-size:20px;\n    margin-bottom:20px;\n}\n.tx-area{\n    height:80px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.showComponent{\n    margin-bottom :100px;\n}\n.showComponent h1{\n    text-align: center;\n}\n.showComponent table {\n    border: 1px solid;\n    font-size:14px ;\n    border-spacing: 0px;\n    border-collapse:collapse;\n}\n.showComponent tr {\n    border:1px solid;\n    height: 35px;\n}\n.showComponent td {\n    border:1px solid;\n}\n.showComponent .table_flex{\n    display: flex;\n    justify-content: space-between;\n    width: 80vw;\n    margin-left: auto;\n    margin-right: auto;\n    align-items: flex-start;\n    min-width: 750px;\n}\n.showComponent .spell{\n    height:20px;\n    font-size:11px;\n}\n.showComponent .spell2{\n    height:25px;\n    font-size:11px;\n}\n.showComponent .table1{\n    flex-shrink:0;\n    text-align:center;\n    border:0px;\n    width: 40vw;\n}\n.showComponent .table2{\n    flex-shrink:0;\n    border:0px;\n    width: 38vw;\n}\n.showComponent .table2 td{\n    min-width: 350px;\n}\n.showComponent .second_div{\n    width: 80vw;\n    margin-left: auto;\n    margin-right: auto;\n    min-width: 750px;\n    margin-top: 20px;\n}\n.showComponent .table3{\n    width: 80vw;\n    text-align: center;\n    min-width: 750px;\n}\n.showComponent .fc{\n    width: 10vw;\n    text-align: center;\n    min-width:100px;\n}\n.showComponent .sc{\n    min-width: 250px;\n}\n.showComponent .td2{\n    width:20vw;\n    text-align: center;\n    min-width:220px;\n}\n.showComponent .ttd2{\n    min-width: 300px;\n}\n.showComponent .td3{\n    width:8vw;\n    min-width:100px;\n    text-align: center;\n}\n.showComponent .td4{\n    width:7vw;\n    min-width:50px;\n    text-align: center;\n}\n.showComponent .td5{\n    width:5vw;\n    min-width:50px;\n    text-align: center;\n}\n.showComponent .td6{\n    text-align: center;\n    min-width: 200px;\n}\n.showComponent .showComponent .table4{\n    width: 40vw;\n    min-width: 320px;\n    text-align: center;\n}\n.showComponent .table5{\n    border:0px;\n}\n.showComponent .longtr{\n    height: 140px;\n}\n.showComponent .std{\n    width: 38vw;\n    min-width: 300px;\n}\n.showComponent .margin_div{\n    margin-top: 20px;\n}\n.showComponent .nonborder td{\n    border:0px;\n}\n.showComponent .nonborder{\n    border: 0px;\n    text-align: center;\n    font-size:19px;\n}\n.showComponent .cn{\n    padding-top: 2px;\n    font-size:22px;\n}\n.showComponent .cn td{\n    padding-top: 5px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\nbtn-warning{\n}\n", ""]);
 
 // exports
 
@@ -60229,6 +63048,246 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateEditComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateShowComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./ListComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingBar.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingDubbles.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiEditComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiShowComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./TopComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -60828,1500 +63887,4044 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "row justify-content-center" }, [
-      _c("div", { staticClass: "col-sm-6" }, [
-        _c("form", [
-          _vm._m(0),
-          _vm._v(" "),
-          _c("div", { staticClass: "label_top" }, [_vm._v("依頼年月日")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-row" }, [
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "reqYear" } }, [_vm._v("年")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "reqYear" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(20, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n + 2005))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "reqMonth" } }, [_vm._v("月")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "reqMonth" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(12, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "reqDay" } }, [_vm._v("日")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "reqDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(31, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "label_top" }, [_vm._v("通夜式")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-row" }, [
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaYear" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(20, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n + 2005))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaMonth" } }, [_vm._v("月")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaMonth" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(12, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(31, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("開始時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("開始分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("終了時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("終了分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("集合時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("集合分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "label_top" }, [_vm._v("告別式")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-row" }, [
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaYear" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(20, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n + 2005))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaMonth" } }, [_vm._v("月")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaMonth" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(12, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(31, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("開始時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("開始分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("終了時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("終了分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("集合時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("集合分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "label_top" }, [_vm._v("火葬式")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "form-row" }, [
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaYear" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(25, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n + 2000))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaMonth" } }, [_vm._v("月")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaMonth" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(12, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(31, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("開始時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("開始分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("終了時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("終了分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("集合時")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(24, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n - 1))])
-                  })
-                ],
-                2
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4" }, [
-              _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("集合分")]),
-              _vm._v(" "),
-              _c(
-                "select",
-                { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                [
-                  _c("option", { attrs: { selected: "" } }, [
-                    _vm._v("Choose...")
-                  ]),
-                  _vm._v(" "),
-                  _vm._l(11, function(n) {
-                    return _c("option", [_vm._v(_vm._s(n * 5))])
-                  })
-                ],
-                2
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "info_tag" }, [_vm._v("故人様の情報")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "moshu" }, [
-            _vm._m(1),
-            _vm._v(" "),
-            _c("div", { staticClass: "label_top" }, [_vm._v("配偶者")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-row" }, [
-              _c("div", { staticClass: "form-group col-md-4 radio_spouse" }, [
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.spouse,
-                      expression: "spouse"
-                    }
-                  ],
-                  attrs: {
-                    type: "radio",
-                    checked: "",
-                    id: "one",
-                    value: "exist"
-                  },
-                  domProps: { checked: _vm._q(_vm.spouse, "exist") },
-                  on: {
-                    change: function($event) {
-                      _vm.spouse = "exist"
-                    }
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("LoadingDubbles", {
+        directives: [
+          {
+            name: "show",
+            rawName: "v-show",
+            value: _vm.loading1 || _vm.loading2 || _vm.loading3,
+            expression: "loading1 || loading2 || loading3"
+          }
+        ]
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          directives: [
+            {
+              name: "show",
+              rawName: "v-show",
+              value: !_vm.loading1 && !_vm.loading2 && !_vm.loading3,
+              expression: "!loading1 && !loading2 && !loading3"
+            }
+          ],
+          staticClass: "row justify-content-center"
+        },
+        [
+          _c("div", { staticClass: "col-sm-6" }, [
+            _c(
+              "form",
+              {
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.submit($event)
                   }
-                }),
+                }
+              },
+              [
+                _c("div", { staticClass: "form-group label_block" }, [
+                  _c("label", { attrs: { for: "inputSouka" } }, [
+                    _vm._v("担当者名")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.sougi.employeeName,
+                        expression: "sougi.employeeName"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "inputSouka",
+                      placeholder: "(例)山田"
+                    },
+                    domProps: { value: _vm.sougi.employeeName },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.sougi, "employeeName", $event.target.value)
+                      }
+                    }
+                  })
+                ]),
                 _vm._v(" "),
-                _c("label", { attrs: { for: "one" } }, [_vm._v("いる")]),
-                _vm._v(" "),
-                _c("br"),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
+                _c("div", { staticClass: "label_block" }, [
+                  _c("label", { attrs: { for: "reqYear" } }, [
+                    _vm._v("扱い社名")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "select",
                     {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.spouse,
-                      expression: "spouse"
-                    }
-                  ],
-                  attrs: { type: "radio", id: "two", value: "nexist" },
-                  domProps: { checked: _vm._q(_vm.spouse, "nexist") },
-                  on: {
-                    change: function($event) {
-                      _vm.spouse = "nexist"
-                    }
-                  }
-                }),
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.compId,
+                          expression: "sougi.compId"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { id: "reqYear" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.$set(
+                            _vm.sougi,
+                            "compId",
+                            $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          )
+                        }
+                      }
+                    },
+                    _vm._l(_vm.comps, function(comp) {
+                      return _c("option", { domProps: { value: comp.id } }, [
+                        _vm._v(_vm._s(comp.name))
+                      ])
+                    }),
+                    0
+                  )
+                ]),
                 _vm._v(" "),
-                _c("label", { attrs: { for: "two" } }, [_vm._v("いない")])
-              ]),
-              _vm._v(" "),
-              _vm.spouse === "exist"
-                ? _c("div", { staticClass: "form-group col-md-4" }, [
-                    _c("label", { attrs: { for: "spouseAge" } }, [
-                      _vm._v("満年齢")
+                _c("div", { staticClass: "label_top" }, [_vm._v("依頼年月日")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "reqYear" } }, [_vm._v("年")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.reqYear,
+                            expression: "sougi.reqYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "reqYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "reqYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            {
+                              domProps: {
+                                value:
+                                  n + parseInt(_vm.sougi.todayYear, 10) - 15
+                              }
+                            },
+                            [
+                              _vm._v(
+                                _vm._s(
+                                  n + parseInt(_vm.sougi.todayYear, 10) - 15
+                                )
+                              )
+                            ]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "reqMonth" } }, [_vm._v("月")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.reqMonth,
+                            expression: "sougi.reqMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "reqMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "reqMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "reqDay" } }, [_vm._v("日")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.reqDay,
+                            expression: "sougi.reqDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "reqDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "reqDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_top" }, [_vm._v("通夜式")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaYear,
+                            expression: "sougi.tuyaYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            { domProps: { value: n + 2005 } },
+                            [_vm._v(_vm._s(n + 2005))]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMonth" } }, [
+                      _vm._v("月")
                     ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMonth,
+                            expression: "sougi.tuyaMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaDay,
+                            expression: "sougi.tuyaDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaHours" } }, [
+                      _vm._v("開始時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaHours,
+                            expression: "sougi.tuyaHours"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaHours" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaHours",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMins" } }, [
+                      _vm._v("開始分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMins,
+                            expression: "sougi.tuyaMins"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMins" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMins",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaHourf" } }, [
+                      _vm._v("終了時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaHourf,
+                            expression: "sougi.tuyaHourf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaHourf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaHourf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMinf" } }, [
+                      _vm._v("終了分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMinf,
+                            expression: "sougi.tuyaMinf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMinf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMinf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaHourg" } }, [
+                      _vm._v("集合時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaHourg,
+                            expression: "sougi.tuyaHourg"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaHourg" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaHourg",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMing" } }, [
+                      _vm._v("集合分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMing,
+                            expression: "sougi.tuyaMing"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMing" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMing",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_top" }, [_vm._v("告別式")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuYear" } }, [
+                      _vm._v("年")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuYear,
+                            expression: "sougi.kokubetsuYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            { domProps: { value: n + 2005 } },
+                            [_vm._v(_vm._s(n + 2005))]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMonth" } }, [
+                      _vm._v("月")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMonth,
+                            expression: "sougi.kokubetsuMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuDay" } }, [
+                      _vm._v("日")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuDay,
+                            expression: "sougi.kokubetsuDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuHours" } }, [
+                      _vm._v("開始時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuHours,
+                            expression: "sougi.kokubetsuHours"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuHours" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuHours",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMins" } }, [
+                      _vm._v("開始分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMins,
+                            expression: "sougi.kokubetsuMins"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMins" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMins",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuHourf" } }, [
+                      _vm._v("終了時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuHourf,
+                            expression: "sougi.kokubetsuHourf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuHourf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuHourf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMinf" } }, [
+                      _vm._v("終了分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMinf,
+                            expression: "sougi.kokubetsuMinf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMinf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMinf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuHourg" } }, [
+                      _vm._v("集合時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuHourg,
+                            expression: "sougi.kokubetsuHourg"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuHourg" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuHourg",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMing" } }, [
+                      _vm._v("集合分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMing,
+                            expression: "sougi.kokubetsuMing"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMing" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMing",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_top" }, [_vm._v("火葬式")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouYear" } }, [
+                      _vm._v("年")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouYear,
+                            expression: "sougi.kasouYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            { domProps: { value: n + 2005 } },
+                            [_vm._v(_vm._s(n + 2005))]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMonth" } }, [
+                      _vm._v("月")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMonth,
+                            expression: "sougi.kasouMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouDay" } }, [_vm._v("日")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouDay,
+                            expression: "sougi.kasouDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouHours" } }, [
+                      _vm._v("開始時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouHours,
+                            expression: "sougi.kasouHours"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouHours" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouHours",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMins" } }, [
+                      _vm._v("開始分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMins,
+                            expression: "sougi.kasouMins"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMins" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMins",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouHourf" } }, [
+                      _vm._v("終了時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouHourf,
+                            expression: "sougi.kasouHourf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouHourf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouHourf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMinf" } }, [
+                      _vm._v("終了分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMinf,
+                            expression: "sougi.kasouMinf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMinf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMinf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouHourg" } }, [
+                      _vm._v("集合時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouHourg,
+                            expression: "sougi.kasouHourg"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouHourg" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouHourg",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMing" } }, [
+                      _vm._v("集合分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMing,
+                            expression: "sougi.kasouMing"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMing" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMing",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("故人様の情報")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "spell1" } }, [
+                        _vm._v("喪家名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.soukaSpell,
+                            expression: "sougi.soukaSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "soukaSpell",
+                          placeholder: "(例)ときわだい"
+                        },
+                        domProps: { value: _vm.sougi.soukaSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "soukaSpell",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("喪家名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.soukaName,
+                            expression: "sougi.soukaName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "soukaName",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.soukaName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "soukaName",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("故人名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinSpell,
+                            expression: "sougi.kojinSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinSpell",
+                          placeholder: "(例)ときわだい たかこ"
+                        },
+                        domProps: { value: _vm.sougi.kojinSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinSpell",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("故人名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinName,
+                            expression: "sougi.kojinName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinName",
+                          placeholder: "(例)常盤台 貴子"
+                        },
+                        domProps: { value: _vm.sougi.kojinName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinName",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("住民登録地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinAddress,
+                            expression: "sougi.kojinAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinAddress",
+                          placeholder: "(例)東京都板橋区常盤台1-2-3"
+                        },
+                        domProps: { value: _vm.sougi.kojinAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("世帯主")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinHead,
+                            expression: "sougi.kojinHead"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinHead",
+                          placeholder: "(例)常盤台 太郎"
+                        },
+                        domProps: { value: _vm.sougi.kojinHead },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinHead",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("本籍地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinPermAddress,
+                            expression: "sougi.kojinPermAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinPermAddress",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.kojinPermAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinPermAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("筆頭者")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinPrinciple,
+                            expression: "sougi.kojinPrinciple"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinPrinciple",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.kojinPrinciple },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinPrinciple",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("配偶者")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c(
+                      "div",
+                      { staticClass: "form-group col-md-4 radio_spouse" },
+                      [
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.spouse,
+                              expression: "sougi.spouse"
+                            }
+                          ],
+                          attrs: {
+                            type: "radio",
+                            checked: "",
+                            id: "one",
+                            value: "いる"
+                          },
+                          domProps: {
+                            checked: _vm._q(_vm.sougi.spouse, "いる")
+                          },
+                          on: {
+                            change: function($event) {
+                              return _vm.$set(_vm.sougi, "spouse", "いる")
+                            }
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("label", { attrs: { for: "one" } }, [
+                          _vm._v("いる")
+                        ]),
+                        _vm._v(" "),
+                        _c("br"),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.spouse,
+                              expression: "sougi.spouse"
+                            }
+                          ],
+                          attrs: { type: "radio", id: "two", value: "いない" },
+                          domProps: {
+                            checked: _vm._q(_vm.sougi.spouse, "いない")
+                          },
+                          on: {
+                            change: function($event) {
+                              return _vm.$set(_vm.sougi, "spouse", "いない")
+                            }
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("label", { attrs: { for: "two" } }, [
+                          _vm._v("いない")
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _vm.sougi.spouse === "いる"
+                      ? _c("div", { staticClass: "form-group col-md-4" }, [
+                          _c("label", { attrs: { for: "spouseAge" } }, [
+                            _vm._v("満年齢")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.sougi.spouseAge,
+                                expression: "sougi.spouseAge"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: { type: "number", id: "spouseAge" },
+                            domProps: { value: _vm.sougi.spouseAge },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.$set(
+                                  _vm.sougi,
+                                  "spouseAge",
+                                  $event.target.value
+                                )
+                              }
+                            }
+                          })
+                        ])
+                      : _c("div", { staticClass: "form-group col-md-4" }, [
+                          _c("label", { attrs: { for: "reqDay" } }, [
+                            _vm._v("状況")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "select",
+                            {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.sougi.spouseStatus,
+                                  expression: "sougi.spouseStatus"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              attrs: { id: "reqDay" },
+                              on: {
+                                change: function($event) {
+                                  var $$selectedVal = Array.prototype.filter
+                                    .call($event.target.options, function(o) {
+                                      return o.selected
+                                    })
+                                    .map(function(o) {
+                                      var val =
+                                        "_value" in o ? o._value : o.value
+                                      return val
+                                    })
+                                  _vm.$set(
+                                    _vm.sougi,
+                                    "spouseStatus",
+                                    $event.target.multiple
+                                      ? $$selectedVal
+                                      : $$selectedVal[0]
+                                  )
+                                }
+                              }
+                            },
+                            [
+                              _c("option", { attrs: { value: "未婚" } }, [
+                                _vm._v("未婚")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "死別" } }, [
+                                _vm._v("死別")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "離別" } }, [
+                                _vm._v("離別")
+                              ])
+                            ]
+                          )
+                        ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("生年月日（故人）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinBirthYear,
+                            expression: "sougi.kojinBirthYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge1",
+                          placeholder: "(例)1960"
+                        },
+                        domProps: { value: _vm.sougi.kojinBirthYear },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinBirthYear",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinBirthMonth,
+                            expression: "sougi.kojinBirthMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge2",
+                          placeholder: "(例)1"
+                        },
+                        domProps: { value: _vm.sougi.kojinBirthMonth },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinBirthMonth",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinBirthDay,
+                            expression: "sougi.kojinBirthDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge3",
+                          placeholder: "(例)20"
+                        },
+                        domProps: { value: _vm.sougi.kojinBirthDay },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinBirthDay",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "age_form" }, [
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinAge,
+                            expression: "sougi.kojinAge"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "hidden" },
+                        domProps: { value: _vm.sougi.kojinAge },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "kojinAge", $event.target.value)
+                          }
+                        }
+                      }),
+                      _vm._v("満" + _vm._s(_vm.age1) + "歳")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("性別")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group radio_spouse sex" }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.kojinSex,
+                          expression: "sougi.kojinSex"
+                        }
+                      ],
+                      attrs: {
+                        type: "radio",
+                        checked: "",
+                        id: "male",
+                        value: "男性"
+                      },
+                      domProps: { checked: _vm._q(_vm.sougi.kojinSex, "男性") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "kojinSex", "男性")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "male" } }, [_vm._v("男性")]),
                     _vm._v(" "),
                     _c("input", {
-                      staticClass: "form-control",
-                      attrs: { type: "number", id: "spouseAge" }
-                    })
-                  ])
-                : _c("div", { staticClass: "form-group col-md-4" }, [
-                    _c("label", { attrs: { for: "reqDay" } }, [_vm._v("状況")]),
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.kojinSex,
+                          expression: "sougi.kojinSex"
+                        }
+                      ],
+                      attrs: { type: "radio", id: "female", value: "女性" },
+                      domProps: { checked: _vm._q(_vm.sougi.kojinSex, "女性") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "kojinSex", "女性")
+                        }
+                      }
+                    }),
                     _vm._v(" "),
-                    _vm._m(2)
-                  ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "label_top" }, [
-              _vm._v("生年月日（故人）")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-row" }, [
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthYear,
-                      expression: "birthYear"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: {
-                    type: "number",
-                    id: "inputAge1",
-                    placeholder: "1960"
-                  },
-                  domProps: { value: _vm.birthYear },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthYear = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-2" }, [
-                _c("label", { attrs: { for: "tuyaMonth" } }, [_vm._v("月")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthMonth,
-                      expression: "birthMonth"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: { type: "number", id: "inputAge2", placeholder: "1" },
-                  domProps: { value: _vm.birthMonth },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthMonth = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-2" }, [
-                _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthDay,
-                      expression: "birthDay"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: { type: "number", id: "inputAge3", placeholder: "20" },
-                  domProps: { value: _vm.birthDay },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthDay = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "age_form" }, [
-                _vm._v("満" + _vm._s(_vm.age) + "歳")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "label_top" }, [_vm._v("性別")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-group col-md-4 radio_spouse sex" }, [
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.sex,
-                    expression: "sex"
-                  }
-                ],
-                attrs: {
-                  type: "radio",
-                  checked: "",
-                  id: "male",
-                  value: "male"
-                },
-                domProps: { checked: _vm._q(_vm.sex, "male") },
-                on: {
-                  change: function($event) {
-                    _vm.sex = "male"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "male" } }, [_vm._v("男性")]),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.sex,
-                    expression: "sex"
-                  }
-                ],
-                attrs: { type: "radio", id: "female", value: "female" },
-                domProps: { checked: _vm._q(_vm.sex, "female") },
-                on: {
-                  change: function($event) {
-                    _vm.sex = "female"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "female" } }, [_vm._v("女性")])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "label_top" }, [_vm._v("死亡したとき")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-row" }, [
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
-                _vm._v(" "),
-                _c(
-                  "select",
-                  {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.dead_year,
-                        expression: "dead_year"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { id: "tuyaYear" },
-                    on: {
-                      change: function($event) {
-                        var $$selectedVal = Array.prototype.filter
-                          .call($event.target.options, function(o) {
-                            return o.selected
+                    _c("label", { attrs: { for: "female" } }, [_vm._v("女性")])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("死亡したとき")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadYear,
+                              expression: "sougi.deadYear"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaYear" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadYear",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", [_vm._v("Choose...")]),
+                          _vm._v(" "),
+                          _vm._l(15, function(n) {
+                            return _c(
+                              "option",
+                              {
+                                domProps: {
+                                  value: _vm.sougi.todayYear - 15 + n
+                                }
+                              },
+                              [_vm._v(_vm._s(_vm.sougi.todayYear - 15 + n))]
+                            )
                           })
-                          .map(function(o) {
-                            var val = "_value" in o ? o._value : o.value
-                            return val
-                          })
-                        _vm.dead_year = $event.target.multiple
-                          ? $$selectedVal
-                          : $$selectedVal[0]
-                      }
-                    }
-                  },
-                  [
-                    _c("option", [_vm._v("Choose...")]),
-                    _vm._v(" "),
-                    _vm._l(15, function(n) {
-                      return _c(
-                        "option",
-                        { domProps: { value: _vm.todayYear - 15 + n } },
-                        [_vm._v(_vm._s(_vm.todayYear - 15 + n))]
+                        ],
+                        2
                       )
-                    })
-                  ],
-                  2
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaMonth" } }, [_vm._v("月")]),
-                _vm._v(" "),
-                _c(
-                  "select",
-                  {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.dead_month,
-                        expression: "dead_month"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { id: "tuyaMonth" },
-                    on: {
-                      change: function($event) {
-                        var $$selectedVal = Array.prototype.filter
-                          .call($event.target.options, function(o) {
-                            return o.selected
-                          })
-                          .map(function(o) {
-                            var val = "_value" in o ? o._value : o.value
-                            return val
-                          })
-                        _vm.dead_month = $event.target.multiple
-                          ? $$selectedVal
-                          : $$selectedVal[0]
-                      }
-                    }
-                  },
-                  [
-                    _c("option", [_vm._v("Choose...")]),
-                    _vm._v(" "),
-                    _vm._l(12, function(i) {
-                      return _c("option", { domProps: { value: i } }, [
-                        _vm._v(_vm._s(i))
-                      ])
-                    })
-                  ],
-                  2
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
-                _vm._v(" "),
-                _c(
-                  "select",
-                  {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.dead_day,
-                        expression: "dead_day"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { id: "tuyaDay" },
-                    on: {
-                      change: function($event) {
-                        var $$selectedVal = Array.prototype.filter
-                          .call($event.target.options, function(o) {
-                            return o.selected
-                          })
-                          .map(function(o) {
-                            var val = "_value" in o ? o._value : o.value
-                            return val
-                          })
-                        _vm.dead_day = $event.target.multiple
-                          ? $$selectedVal
-                          : $$selectedVal[0]
-                      }
-                    }
-                  },
-                  [
-                    _c("option", [_vm._v("Choose...")]),
-                    _vm._v(" "),
-                    _vm._l(31, function(i) {
-                      return _c("option", { domProps: { value: i } }, [
-                        _vm._v(_vm._s(i))
-                      ])
-                    })
-                  ],
-                  2
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaHour" } }, [_vm._v("時")]),
-                _vm._v(" "),
-                _c(
-                  "select",
-                  { staticClass: "form-control", attrs: { id: "tuyaHour" } },
-                  [
-                    _c("option", { attrs: { selected: "" } }, [
-                      _vm._v("Choose...")
                     ]),
                     _vm._v(" "),
-                    _vm._l(24, function(n) {
-                      return _c("option", [_vm._v(_vm._s(n - 1))])
-                    })
-                  ],
-                  2
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("分")]),
-                _vm._v(" "),
-                _c(
-                  "select",
-                  { staticClass: "form-control", attrs: { id: "tuyaDay" } },
-                  [
-                    _c("option", { attrs: { selected: "" } }, [
-                      _vm._v("Choose...")
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadMonth,
+                              expression: "sougi.deadMonth"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaMonth" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadMonth",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", [_vm._v("Choose...")]),
+                          _vm._v(" "),
+                          _vm._l(12, function(i) {
+                            return _c("option", { domProps: { value: i } }, [
+                              _vm._v(_vm._s(i))
+                            ])
+                          })
+                        ],
+                        2
+                      )
                     ]),
                     _vm._v(" "),
-                    _vm._l(11, function(n) {
-                      return _c("option", [_vm._v(_vm._s(n * 5))])
-                    })
-                  ],
-                  2
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadDay,
+                              expression: "sougi.deadDay"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaDay" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadDay",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", [_vm._v("Choose...")]),
+                          _vm._v(" "),
+                          _vm._l(31, function(i) {
+                            return _c("option", { domProps: { value: i } }, [
+                              _vm._v(_vm._s(i))
+                            ])
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaHour" } }, [
+                        _vm._v("時")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadHour,
+                              expression: "sougi.deadHour"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaHour" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadHour",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", { attrs: { selected: "" } }, [
+                            _vm._v("Choose...")
+                          ]),
+                          _vm._v(" "),
+                          _vm._l(24, function(n) {
+                            return _c(
+                              "option",
+                              { domProps: { value: n - 1 } },
+                              [_vm._v(_vm._s(n - 1))]
+                            )
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("分")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadMin,
+                              expression: "sougi.deadMin"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaDay" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadMin",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", { attrs: { selected: "" } }, [
+                            _vm._v("Choose...")
+                          ]),
+                          _vm._v(" "),
+                          _vm._l(12, function(n) {
+                            return _c(
+                              "option",
+                              { domProps: { value: n * 5 } },
+                              [_vm._v(_vm._s(n * 5 - 5))]
+                            )
+                          })
+                        ],
+                        2
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("喪主様の情報")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputSouka" } }, [
+                        _vm._v("喪主名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuSpell,
+                            expression: "sougi.moshuSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka",
+                          placeholder: "(例)ときわだい"
+                        },
+                        domProps: { value: _vm.sougi.moshuSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuSpell",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("喪主名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuName,
+                            expression: "sougi.moshuName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuName",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("生年月日（喪主）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuBirthYear,
+                            expression: "sougi.moshuBirthYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge1",
+                          placeholder: "(例)1960"
+                        },
+                        domProps: { value: _vm.sougi.moshuBirthYear },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuBirthYear",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuBirthMonth,
+                            expression: "sougi.moshuBirthMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge2",
+                          placeholder: "(例)1"
+                        },
+                        domProps: { value: _vm.sougi.moshuBirthMonth },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuBirthMonth",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuBirthDay,
+                            expression: "sougi.moshuBirthDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge3",
+                          placeholder: "(例)20"
+                        },
+                        domProps: { value: _vm.sougi.moshuBirthDay },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuBirthDay",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "age_form" }, [
+                      _vm._v("満" + _vm._s(_vm.age2) + "歳")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("続柄")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuRelation,
+                            expression: "sougi.moshuRelation"
+                          }
+                        ],
+                        staticClass: "form-control col-md-2",
+                        attrs: { type: "text", placeholder: "(例)夫" },
+                        domProps: { value: _vm.sougi.moshuRelation },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuRelation",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("メールアドレス")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.moshuMail,
+                              expression: "sougi.moshuMail"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)celeste@icloud.me.com"
+                          },
+                          domProps: { value: _vm.sougi.moshuMail },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "moshuMail",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("電話番号")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.moshuTel1,
+                              expression: "sougi.moshuTel1"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.moshuTel1 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "moshuTel1",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("携帯電話")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.moshuTel2,
+                              expression: "sougi.moshuTel2"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.moshuTel2 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "moshuTel2",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("住民登録地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuAddress,
+                            expression: "sougi.moshuAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("世帯主")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuHead,
+                            expression: "sougi.moshuHead"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuHead },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuHead",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("本籍地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuPermAddress,
+                            expression: "sougi.moshuPermAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuPermAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuPermAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("筆頭者")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuPrinciple,
+                            expression: "sougi.moshuPrinciple"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuPrinciple },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuPrinciple",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("届出人様の情報")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputSouka" } }, [
+                        _vm._v("届出人名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repSpell,
+                            expression: "sougi.repSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka",
+                          placeholder: "(例)ときわだい"
+                        },
+                        domProps: { value: _vm.sougi.repSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "repSpell", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("届出人名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repName,
+                            expression: "sougi.repName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "repName", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("生年月日（届出人）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repBirthYear,
+                            expression: "sougi.repBirthYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge1",
+                          placeholder: "(例)1960"
+                        },
+                        domProps: { value: _vm.sougi.repBirthYear },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repBirthYear",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repBirthMonth,
+                            expression: "sougi.repBirthMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge2",
+                          placeholder: "(例)1"
+                        },
+                        domProps: { value: _vm.sougi.repBirthMonth },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repBirthMonth",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repBirthDay,
+                            expression: "sougi.repBirthDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge3",
+                          placeholder: "(例)20"
+                        },
+                        domProps: { value: _vm.sougi.repBirthDay },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repBirthDay",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "age_form" }, [
+                      _vm._v("満" + _vm._s(_vm.age3) + "歳")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("続柄")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repRelation,
+                            expression: "sougi.repRelation"
+                          }
+                        ],
+                        staticClass: "form-control col-md-2",
+                        attrs: { type: "text", placeholder: "(例)夫" },
+                        domProps: { value: _vm.sougi.repRelation },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repRelation",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("電話番号")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.repTel1,
+                              expression: "sougi.repTel1"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.repTel1 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "repTel1",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("携帯電話")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.repTel2,
+                              expression: "sougi.repTel2"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.repTel2 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "repTel2",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("住民登録地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repAddress,
+                            expression: "sougi.repAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("世帯主")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repHead,
+                            expression: "sougi.repHead"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repHead },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "repHead", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("本籍地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repPermAddress,
+                            expression: "sougi.repPermAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repPermAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repPermAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("筆頭者")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repPrinciple,
+                            expression: "sougi.repPrinciple"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repPrinciple },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repPrinciple",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [_vm._v("請求情報")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("請求先名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.demName,
+                            expression: "sougi.demName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.demName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "demName", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("電話番号")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.demTel,
+                              expression: "sougi.demTel"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.demTel },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(_vm.sougi, "demTel", $event.target.value)
+                            }
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("請求先ご住所")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.demAddress,
+                            expression: "sougi.demAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.demAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "demAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("精算方法")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group pay_way" }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.payWay,
+                          expression: "sougi.payWay"
+                        }
+                      ],
+                      attrs: { type: "radio", value: "振込", id: "pay1" },
+                      domProps: { checked: _vm._q(_vm.sougi.payWay, "振込") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "payWay", "振込")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "pay1" } }, [_vm._v("振込")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.payWay,
+                          expression: "sougi.payWay"
+                        }
+                      ],
+                      attrs: { type: "radio", value: "集金", id: "pay2" },
+                      domProps: { checked: _vm._q(_vm.sougi.payWay, "集金") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "payWay", "集金")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "pay2" } }, [_vm._v("集金")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.payWay,
+                          expression: "sougi.payWay"
+                        }
+                      ],
+                      attrs: { type: "radio", value: "当日", id: "pay3" },
+                      domProps: { checked: _vm._q(_vm.sougi.payWay, "当日") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "payWay", "当日")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "pay3" } }, [_vm._v("当日")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [_vm._v("その他")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("式場名")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.cereId,
+                              expression: "sougi.cereId"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "cereId",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        _vm._l(_vm.ceres, function(cere) {
+                          return _c(
+                            "option",
+                            { domProps: { value: cere.id } },
+                            [_vm._v(_vm._s(cere.name))]
+                          )
+                        }),
+                        0
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("火葬場")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.creId,
+                              expression: "sougi.creId"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "creId",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        _vm._l(_vm.cres, function(cre) {
+                          return _c("option", { domProps: { value: cre.id } }, [
+                            _vm._v(_vm._s(cre.name))
+                          ])
+                        }),
+                        0
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("宗派・寺院名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.shuha,
+                            expression: "sougi.shuha"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "text" },
+                        domProps: { value: _vm.sougi.shuha },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "shuha", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("御布施")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.ohuse,
+                            expression: "sougi.ohuse"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "text" },
+                        domProps: { value: _vm.sougi.ohuse },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "ohuse", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("返礼品")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.returnItem,
+                            expression: "sougi.returnItem"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "text" },
+                        domProps: { value: _vm.sougi.returnItem },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "returnItem",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("特筆事項")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", [
+                        _c("textarea", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.specialArea,
+                              expression: "sougi.specialArea"
+                            }
+                          ],
+                          staticClass: "col-md-12 tx-area",
+                          attrs: {
+                            placeholder: "Enterで複数行入力することができます"
+                          },
+                          domProps: { value: _vm.sougi.specialArea },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "specialArea",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary btn-lg btn-block",
+                    attrs: { disabled: _vm.isProcessing, type: "submit" }
+                  },
+                  [_vm._v("入力完了")]
                 )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "info_tag" }, [_vm._v("喪主様の情報")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "moshu" }, [
-            _vm._m(3),
-            _vm._v(" "),
-            _c("div", { staticClass: "label_top" }, [
-              _vm._v("生年月日（喪主）")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "form-row" }, [
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthYear,
-                      expression: "birthYear"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: {
-                    type: "number",
-                    id: "inputAge1",
-                    placeholder: "1960"
-                  },
-                  domProps: { value: _vm.birthYear },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthYear = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-2" }, [
-                _c("label", { attrs: { for: "tuyaMonth" } }, [_vm._v("月")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthMonth,
-                      expression: "birthMonth"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: { type: "number", id: "inputAge2", placeholder: "1" },
-                  domProps: { value: _vm.birthMonth },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthMonth = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-2" }, [
-                _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthDay,
-                      expression: "birthDay"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: { type: "number", id: "inputAge3", placeholder: "20" },
-                  domProps: { value: _vm.birthDay },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthDay = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "age_form" }, [
-                _vm._v("満" + _vm._s(_vm.age) + "歳")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "label_block" }, [
-              _c("div", { staticClass: "form-group" }, [
-                _c("label", { attrs: { for: "inputAddress" } }, [
-                  _vm._v("続柄")
-                ]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.relation,
-                      expression: "relation"
-                    }
-                  ],
-                  staticClass: "form-control col-md-2",
-                  attrs: { type: "text", placeholder: "夫" },
-                  domProps: { value: _vm.relation },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.relation = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "inputAddress" } }, [
-                    _vm._v("電話番号")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.tel,
-                        expression: "tel"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { type: "text", placeholder: "03-0000-0000" },
-                    domProps: { value: _vm.tel },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.tel = $event.target.value
-                      }
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "inputAddress" } }, [
-                    _vm._v("携帯電話")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.tel,
-                        expression: "tel"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { type: "text", placeholder: "03-0000-0000" },
-                    domProps: { value: _vm.tel },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.tel = $event.target.value
-                      }
-                    }
-                  })
+              ]
+            )
+          ])
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CustomerListComponent.vue?vue&type=template&id=8dfe8634&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CustomerListComponent.vue?vue&type=template&id=8dfe8634& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("table", { staticClass: "table table-hover" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "tbody",
+        _vm._l(_vm.sougi, function(s) {
+          return _c("tr", [
+            s.reqYear + s.reqMonth + s.reqDay > 0
+              ? _c("th", { attrs: { scope: "row" } }, [
+                  _vm._v(
+                    _vm._s(
+                      s.reqYear + "年" + s.reqMonth + "月" + s.reqDay + "日"
+                    )
+                  )
                 ])
-              ]),
-              _vm._v(" "),
-              _vm._m(4),
-              _vm._v(" "),
-              _vm._m(5),
-              _vm._v(" "),
-              _vm._m(6),
-              _vm._v(" "),
-              _vm._m(7)
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "info_tag" }, [_vm._v("届出人様の情報")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "moshu" }, [
-            _vm._m(8),
+              : _c("td", [_vm._v("未入力")]),
             _vm._v(" "),
-            _c("div", { staticClass: "label_top" }, [
-              _vm._v("生年月日（届出人）")
-            ]),
+            s.moshuName !== null
+              ? _c("td", [_vm._v(_vm._s(s.moshuName))])
+              : _c("td", [_vm._v("未入力")]),
             _vm._v(" "),
-            _c("div", { staticClass: "form-row" }, [
-              _c("div", { staticClass: "form-group col-md-4" }, [
-                _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthYear,
-                      expression: "birthYear"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: {
-                    type: "number",
-                    id: "inputAge1",
-                    placeholder: "1960"
-                  },
-                  domProps: { value: _vm.birthYear },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthYear = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-2" }, [
-                _c("label", { attrs: { for: "tuyaMonth" } }, [_vm._v("月")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthMonth,
-                      expression: "birthMonth"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: { type: "number", id: "inputAge2", placeholder: "1" },
-                  domProps: { value: _vm.birthMonth },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthMonth = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group col-md-2" }, [
-                _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.birthDay,
-                      expression: "birthDay"
-                    }
-                  ],
-                  staticClass: "form-control",
-                  attrs: { type: "number", id: "inputAge3", placeholder: "20" },
-                  domProps: { value: _vm.birthDay },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.birthDay = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "age_form" }, [
-                _vm._v("満" + _vm._s(_vm.age) + "歳")
-              ])
-            ]),
+            s.moshuTel1 !== null
+              ? _c("td", [_vm._v(_vm._s(s.moshuTel1))])
+              : _c("td", [_vm._v("未入力")]),
             _vm._v(" "),
-            _c("div", { staticClass: "label_block" }, [
-              _c("div", { staticClass: "form-group" }, [
-                _c("label", { attrs: { for: "inputAddress" } }, [
-                  _vm._v("続柄")
-                ]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.relation,
-                      expression: "relation"
-                    }
-                  ],
-                  staticClass: "form-control col-md-2",
-                  attrs: { type: "text", placeholder: "夫" },
-                  domProps: { value: _vm.relation },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.relation = $event.target.value
-                    }
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "inputAddress" } }, [
-                    _vm._v("電話番号")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.tel,
-                        expression: "tel"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { type: "text", placeholder: "03-0000-0000" },
-                    domProps: { value: _vm.tel },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.tel = $event.target.value
-                      }
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "inputAddress" } }, [
-                    _vm._v("携帯電話")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.tel,
-                        expression: "tel"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { type: "text", placeholder: "03-0000-0000" },
-                    domProps: { value: _vm.tel },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.tel = $event.target.value
-                      }
-                    }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _vm._m(9),
-              _vm._v(" "),
-              _vm._m(10),
-              _vm._v(" "),
-              _vm._m(11),
-              _vm._v(" "),
-              _vm._m(12)
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "info_tag" }, [_vm._v("請求情報")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "moshu" }, [
-            _c("div", { staticClass: "label_block" }, [
-              _vm._m(13),
-              _vm._v(" "),
-              _c("div", [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "inputAddress" } }, [
-                    _vm._v("電話番号")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.tel,
-                        expression: "tel"
-                      }
-                    ],
-                    staticClass: "form-control",
-                    attrs: { type: "text", placeholder: "03-0000-0000" },
-                    domProps: { value: _vm.tel },
-                    on: {
-                      input: function($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.tel = $event.target.value
-                      }
-                    }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _vm._m(14)
-            ]),
+            s.moshuTel2 !== null
+              ? _c("td", [_vm._v(_vm._s(s.moshuTel2))])
+              : _c("td", [_vm._v("未入力")]),
             _vm._v(" "),
-            _c("div", { staticClass: "label_top" }, [_vm._v("精算方法")]),
+            s.moshuMail !== null
+              ? _c("td", [_vm._v(_vm._s(s.moshuMail))])
+              : _c("td", [_vm._v("未入力")]),
             _vm._v(" "),
-            _c("div", { staticClass: "form-group pay_way" }, [
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.pay_way,
-                    expression: "pay_way"
-                  }
-                ],
-                attrs: { type: "radio", value: "振込", id: "pay1" },
-                domProps: { checked: _vm._q(_vm.pay_way, "振込") },
-                on: {
-                  change: function($event) {
-                    _vm.pay_way = "振込"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "pay1" } }, [_vm._v("振込")]),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.pay_way,
-                    expression: "pay_way"
-                  }
-                ],
-                attrs: { type: "radio", value: "集金", id: "pay2" },
-                domProps: { checked: _vm._q(_vm.pay_way, "集金") },
-                on: {
-                  change: function($event) {
-                    _vm.pay_way = "集金"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "pay2" } }, [_vm._v("集金")]),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.pay_way,
-                    expression: "pay_way"
-                  }
-                ],
-                attrs: { type: "radio", value: "当日", id: "pay3" },
-                domProps: { checked: _vm._q(_vm.pay_way, "当日") },
-                on: {
-                  change: function($event) {
-                    _vm.pay_way = "当日"
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "pay3" } }, [_vm._v("当日")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "info_tag" }, [_vm._v("その他")]),
-          _vm._v(" "),
-          _vm._m(15),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-primary btn-lg btn-block",
-              attrs: { type: "submit" }
-            },
-            [_vm._v("入力完了")]
-          )
-        ])
-      ])
+            s.moshuAddress !== null
+              ? _c("td", [_vm._v(_vm._s(s.moshuAddress))])
+              : _c("td", [_vm._v("未入力")])
+          ])
+        }),
+        0
+      )
     ])
   ])
 }
@@ -62330,371 +67933,3403 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "label_block" }, [
-      _c("label", { attrs: { for: "reqYear" } }, [_vm._v("扱い社名")]),
-      _vm._v(" "),
-      _c("select", { staticClass: "form-control", attrs: { id: "reqYear" } }, [
-        _c("option", { attrs: { selected: "" } }, [_vm._v("株式会社セレスト")]),
+    return _c("thead", { staticClass: "thead-light" }, [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("依頼年月日")]),
         _vm._v(" "),
-        _c("option", [_vm._v("株式会社ジャストセレモニー")]),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("喪主名")]),
         _vm._v(" "),
-        _c("option", [_vm._v("株式会社葬祭センター")])
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("電話番号1")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("電話番号2")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("メールアドレス")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("住所")])
       ])
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "label_block" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputSouka" } }, [
-          _vm._v("喪家名（よみかた）")
-        ]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka", placeholder: "ときわだい" }
-        })
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=template&id=498b86f0&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateEditComponent.vue?vue&type=template&id=498b86f0& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("LoadingBar", {
+        directives: [
+          {
+            name: "show",
+            rawName: "v-show",
+            value: _vm.loading1 || _vm.loading2,
+            expression: "loading1 || loading2"
+          }
+        ]
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          directives: [
+            {
+              name: "show",
+              rawName: "v-show",
+              value: !_vm.loading1 && !_vm.loading2,
+              expression: "!loading1 && !loading2"
+            }
+          ],
+          staticClass: "row justify-content-center"
+        },
+        [
+          _c("div", { staticClass: "col-md-8" }, [
+            _c(
+              "form",
+              {
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.submitEstimate($event)
+                  }
+                }
+              },
+              [
+                _c("div", { staticClass: "soukaName_estimate" }, [
+                  _vm._v(_vm._s(_vm.soukaName) + "家の御葬儀見積金額")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("弊社へのお支払い")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "big_label_block" }, [
+                  _c("div", { staticClass: "label_top" }, [_vm._v("祭壇")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "saidan1" } }, [
+                        _vm._v("備考")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.saidan1,
+                            expression: "estimate.saidan1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "saidan1", type: "text" },
+                        domProps: { value: _vm.estimate.saidan1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "saidan1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "saidan2" } }, [
+                        _vm._v("価格")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.saidan2,
+                            expression: "estimate.saidan2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "saidan2", type: "number" },
+                        domProps: { value: _vm.estimate.saidan2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "saidan2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("仏具一式（御導師用）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "butsugu" } }, [
+                        _vm._v("価格")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.butsugu,
+                            expression: "estimate.butsugu"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "butsugu", type: "number" },
+                        domProps: { value: _vm.estimate.butsugu },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "butsugu",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("付帯設備（一式）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "facility" } }, [
+                        _vm._v("価格")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.facility,
+                            expression: "estimate.facility"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "facility", type: "number" },
+                        domProps: { value: _vm.estimate.facility },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "facility",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("搬入搬出費（基本料）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.importCost,
+                            expression: "estimate.importCost"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.importCost },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "importCost",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("御寝棺")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.bed1,
+                            expression: "estimate.bed1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.bed1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "bed1", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.bed2,
+                            expression: "estimate.bed2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.bed2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "bed2", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("納棺処置(基本料)")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.nokan,
+                            expression: "estimate.nokan"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.nokan },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "nokan", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("特別処置")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [
+                        _vm._v("防腐・防臭")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.specialDeodorant,
+                            expression: "estimate.specialDeodorant"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.specialDeodorant },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "specialDeodorant",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("湯灌")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.specialYukan,
+                            expression: "estimate.specialYukan"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.specialYukan },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "specialYukan",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("清拭")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.specialClear,
+                            expression: "estimate.specialClear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.specialClear },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "specialClear",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [
+                        _vm._v("ラストメイク")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.specialLastmake,
+                            expression: "estimate.specialLastmake"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.specialLastmake },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "specialLastmake",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("ドライアイス")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-  flex-box" }, [
+                      _vm._v("\n                            10kg  @  "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.dryicePer,
+                            expression: "estimate.dryicePer"
+                          }
+                        ],
+                        staticClass: "form-control col-md-4",
+                        attrs: { type: "number" },
+                        domProps: { value: _vm.estimate.dryicePer },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "dryicePer",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      }),
+                      _vm._v(" × "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.dryiceQ,
+                            expression: "estimate.dryiceQ"
+                          }
+                        ],
+                        staticClass: "form-control col-md-2",
+                        attrs: { type: "number" },
+                        domProps: { value: _vm.estimate.dryiceQ },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "dryiceQ",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "calc-per-box" }, [
+                        _vm._v(
+                          "\n                             = ¥" +
+                            _vm._s(_vm.calcDryice) +
+                            "\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.dryice,
+                            expression: "estimate.dryice"
+                          }
+                        ],
+                        attrs: { type: "hidden" },
+                        domProps: { value: _vm.estimate.dryice },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "dryice",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("御遺影")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.iei1,
+                            expression: "estimate.iei1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.iei1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "iei1", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.iei2,
+                            expression: "estimate.iei2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.iei2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "iei2", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("会葬礼状")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-  flex-box" }, [
+                      _vm._v("\n                            100枚  @  "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.reijoPer,
+                            expression: "estimate.reijoPer"
+                          }
+                        ],
+                        staticClass: "form-control col-md-4",
+                        attrs: { type: "number" },
+                        domProps: { value: _vm.estimate.reijoPer },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "reijoPer",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      }),
+                      _vm._v(" × "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.reijoQ,
+                            expression: "estimate.reijoQ"
+                          }
+                        ],
+                        staticClass: "form-control col-md-2",
+                        attrs: { type: "number" },
+                        domProps: { value: _vm.estimate.reijoQ },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "reijoQ",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "calc-per-box" }, [
+                        _vm._v(
+                          "\n                             = ¥" +
+                            _vm._s(_vm.calcReijo) +
+                            "\n                            "
+                        )
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("花束")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.flower1,
+                            expression: "estimate.flower1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.flower1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "flower1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.flower2,
+                            expression: "estimate.flower2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.flower2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "flower2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("もぎり花")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.mogiri1,
+                            expression: "estimate.mogiri1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.mogiri1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "mogiri1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.mogiri2,
+                            expression: "estimate.mogiri2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.mogiri2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "mogiri2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("供物")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.kumotsu1,
+                            expression: "estimate.kumotsu1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.kumotsu1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "kumotsu1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.kumotsu2,
+                            expression: "estimate.kumotsu2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.kumotsu2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "kumotsu2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("祭壇花")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.saidanFlower1,
+                            expression: "estimate.saidanFlower1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.saidanFlower1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "saidanFlower1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.saidanFlower2,
+                            expression: "estimate.saidanFlower2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.saidanFlower2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "saidanFlower2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("庭飾り")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.garden1,
+                            expression: "estimate.garden1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.garden1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "garden1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.garden2,
+                            expression: "estimate.garden2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.garden2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "garden2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("提灯")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.chochin1,
+                            expression: "estimate.chochin1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.chochin1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "chochin1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.chochin2,
+                            expression: "estimate.chochin2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.chochin2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "chochin2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("水引")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.mizuhiki1,
+                            expression: "estimate.mizuhiki1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.mizuhiki1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "mizuhiki1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.mizuhiki2,
+                            expression: "estimate.mizuhiki2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.mizuhiki2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "mizuhiki2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("焼香・受付・式場幕")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.shoko1,
+                            expression: "estimate.shoko1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "備考" },
+                        domProps: { value: _vm.estimate.shoko1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "shoko1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.shoko2,
+                            expression: "estimate.shoko2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.shoko2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "shoko2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("メイン看板")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.mainBoard1,
+                            expression: "estimate.mainBoard1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.mainBoard1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "mainBoard1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.mainBoard2,
+                            expression: "estimate.mainBoard2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.mainBoard2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "mainBoard2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("案内看板")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.guideBoard1,
+                            expression: "estimate.guideBoard1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.guideBoard1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "guideBoard1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.guideBoard2,
+                            expression: "estimate.guideBoard2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.guideBoard2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "guideBoard2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("テントセット（一式）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.tent,
+                            expression: "estimate.tent"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.tent },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "tent", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("受付セット（一式）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.reception,
+                            expression: "estimate.reception"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.reception },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "reception",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("消耗品（一式）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.consume,
+                            expression: "estimate.consume"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.consume },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "consume",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("式進行・司会（基本料）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.moderator,
+                            expression: "estimate.moderator"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.moderator },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "moderator",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("斎場随行（基本料）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.saijo,
+                            expression: "estimate.saijo"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.saijo },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "saijo", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("セレモニースタッフ")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.staff1,
+                            expression: "estimate.staff1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.staff1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "staff1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.staff2,
+                            expression: "estimate.staff2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.staff2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "staff2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("搬送料金１")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.trans1_1,
+                            expression: "estimate.trans1_1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.trans1_1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "trans1_1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.trans1_2,
+                            expression: "estimate.trans1_2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.trans1_2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "trans1_2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("搬送料金２")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.trans2_1,
+                            expression: "estimate.trans2_1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.trans2_1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "trans2_1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.trans2_2,
+                            expression: "estimate.trans2_2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.trans2_2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "trans2_2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("搬送用具（一式）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.transItem,
+                            expression: "estimate.transItem"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.transItem },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "transItem",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("諸手続代行（一式）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.acting,
+                            expression: "estimate.acting"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.acting },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "acting",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("運営管理（基本料）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.manage,
+                            expression: "estimate.manage"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.manage },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "manage",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("枕飾りセット")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.pillow1,
+                            expression: "estimate.pillow1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.pillow1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "pillow1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.pillow2,
+                            expression: "estimate.pillow2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.pillow2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "pillow2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("後飾りセット")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.decoration1,
+                            expression: "estimate.decoration1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.decoration1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "decoration1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.decoration2,
+                            expression: "estimate.decoration2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.decoration2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "decoration2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "total_box" }, [
+                    _c("div", { staticClass: "shokei" }, [
+                      _c("div", { staticClass: "form-group col" }, [
+                        _vm._v(
+                          "\n                                小計 : " +
+                            _vm._s(this.calcTotal1.toLocaleString()) +
+                            "円\n                            "
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "consumptionTax" }, [
+                      _c("div", { staticClass: "form-group col" }, [
+                        _c("label", { attrs: { for: "consumptionTax" } }, [
+                          _vm._v("消費税")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "select",
+                          {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.consumptionTax,
+                                expression: "consumptionTax"
+                              }
+                            ],
+                            attrs: { id: "consumptionTax" },
+                            on: {
+                              change: function($event) {
+                                var $$selectedVal = Array.prototype.filter
+                                  .call($event.target.options, function(o) {
+                                    return o.selected
+                                  })
+                                  .map(function(o) {
+                                    var val = "_value" in o ? o._value : o.value
+                                    return val
+                                  })
+                                _vm.consumptionTax = $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              }
+                            }
+                          },
+                          _vm._l(20, function(i) {
+                            return _c("option", { domProps: { value: i } }, [
+                              _vm._v(_vm._s(i) + "%")
+                            ])
+                          }),
+                          0
+                        ),
+                        _vm._v(
+                          "\n                                 : \n                                " +
+                            _vm._s(_vm.estimate.totalTax1.toLocaleString()) +
+                            "円\n                            "
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "total1" }, [
+                      _c("div", { staticClass: "form-group col" }, [
+                        _vm._v(
+                          "\n                                合計 : " +
+                            _vm._s(_vm.estimate.total1.toLocaleString()) +
+                            " 円\n                            "
+                        )
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("弊社以外へのお支払い")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "big_label_block" }, [
+                  _c("div", { staticClass: "label_top" }, [_vm._v("火葬料")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.cremation1,
+                            expression: "estimate.cremation1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.cremation1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "cremation1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.cremation2,
+                            expression: "estimate.cremation2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.cremation2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "cremation2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("収骨容器")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.shukotsu1,
+                            expression: "estimate.shukotsu1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.shukotsu1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "shukotsu1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.shukotsu2,
+                            expression: "estimate.shukotsu2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.shukotsu2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "shukotsu2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("休憩室")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.restRoom1,
+                            expression: "estimate.restRoom1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.restRoom1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "restRoom1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.restRoom2,
+                            expression: "estimate.restRoom2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.restRoom2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "restRoom2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("保管")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.store1,
+                            expression: "estimate.store1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.store1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "store1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.store2,
+                            expression: "estimate.store2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.store2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "store2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("霊柩自動車")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.vehicle1,
+                            expression: "estimate.vehicle1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.vehicle1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "vehicle1",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.vehicle2,
+                            expression: "estimate.vehicle2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.vehicle2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "vehicle2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("移動車１")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.car1,
+                            expression: "estimate.car1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.car1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "car1", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.car2,
+                            expression: "estimate.car2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.car2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "car2", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("移動車２")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.car3,
+                            expression: "estimate.car3"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.car3 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "car3", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.car4,
+                            expression: "estimate.car4"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.car4 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "car4", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("マイクロバス")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.bus1,
+                            expression: "estimate.bus1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.bus1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "bus1", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.bus2,
+                            expression: "estimate.bus2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.bus2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "bus2", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("式場費")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("備考")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.fee1,
+                            expression: "estimate.fee1"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "text" },
+                        domProps: { value: _vm.estimate.fee1 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "fee1", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col" }, [
+                      _c("label", { attrs: { for: "" } }, [_vm._v("価格")]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.fee2,
+                            expression: "estimate.fee2"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "", type: "number" },
+                        domProps: { value: _vm.estimate.fee2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.estimate, "fee2", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "total_box" }, [
+                    _c("div", { staticClass: "shokei" }, [
+                      _c("div", { staticClass: "form-group col" }, [
+                        _vm._v(
+                          "\n                                小計 : " +
+                            _vm._s(_vm.calcTotal2.toLocaleString()) +
+                            "円\n                            "
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "consumptionTax" }, [
+                      _c("div", { staticClass: "form-group col" }, [
+                        _c("label", { attrs: { for: "consumptionTax" } }, [
+                          _vm._v("消費税")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "select",
+                          {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.consumptionTax,
+                                expression: "consumptionTax"
+                              }
+                            ],
+                            attrs: { id: "consumptionTax" },
+                            on: {
+                              change: function($event) {
+                                var $$selectedVal = Array.prototype.filter
+                                  .call($event.target.options, function(o) {
+                                    return o.selected
+                                  })
+                                  .map(function(o) {
+                                    var val = "_value" in o ? o._value : o.value
+                                    return val
+                                  })
+                                _vm.consumptionTax = $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              }
+                            }
+                          },
+                          _vm._l(20, function(i) {
+                            return _c("option", { domProps: { value: i } }, [
+                              _vm._v(_vm._s(i) + "%")
+                            ])
+                          }),
+                          0
+                        ),
+                        _vm._v(
+                          "\n                                 : \n                                " +
+                            _vm._s(
+                              (
+                                (_vm.calcTotal2 * _vm.consumptionTax) /
+                                100
+                              ).toLocaleString()
+                            ) +
+                            "円\n                            "
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "total1" }, [
+                      _c("div", { staticClass: "form-group col" }, [
+                        _vm._v(
+                          "\n                                合計 : " +
+                            _vm._s(
+                              (
+                                (_vm.calcTotal2 * (100 + _vm.consumptionTax)) /
+                                100
+                              ).toLocaleString()
+                            ) +
+                            " 円\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.estimate.total2,
+                            expression: "estimate.total2"
+                          }
+                        ],
+                        attrs: { type: "hidden" },
+                        domProps: { value: _vm.estimate.total2 },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.estimate,
+                              "total2",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary btn-lg btn-block",
+                    attrs: { type: "submit" }
+                  },
+                  [_vm._v("入力完了")]
+                )
+              ]
+            )
+          ])
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=template&id=0c4a0646&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/EstimateShowComponent.vue?vue&type=template&id=0c4a0646& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container show2" }, [
+    _c("div", { staticClass: "head_flex" }, [
+      _c("div", { staticClass: "name" }, [
+        _vm._v("故　" + _vm._s(_vm.sougi.kojinName))
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("喪家名")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
-      ]),
+      _c("h1", [_vm._v("御葬儀見積金額")]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress" } }, [
-          _vm._v("故人名（よみかた）")
-        ]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka", placeholder: "ときわだい" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("故人名")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [
-          _vm._v("住民登録地")
-        ]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("世帯主")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("本籍地")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("筆頭者")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
+      _c("div", { staticClass: "NO" }, [
+        _vm._v("No. " + _vm._s(_vm.estimate.id))
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "select",
-      { staticClass: "form-control", attrs: { id: "reqDay" } },
-      [
-        _c("option", { attrs: { selected: "" } }, [_vm._v("未婚")]),
-        _vm._v(" "),
-        _c("option", [_vm._v("死別")]),
-        _vm._v(" "),
-        _c("option", [_vm._v("離別")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "label_block" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputSouka" } }, [
-          _vm._v("喪主名（よみかた）")
-        ]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka", placeholder: "ときわだい" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("喪主名")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "cost" }, [
+      _c("span", [
+        _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.total1)))
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("住民登録地")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("世帯主")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("本籍地")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("筆頭者")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "label_block" }, [
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputSouka" } }, [
-          _vm._v("届出人名（よみかた）")
-        ]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka", placeholder: "ときわだい" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "form-group" }, [
-        _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("届出人名")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-        })
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("住民登録地")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("世帯主")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("本籍地")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [_vm._v("筆頭者")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress" } }, [_vm._v("請求先名")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "inputAddress2" } }, [
-        _vm._v("請求先ご住所")
-      ]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { type: "text", id: "inputSouka2", placeholder: "常盤台" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "moshu" }, [
-      _c("div", { staticClass: "label_block" }, [
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [_vm._v("式場名")]),
-          _vm._v(" "),
-          _c("select", { staticClass: "form-control" }, [_c("option")])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [_vm._v("式場住所")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: { readonly: "", type: "text" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [
-            _vm._v("式場電話番号")
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "table_flex" }, [
+      _c("div", [
+        _c("table", { staticClass: "table1" }, [
+          _c("tr", [
+            _c("td", [_vm._v("祭壇")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.saidan1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.saidan2)))
+            ])
           ]),
           _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: { readonly: "", type: "text" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [_vm._v("火葬場")]),
-          _vm._v(" "),
-          _c("input", { staticClass: "form-control", attrs: { type: "text" } })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [
-            _vm._v("宗派・寺院名")
+          _c("tr", [
+            _c("td", [_vm._v("仏具一式")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("御導師用")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.butsugu)))
+            ])
           ]),
           _vm._v(" "),
-          _c("input", { staticClass: "form-control", attrs: { type: "text" } })
+          _c("tr", [
+            _c("td", [_vm._v("付帯設備")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("一式")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.facility)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("搬入搬出費")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("基本料")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.importCost))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("御寝棺")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.bed1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.bed2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("納棺処置")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("基本料")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.nokan)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("特別処置")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("防腐・防臭")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" +
+                  _vm._s(_vm.numberWithCommas(_vm.estimate.specialDeodorant))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td"),
+            _vm._v(" "),
+            _c("td", [_vm._v("湯灌")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.specialYukan))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td"),
+            _vm._v(" "),
+            _c("td", [_vm._v("清拭")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.specialClear))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td"),
+            _vm._v(" "),
+            _c("td", [_vm._v("ラストメイク")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.specialLastmake))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("ドライアイス")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "10kg@¥" +
+                  _vm._s(_vm.numberWithCommas(_vm.estimate.dryicePer)) +
+                  "×" +
+                  _vm._s(_vm.estimate.dryiceQ)
+              )
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.dryice)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("御遺影")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.iei1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.iei2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("会葬礼状")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "100枚@¥" +
+                  _vm._s(_vm.numberWithCommas(_vm.estimate.reijoPer)) +
+                  "×" +
+                  _vm._s(_vm.estimate.reijoQ)
+              )
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.reijo)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("花束")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.flower1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.flower2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("もぎり花")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.mogiri1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.mogiri2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("供物")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.kumotsu1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.kumotsu2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("祭壇花")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.saidanFlower1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.saidanFlower2))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("庭飾り")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.garden1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.garden2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("提灯")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.chochin1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.chochin2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("水引")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.mizuhiki1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.mizuhiki2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("焼香・受付・式場幕")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.shoko1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.shoko2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("メイン看板")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.mainBoard1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.mainBoard2))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("案内看板")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.guideBoard1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.guideBoard2))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("テントセット")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("一式")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.tent)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("受付セット")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("一式")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.reception)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("消耗品")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("一式")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.consume)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("式進行・司会")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("基本料")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.moderator)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("斎場随行")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("基本料")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.saijo)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("セレモニースタッフ")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.staff1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.staff2)))
+            ])
+          ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [_vm._v("御布施")]),
+        _c("div", { staticClass: "company" }, [
+          _c("h2", [_vm._v(_vm._s(_vm.comp.name))]),
           _vm._v(" "),
-          _c("input", { staticClass: "form-control", attrs: { type: "text" } })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [_vm._v("返礼品")]),
-          _vm._v(" "),
-          _c("input", { staticClass: "form-control", attrs: { type: "text" } })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "inputAddress" } }, [_vm._v("特筆事項")]),
-          _vm._v(" "),
-          _c("div", [
-            _c("textarea", {
-              staticClass: "col-md-12",
-              attrs: { placeholder: "Enterで改行することができます" }
-            })
+          _c("h3", [
+            _vm._v("TEL " + _vm._s(_vm.comp.tel1)),
+            _c("br"),
+            _vm._v("FAX " + _vm._s(_vm.comp.tel2))
           ])
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", [
+        _c("table", { staticClass: "table2" }, [
+          _c("tr", [
+            _c("td", [_vm._v("搬送料金①")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.trans1_1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.trans1_2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("搬送料金②")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.trans2_1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.trans2_2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("搬送用具")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("一式")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.transItem)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("諸手続代行")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("一式")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.acting)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("運営管理")]),
+            _vm._v(" "),
+            _c("td", [_vm._v("基本料")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.manage)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("枕飾りセット")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.pillow1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.pillow2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("後飾りセット")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.decoration1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.decoration2))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _vm._m(5)
+        ]),
+        _vm._v(" "),
+        _c("table", { staticClass: "table3" }, [
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("小計")]),
+            _vm._v(" "),
+            _c("td", { attrs: { colspan: "2" } }, [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.subTotal1)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("消費税")]),
+            _vm._v(" "),
+            _c("td", { attrs: { colspan: "2" } }, [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.totalTax1)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("合計")]),
+            _vm._v(" "),
+            _c("td", { attrs: { colspan: "2" } }, [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.total1)))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("table", { staticClass: "table3" }, [
+          _vm._m(6),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("火葬料")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.cremation1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                "¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.cremation2))
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("収骨容器")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.shukotsu1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.shukotsu2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("休憩室")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.restRoom1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.restRoom2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("保管")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.store1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.store2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("霊柩自動車")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.vehicle1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.vehicle2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("移動車")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.car1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.car2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("移動車")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.car3))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.car4)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("マイクロバス")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.bus1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.bus2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("式場費")]),
+            _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(_vm.estimate.fee1))]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.fee2)))
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(7),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", { staticClass: "fc" }, [_vm._v("合計")]),
+            _vm._v(" "),
+            _c("td"),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v("¥" + _vm._s(_vm.numberWithCommas(_vm.estimate.total2)))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(8)
       ])
+    ]),
+    _vm._v(" "),
+    _vm._m(9)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [_c("td"), _vm._v(" "), _c("td"), _vm._v(" "), _c("td")])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [_c("td"), _vm._v(" "), _c("td"), _vm._v(" "), _c("td")])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [_c("td"), _vm._v(" "), _c("td"), _vm._v(" "), _c("td")])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [_c("td"), _vm._v(" "), _c("td"), _vm._v(" "), _c("td")])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [_c("td"), _vm._v(" "), _c("td"), _vm._v(" "), _c("td")])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [_c("td"), _vm._v(" "), _c("td"), _vm._v(" "), _c("td")])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("td", { staticClass: "fc", attrs: { colspan: "3" } }, [
+        _vm._v("弊社以外へのお支払い（当日必要）")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("tr", [
+      _c("td", { staticClass: "fc" }, [_vm._v("飲食費")]),
+      _vm._v(" "),
+      _c("td"),
+      _vm._v(" "),
+      _c("td", [_vm._v("実費")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "itaku1" }, [
+      _c("span", { staticClass: "itakuD" }, [
+        _vm._v("上記見積金額にて施行を委託いたします。")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "itakuName" }, [
+        _c("div", [_vm._v("氏名")]),
+        _c("div", { staticClass: "long-name" })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "notice" }, [
+      _vm._v("上記見積金額の他に"),
+      _c("b", [_vm._v("御布施・料理・返礼品・生花・心付け")]),
+      _vm._v("が加算されます。")
     ])
   }
 ]
@@ -62776,12 +71411,34 @@ var render = function() {
         _c(
           "div",
           [
-            _c("router-link", { attrs: { to: { name: "task.list" } } }, [
-              _c("button", { staticClass: "btn btn-success" }, [_vm._v("List")])
+            _c("router-link", { attrs: { to: { name: "top" } } }, [
+              _c("button", { staticClass: "btn btn-secondary " }, [
+                _vm._v("トップに戻る")
+              ])
             ]),
             _vm._v(" "),
-            _c("router-link", { attrs: { to: { name: "task.create" } } }, [
-              _c("button", { staticClass: "btn btn-success" }, [_vm._v("ADD")])
+            _c("router-link", { attrs: { to: { name: "create" } } }, [
+              _c("button", { staticClass: "btn btn-primary " }, [
+                _vm._v("葬儀の作成")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: { name: "list" } } }, [
+              _c("button", { staticClass: "btn btn-warning " }, [
+                _vm._v("葬儀リスト")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: { name: "customer" } } }, [
+              _c("button", { staticClass: "btn btn-danger " }, [
+                _vm._v("顧客リスト")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: { name: "manage" } } }, [
+              _c("button", { staticClass: "btn btn-success " }, [
+                _vm._v("入力管理")
+              ])
             ])
           ],
           1
@@ -62812,107 +71469,283 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container" }, [
+    _c("table", { staticClass: "table table-hover" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "tbody",
+        _vm._l(_vm.sougi, function(s) {
+          return _c("tr", [
+            s.reqYear + s.reqMonth + s.reqDay > 0
+              ? _c("th", { attrs: { scope: "row" } }, [
+                  _vm._v(
+                    _vm._s(
+                      s.reqYear + "年" + s.reqMonth + "月" + s.reqDay + "日"
+                    )
+                  )
+                ])
+              : _c("td", [_vm._v("未入力")]),
+            _vm._v(" "),
+            s.soukaName !== null && s.kojinName !== null
+              ? _c("td", [
+                  _vm._v(_vm._s(s.soukaName) + "家 /"),
+                  _c("br"),
+                  _vm._v("故" + _vm._s(s.kojinName) + "様")
+                ])
+              : s.soukaName !== null
+              ? _c("td", [_vm._v("故" + _vm._s(s.kojinName) + "様")])
+              : s.kojinName !== null
+              ? _c("td", [_vm._v(_vm._s(s.soukaName) + "家")])
+              : _c("td", [_vm._v("未入力")]),
+            _vm._v(" "),
+            s.employeeName !== null
+              ? _c("td", [
+                  _vm._v(_vm._s(s.employeeName) + " /"),
+                  _c("br"),
+                  _vm._v(_vm._s(_vm.compsName[s.compId]))
+                ])
+              : _c("td", [_vm._v("未入力")]),
+            _vm._v(" "),
+            _c(
+              "td",
+              [
+                _c(
+                  "router-link",
+                  {
+                    attrs: {
+                      to: { name: "sougi.show1", params: { sougiId: s.id } }
+                    }
+                  },
+                  [
+                    _c("button", { staticClass: "btn btn-primary" }, [
+                      _vm._v("打合せ事項"),
+                      _c("br"),
+                      _vm._v("の表示")
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "td",
+              [
+                _c(
+                  "router-link",
+                  {
+                    attrs: {
+                      to: { name: "sougi.show2", params: { sougiId: s.id } }
+                    }
+                  },
+                  [
+                    _c("button", { staticClass: "btn btn-primary" }, [
+                      _vm._v("見積金額"),
+                      _c("br"),
+                      _vm._v("の表示")
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "td",
+              [
+                _c(
+                  "router-link",
+                  {
+                    attrs: {
+                      to: { name: "sougi.edit", params: { sougiId: s.id } }
+                    }
+                  },
+                  [
+                    _c("button", { staticClass: "btn btn-success" }, [
+                      _vm._v("打合わせ事項"),
+                      _c("br"),
+                      _vm._v("の編集")
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "td",
+              [
+                _c(
+                  "router-link",
+                  {
+                    attrs: {
+                      to: {
+                        name: "sougi.estimate.edit",
+                        params: { sougiId: s.id }
+                      }
+                    }
+                  },
+                  [
+                    _c("button", { staticClass: "btn btn-success" }, [
+                      _vm._v("見積金額"),
+                      _c("br"),
+                      _vm._v("の編集")
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("td", [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-danger",
+                  on: {
+                    click: function($event) {
+                      return _vm.deleteSougi(s.id)
+                    }
+                  }
+                },
+                [_vm._v("削除")]
+              )
+            ])
+          ])
+        }),
+        0
+      )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("table", { staticClass: "table table-hover" }, [
-        _c("thead", { staticClass: "thead-light" }, [
-          _c("tr", [
-            _c("th", { attrs: { scope: "col" } }, [_vm._v("#")]),
-            _vm._v(" "),
-            _c("th", { attrs: { scope: "col" } }, [_vm._v("Title")]),
-            _vm._v(" "),
-            _c("th", { attrs: { scope: "col" } }, [_vm._v("Content")]),
-            _vm._v(" "),
-            _c("th", { attrs: { scope: "col" } }, [_vm._v("Person In Charge")]),
-            _vm._v(" "),
-            _c("th", { attrs: { scope: "col" } }, [_vm._v("Show")]),
-            _vm._v(" "),
-            _c("th", { attrs: { scope: "col" } }, [_vm._v("Edit")]),
-            _vm._v(" "),
-            _c("th", { attrs: { scope: "col" } }, [_vm._v("Delete")])
-          ])
+    return _c("thead", { staticClass: "thead-light" }, [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("依頼年月日")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [
+          _vm._v("喪家名/"),
+          _c("br"),
+          _vm._v("故人名")
         ]),
         _vm._v(" "),
-        _c("tbody", [
-          _c("tr", [
-            _c("th", { attrs: { scope: "row" } }, [_vm._v("1")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Title1")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Content1")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Ichiro")]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-primary" }, [_vm._v("Show")])
-            ]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-success" }, [_vm._v("Edit")])
-            ]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-danger" }, [
-                _vm._v("Delete")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("th", { attrs: { scope: "row" } }, [_vm._v("2")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Title2")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Content2")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Jiro")]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-primary" }, [_vm._v("Show")])
-            ]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-success" }, [_vm._v("Edit")])
-            ]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-danger" }, [
-                _vm._v("Delete")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("tr", [
-            _c("th", { attrs: { scope: "row" } }, [_vm._v("3")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Title3")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Content3")]),
-            _vm._v(" "),
-            _c("td", [_vm._v("Saburo")]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-primary" }, [_vm._v("Show")])
-            ]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-success" }, [_vm._v("Edit")])
-            ]),
-            _vm._v(" "),
-            _c("td", [
-              _c("button", { staticClass: "btn btn-danger" }, [
-                _vm._v("Delete")
-              ])
-            ])
-          ])
-        ])
+        _c("th", { attrs: { scope: "col" } }, [
+          _vm._v("担当社名/"),
+          _c("br"),
+          _vm._v("担当者名")
+        ]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("打合せ事項")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("見積金額")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("編集1")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("編集2")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("削除")])
       ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=template&id=56180262&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingBar.vue?vue&type=template&id=56180262& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "fullview" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("vue-loading", {
+        attrs: {
+          type: "bars",
+          color: "#5ab95c",
+          size: { width: "100px", height: "100px" }
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "loading-spacer" }, [
+      _c("h1", { staticClass: "load_h1" }, [_vm._v("Loading ...")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=template&id=d58ee890&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LoadingDubbles.vue?vue&type=template&id=d58ee890& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "fullview" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("vue-loading", {
+        attrs: {
+          type: "spiningDubbles",
+          color: "#20a0ff",
+          size: { width: "100px", height: "100px" }
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "loading-spacer" }, [
+      _c("h1", { staticClass: "load_h1" }, [_vm._v("Loading ...")])
     ])
   }
 ]
@@ -62938,77 +71771,729 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "create" } } }, [
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-primary btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("御葬儀の作成（顧客登録）")]
-          )
-        ])
-      ],
-      1
-    ),
+    _c("table", { staticClass: "table table-hover" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "tbody",
+        [
+          _vm._l(_vm.comps, function(comp) {
+            return _c("tr", [
+              comp.name !== null
+                ? _c("th", { attrs: { scope: "row" } }, [
+                    _vm._v(_vm._s(comp.name))
+                  ])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              comp.address !== null
+                ? _c("td", [_vm._v(_vm._s(comp.address))])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              comp.tel1 !== null
+                ? _c("td", [_vm._v(_vm._s(comp.tel1))])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              comp.tel2 !== null
+                ? _c("td", [_vm._v(_vm._s(comp.tel2))])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              _c(
+                "td",
+                [
+                  _c(
+                    "router-link",
+                    {
+                      attrs: {
+                        to: {
+                          name: "manage.edit",
+                          params: { manageId: comp.id }
+                        }
+                      }
+                    },
+                    [
+                      _c("button", { staticClass: "btn btn-success" }, [
+                        _vm._v("変更")
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("td", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-danger",
+                    on: {
+                      click: function($event) {
+                        return _vm.deleteCre(_vm.cre.id)
+                      }
+                    }
+                  },
+                  [_vm._v("削除")]
+                )
+              ])
+            ])
+          }),
+          _vm._v(" "),
+          _c("tr", [
+            _c("th", { attrs: { scope: "row" } }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcomp.name,
+                    expression: "newcomp.name"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcomp.name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcomp, "name", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcomp.address,
+                    expression: "newcomp.address"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcomp.address },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcomp, "address", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcomp.tel1,
+                    expression: "newcomp.tel1"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcomp.tel1 },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcomp, "tel1", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcomp.tel2,
+                    expression: "newcomp.tel2"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcomp.tel2 },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcomp, "tel2", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", { attrs: { colspan: "2" } }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-primary",
+                  on: {
+                    click: function($event) {
+                      return _vm.submitComp()
+                    }
+                  }
+                },
+                [_vm._v("追加")]
+              )
+            ])
+          ])
+        ],
+        2
+      )
+    ]),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "list" } } }, [
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-secondary btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("顧客リスト")]
-          )
-        ])
-      ],
-      1
-    ),
+    _c("table", { staticClass: "table table-hover" }, [
+      _vm._m(1),
+      _vm._v(" "),
+      _c(
+        "tbody",
+        [
+          _vm._l(_vm.ceres, function(cere) {
+            return _c("tr", [
+              cere.name !== null
+                ? _c("th", { attrs: { scope: "row" } }, [
+                    _vm._v(_vm._s(cere.name))
+                  ])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              cere.address !== null
+                ? _c("td", [_vm._v(_vm._s(cere.address))])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              cere.tel1 !== null
+                ? _c("td", [_vm._v(_vm._s(cere.tel1))])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              _c(
+                "td",
+                [
+                  _c(
+                    "router-link",
+                    {
+                      attrs: {
+                        to: {
+                          name: "manage.edit",
+                          params: { manageId: cere.id }
+                        }
+                      }
+                    },
+                    [
+                      _c("button", { staticClass: "btn btn-success" }, [
+                        _vm._v("変更")
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("td", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-danger",
+                    on: {
+                      click: function($event) {
+                        return _vm.deleteCre(_vm.cre.id)
+                      }
+                    }
+                  },
+                  [_vm._v("削除")]
+                )
+              ])
+            ])
+          }),
+          _vm._v(" "),
+          _c("tr", [
+            _c("th", { attrs: { scope: "row" } }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcere.name,
+                    expression: "newcere.name"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcere.name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcere, "name", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcere.address,
+                    expression: "newcere.address"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcere.address },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcere, "address", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcere.tel1,
+                    expression: "newcere.tel1"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcere.tel1 },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcere, "tel1", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", { attrs: { colspan: "2" } }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-primary",
+                  on: {
+                    click: function($event) {
+                      return _vm.submitCere()
+                    }
+                  }
+                },
+                [_vm._v("追加")]
+              )
+            ])
+          ])
+        ],
+        2
+      )
+    ]),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "manage" } } }, [
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-success btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("入力管理")]
-          )
-        ])
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "shijuukunichi" } } }, [
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-danger btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("四十九日の法要")]
-          )
-        ])
-      ],
-      1
-    )
+    _c("table", { staticClass: "table table-hover" }, [
+      _vm._m(2),
+      _vm._v(" "),
+      _c(
+        "tbody",
+        [
+          _vm._l(_vm.cres, function(cre) {
+            return _c("tr", [
+              cre.name !== null
+                ? _c("th", { attrs: { scope: "row" } }, [
+                    _vm._v(_vm._s(cre.name))
+                  ])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              cre.address !== null
+                ? _c("td", [_vm._v(_vm._s(cre.address))])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              cre.tel1 !== null
+                ? _c("td", [_vm._v(_vm._s(cre.tel1))])
+                : _c("td", [_vm._v("未入力")]),
+              _vm._v(" "),
+              _c(
+                "td",
+                [
+                  _c(
+                    "router-link",
+                    {
+                      attrs: {
+                        to: {
+                          name: "manage.edit",
+                          params: { manageId: cre.id }
+                        }
+                      }
+                    },
+                    [
+                      _c("button", { staticClass: "btn btn-success" }, [
+                        _vm._v("変更")
+                      ])
+                    ]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("td", [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-danger",
+                    on: {
+                      click: function($event) {
+                        return _vm.deleteCre(cre.id)
+                      }
+                    }
+                  },
+                  [_vm._v("削除")]
+                )
+              ])
+            ])
+          }),
+          _vm._v(" "),
+          _c("tr", [
+            _c("th", { attrs: { scope: "row" } }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcre.name,
+                    expression: "newcre.name"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcre.name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcre, "name", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcre.address,
+                    expression: "newcre.address"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcre.address },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcre, "address", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.newcre.tel1,
+                    expression: "newcre.tel1"
+                  }
+                ],
+                staticClass: "col",
+                attrs: { type: "text" },
+                domProps: { value: _vm.newcre.tel1 },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.newcre, "tel1", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("td", { attrs: { colspan: "2" } }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-primary",
+                  on: {
+                    click: function($event) {
+                      return _vm.submitCre()
+                    }
+                  }
+                },
+                [_vm._v("追加")]
+              )
+            ])
+          ])
+        ],
+        2
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", { staticClass: "thead-light" }, [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("会社名")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("会社住所")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("電話番号1")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("電話番号2")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("変更")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("削除")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", { staticClass: "thead-light" }, [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("斎場名")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("住所")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("電話番号")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("変更")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("削除")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", { staticClass: "thead-light" }, [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("火葬場名")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("住所")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("電話番号")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("変更")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("削除")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ManageEditComponent.vue?vue&type=template&id=04f08f93&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ManageEditComponent.vue?vue&type=template&id=04f08f93& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-sm-6" }, [
+        _c(
+          "form",
+          {
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.submit($event)
+              }
+            }
+          },
+          [
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "spell1" } }, [_vm._v("名前")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.list.name,
+                    expression: "list.name"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  type: "text",
+                  id: "soukaSpell",
+                  placeholder: "ときわだい"
+                },
+                domProps: { value: _vm.list.name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.list, "name", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "inputAddress2" } }, [
+                _vm._v("住所")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.list.address,
+                    expression: "list.address"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: { type: "text", id: "soukaName", placeholder: "常盤台" },
+                domProps: { value: _vm.list.address },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.list, "address", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "inputAddress" } }, [
+                _vm._v("電話番号1")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.list.tel1,
+                    expression: "list.tel1"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  type: "text",
+                  id: "kojinSpell",
+                  placeholder: "ときわだい たかこ"
+                },
+                domProps: { value: _vm.list.tel1 },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.$set(_vm.list, "tel1", $event.target.value)
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm.list.type === 1
+              ? _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "inputAddress" } }, [
+                    _vm._v("電話番号2")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.list.tel2,
+                        expression: "list.tel2"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "kojinSpell",
+                      placeholder: "ときわだい たかこ"
+                    },
+                    domProps: { value: _vm.list.tel2 },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.list, "tel2", $event.target.value)
+                      }
+                    }
+                  })
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-primary btn-lg btn-block",
+                attrs: { type: "submit" }
+              },
+              [_vm._v("入力完了")]
+            )
+          ]
+        )
+      ])
+    ])
   ])
 }
 var staticRenderFns = []
@@ -63034,77 +72519,4547 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "create" } } }, [
-          _c(
-            "button",
+    _c("table", { staticClass: "table table-hover" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "tbody",
+        _vm._l(_vm.activeSougi, function(s) {
+          return _c("tr", [
+            s.reqYear + s.reqMonth + s.reqDay > 0
+              ? _c("th", { attrs: { scope: "row" } }, [
+                  _vm._v(
+                    _vm._s(
+                      s.reqYear + "年" + s.reqMonth + "月" + s.reqDay + "日"
+                    )
+                  )
+                ])
+              : _c("td", [_vm._v("未入力")]),
+            _vm._v(" "),
+            s.soukaName !== null && s.kojinName !== null
+              ? _c("td", [
+                  _vm._v(_vm._s(s.soukaName) + "家 /"),
+                  _c("br"),
+                  _vm._v("故" + _vm._s(s.kojinName) + "様")
+                ])
+              : s.soukaName !== null
+              ? _c("td", [_vm._v("故" + _vm._s(s.kojinName) + "様")])
+              : s.kojinName !== null
+              ? _c("td", [_vm._v(_vm._s(s.soukaName) + "家")])
+              : _c("td", [_vm._v("未入力")]),
+            _vm._v(" "),
+            s.employeeName !== null
+              ? _c("td", [
+                  _vm._v(_vm._s(s.employeeName) + " /"),
+                  _c("br"),
+                  _vm._v(_vm._s(_vm.compsName[s.compId]))
+                ])
+              : _c("td", [_vm._v("未入力")]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                _vm._s(s.deadYear) +
+                  "年" +
+                  _vm._s(s.deadMonth) +
+                  "月" +
+                  _vm._s(s.deadDay) +
+                  "日"
+              )
+            ]),
+            _vm._v(" "),
+            _c("td", [
+              _vm._v(
+                _vm._s(_vm.sijuukunichi(s.deadYear, s.deadMonth, s.deadDay)) +
+                  "(あと" +
+                  _vm._s(_vm.sijuuLast(s.deadYear, s.deadMonth, s.deadDay)) +
+                  "日)"
+              )
+            ])
+          ])
+        }),
+        0
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", { staticClass: "thead-light" }, [
+      _c("tr", [
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("依頼年月日")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [
+          _vm._v("喪家名/"),
+          _c("br"),
+          _vm._v("故人名")
+        ]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [
+          _vm._v("担当社名/"),
+          _c("br"),
+          _vm._v("担当者名")
+        ]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("死亡日")]),
+        _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("四十九日予定日残り")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=template&id=53723743&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiEditComponent.vue?vue&type=template&id=53723743& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("LoadingBar", {
+        directives: [
+          {
+            name: "show",
+            rawName: "v-show",
+            value: _vm.loading1 || _vm.loading2 || _vm.loading3,
+            expression: "loading1 || loading2 || loading3"
+          }
+        ]
+      }),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          directives: [
             {
-              staticClass: "btn btn-primary btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("御葬儀の作成（顧客登録）")]
-          )
-        ])
-      ],
-      1
-    ),
+              name: "show",
+              rawName: "v-show",
+              value: !_vm.loading1 && !_vm.loading2 && !_vm.loading3,
+              expression: "!loading1 && !loading2 && !loading3"
+            }
+          ],
+          staticClass: "row justify-content-center"
+        },
+        [
+          _c("div", { staticClass: "col-sm-6" }, [
+            _c(
+              "form",
+              {
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.submit($event)
+                  }
+                }
+              },
+              [
+                _c("div", { staticClass: "form-group label_block" }, [
+                  _c("label", { attrs: { for: "inputSouka" } }, [
+                    _vm._v("担当者名")
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.sougi.employeeName,
+                        expression: "sougi.employeeName"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      id: "inputSouka",
+                      placeholder: "(例)山田"
+                    },
+                    domProps: { value: _vm.sougi.employeeName },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.sougi, "employeeName", $event.target.value)
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_block" }, [
+                  _c("label", { attrs: { for: "reqYear" } }, [
+                    _vm._v("扱い社名")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "select",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.compId,
+                          expression: "sougi.compId"
+                        }
+                      ],
+                      staticClass: "form-control",
+                      attrs: { id: "reqYear" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.$set(
+                            _vm.sougi,
+                            "compId",
+                            $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          )
+                        }
+                      }
+                    },
+                    _vm._l(_vm.comps, function(comp) {
+                      return _c("option", { domProps: { value: comp.id } }, [
+                        _vm._v(_vm._s(comp.name))
+                      ])
+                    }),
+                    0
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_top" }, [_vm._v("依頼年月日")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "reqYear" } }, [_vm._v("年")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.reqYear,
+                            expression: "sougi.reqYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "reqYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "reqYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            {
+                              domProps: {
+                                value:
+                                  n + parseInt(_vm.sougi.todayYear, 10) - 15
+                              }
+                            },
+                            [
+                              _vm._v(
+                                _vm._s(
+                                  n + parseInt(_vm.sougi.todayYear, 10) - 15
+                                )
+                              )
+                            ]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "reqMonth" } }, [_vm._v("月")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.reqMonth,
+                            expression: "sougi.reqMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "reqMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "reqMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "reqDay" } }, [_vm._v("日")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.reqDay,
+                            expression: "sougi.reqDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "reqDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "reqDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_top" }, [_vm._v("通夜式")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaYear" } }, [_vm._v("年")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaYear,
+                            expression: "sougi.tuyaYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            { domProps: { value: n + 2005 } },
+                            [_vm._v(_vm._s(n + 2005))]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMonth" } }, [
+                      _vm._v("月")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMonth,
+                            expression: "sougi.tuyaMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaDay" } }, [_vm._v("日")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaDay,
+                            expression: "sougi.tuyaDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaHours" } }, [
+                      _vm._v("開始時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaHours,
+                            expression: "sougi.tuyaHours"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaHours" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaHours",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMins" } }, [
+                      _vm._v("開始分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMins,
+                            expression: "sougi.tuyaMins"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMins" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMins",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaHourf" } }, [
+                      _vm._v("終了時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaHourf,
+                            expression: "sougi.tuyaHourf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaHourf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaHourf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMinf" } }, [
+                      _vm._v("終了分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMinf,
+                            expression: "sougi.tuyaMinf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMinf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMinf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaHourg" } }, [
+                      _vm._v("集合時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaHourg,
+                            expression: "sougi.tuyaHourg"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaHourg" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaHourg",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "tuyaMing" } }, [
+                      _vm._v("集合分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.tuyaMing,
+                            expression: "sougi.tuyaMing"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "tuyaMing" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "tuyaMing",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_top" }, [_vm._v("告別式")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuYear" } }, [
+                      _vm._v("年")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuYear,
+                            expression: "sougi.kokubetsuYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            { domProps: { value: n + 2005 } },
+                            [_vm._v(_vm._s(n + 2005))]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMonth" } }, [
+                      _vm._v("月")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMonth,
+                            expression: "sougi.kokubetsuMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuDay" } }, [
+                      _vm._v("日")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuDay,
+                            expression: "sougi.kokubetsuDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuHours" } }, [
+                      _vm._v("開始時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuHours,
+                            expression: "sougi.kokubetsuHours"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuHours" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuHours",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMins" } }, [
+                      _vm._v("開始分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMins,
+                            expression: "sougi.kokubetsuMins"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMins" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMins",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuHourf" } }, [
+                      _vm._v("終了時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuHourf,
+                            expression: "sougi.kokubetsuHourf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuHourf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuHourf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMinf" } }, [
+                      _vm._v("終了分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMinf,
+                            expression: "sougi.kokubetsuMinf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMinf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMinf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuHourg" } }, [
+                      _vm._v("集合時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuHourg,
+                            expression: "sougi.kokubetsuHourg"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuHourg" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuHourg",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kokubetsuMing" } }, [
+                      _vm._v("集合分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kokubetsuMing,
+                            expression: "sougi.kokubetsuMing"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kokubetsuMing" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kokubetsuMing",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "label_top" }, [_vm._v("火葬式")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouYear" } }, [
+                      _vm._v("年")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouYear,
+                            expression: "sougi.kasouYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouYear" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouYear",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(20, function(n) {
+                          return _c(
+                            "option",
+                            { domProps: { value: n + 2005 } },
+                            [_vm._v(_vm._s(n + 2005))]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMonth" } }, [
+                      _vm._v("月")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMonth,
+                            expression: "sougi.kasouMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMonth" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMonth",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouDay" } }, [_vm._v("日")]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouDay,
+                            expression: "sougi.kasouDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouDay" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouDay",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(31, function(n) {
+                          return _c("option", { domProps: { value: n } }, [
+                            _vm._v(_vm._s(n))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouHours" } }, [
+                      _vm._v("開始時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouHours,
+                            expression: "sougi.kasouHours"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouHours" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouHours",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMins" } }, [
+                      _vm._v("開始分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMins,
+                            expression: "sougi.kasouMins"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMins" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMins",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouHourf" } }, [
+                      _vm._v("終了時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouHourf,
+                            expression: "sougi.kasouHourf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouHourf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouHourf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMinf" } }, [
+                      _vm._v("終了分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMinf,
+                            expression: "sougi.kasouMinf"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMinf" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMinf",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouHourg" } }, [
+                      _vm._v("集合時")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouHourg,
+                            expression: "sougi.kasouHourg"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouHourg" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouHourg",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(24, function(n) {
+                          return _c("option", { domProps: { value: n - 1 } }, [
+                            _vm._v(_vm._s(n - 1))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group col-md-4" }, [
+                    _c("label", { attrs: { for: "kasouMing" } }, [
+                      _vm._v("集合分")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kasouMing,
+                            expression: "sougi.kasouMing"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { id: "kasouMing" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.$set(
+                              _vm.sougi,
+                              "kasouMing",
+                              $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            )
+                          }
+                        }
+                      },
+                      [
+                        _c("option", { attrs: { selected: "" } }, [
+                          _vm._v("Choose...")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(12, function(n) {
+                          return _c("option", { domProps: { value: n * 5 } }, [
+                            _vm._v(_vm._s(n * 5 - 5))
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("故人様の情報")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "spell1" } }, [
+                        _vm._v("喪家名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.soukaSpell,
+                            expression: "sougi.soukaSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "soukaSpell",
+                          placeholder: "(例)ときわだい"
+                        },
+                        domProps: { value: _vm.sougi.soukaSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "soukaSpell",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("喪家名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.soukaName,
+                            expression: "sougi.soukaName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "soukaName",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.soukaName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "soukaName",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("故人名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinSpell,
+                            expression: "sougi.kojinSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinSpell",
+                          placeholder: "(例)ときわだい たかこ"
+                        },
+                        domProps: { value: _vm.sougi.kojinSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinSpell",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("故人名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinName,
+                            expression: "sougi.kojinName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinName",
+                          placeholder: "(例)常盤台 貴子"
+                        },
+                        domProps: { value: _vm.sougi.kojinName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinName",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("住民登録地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinAddress,
+                            expression: "sougi.kojinAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinAddress",
+                          placeholder: "(例)東京都板橋区常盤台1-2-3"
+                        },
+                        domProps: { value: _vm.sougi.kojinAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("世帯主")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinHead,
+                            expression: "sougi.kojinHead"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinHead",
+                          placeholder: "(例)常盤台 太郎"
+                        },
+                        domProps: { value: _vm.sougi.kojinHead },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinHead",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("本籍地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinPermAddress,
+                            expression: "sougi.kojinPermAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinPermAddress",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.kojinPermAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinPermAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("筆頭者")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinPrinciple,
+                            expression: "sougi.kojinPrinciple"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "kojinPrinciple",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.kojinPrinciple },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinPrinciple",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("配偶者")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c(
+                      "div",
+                      { staticClass: "form-group col-md-4 radio_spouse" },
+                      [
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.spouse,
+                              expression: "sougi.spouse"
+                            }
+                          ],
+                          attrs: {
+                            type: "radio",
+                            checked: "",
+                            id: "one",
+                            value: "いる"
+                          },
+                          domProps: {
+                            checked: _vm._q(_vm.sougi.spouse, "いる")
+                          },
+                          on: {
+                            change: function($event) {
+                              return _vm.$set(_vm.sougi, "spouse", "いる")
+                            }
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("label", { attrs: { for: "one" } }, [
+                          _vm._v("いる")
+                        ]),
+                        _vm._v(" "),
+                        _c("br"),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.spouse,
+                              expression: "sougi.spouse"
+                            }
+                          ],
+                          attrs: { type: "radio", id: "two", value: "いない" },
+                          domProps: {
+                            checked: _vm._q(_vm.sougi.spouse, "いない")
+                          },
+                          on: {
+                            change: function($event) {
+                              return _vm.$set(_vm.sougi, "spouse", "いない")
+                            }
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("label", { attrs: { for: "two" } }, [
+                          _vm._v("いない")
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _vm.sougi.spouse === "いる"
+                      ? _c("div", { staticClass: "form-group col-md-4" }, [
+                          _c("label", { attrs: { for: "spouseAge" } }, [
+                            _vm._v("満年齢")
+                          ]),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.sougi.spouseAge,
+                                expression: "sougi.spouseAge"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: { type: "number", id: "spouseAge" },
+                            domProps: { value: _vm.sougi.spouseAge },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.$set(
+                                  _vm.sougi,
+                                  "spouseAge",
+                                  $event.target.value
+                                )
+                              }
+                            }
+                          })
+                        ])
+                      : _c("div", { staticClass: "form-group col-md-4" }, [
+                          _c("label", { attrs: { for: "reqDay" } }, [
+                            _vm._v("状況")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "select",
+                            {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.sougi.spouseStatus,
+                                  expression: "sougi.spouseStatus"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              attrs: { id: "reqDay" },
+                              on: {
+                                change: function($event) {
+                                  var $$selectedVal = Array.prototype.filter
+                                    .call($event.target.options, function(o) {
+                                      return o.selected
+                                    })
+                                    .map(function(o) {
+                                      var val =
+                                        "_value" in o ? o._value : o.value
+                                      return val
+                                    })
+                                  _vm.$set(
+                                    _vm.sougi,
+                                    "spouseStatus",
+                                    $event.target.multiple
+                                      ? $$selectedVal
+                                      : $$selectedVal[0]
+                                  )
+                                }
+                              }
+                            },
+                            [
+                              _c("option", { attrs: { value: "未婚" } }, [
+                                _vm._v("未婚")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "死別" } }, [
+                                _vm._v("死別")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "離別" } }, [
+                                _vm._v("離別")
+                              ])
+                            ]
+                          )
+                        ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("生年月日（故人）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinBirthYear,
+                            expression: "sougi.kojinBirthYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge1",
+                          placeholder: "(例)1960"
+                        },
+                        domProps: { value: _vm.sougi.kojinBirthYear },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinBirthYear",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinBirthMonth,
+                            expression: "sougi.kojinBirthMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge2",
+                          placeholder: "(例)1"
+                        },
+                        domProps: { value: _vm.sougi.kojinBirthMonth },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinBirthMonth",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinBirthDay,
+                            expression: "sougi.kojinBirthDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge3",
+                          placeholder: "(例)20"
+                        },
+                        domProps: { value: _vm.sougi.kojinBirthDay },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "kojinBirthDay",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "age_form" }, [
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.kojinAge,
+                            expression: "sougi.kojinAge"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "hidden" },
+                        domProps: { value: _vm.sougi.kojinAge },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "kojinAge", $event.target.value)
+                          }
+                        }
+                      }),
+                      _vm._v("満" + _vm._s(_vm.age1) + "歳")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("性別")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group radio_spouse sex" }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.kojinSex,
+                          expression: "sougi.kojinSex"
+                        }
+                      ],
+                      attrs: {
+                        type: "radio",
+                        checked: "",
+                        id: "male",
+                        value: "男性"
+                      },
+                      domProps: { checked: _vm._q(_vm.sougi.kojinSex, "男性") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "kojinSex", "男性")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "male" } }, [_vm._v("男性")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.kojinSex,
+                          expression: "sougi.kojinSex"
+                        }
+                      ],
+                      attrs: { type: "radio", id: "female", value: "女性" },
+                      domProps: { checked: _vm._q(_vm.sougi.kojinSex, "女性") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "kojinSex", "女性")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "female" } }, [_vm._v("女性")])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("死亡したとき")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadYear,
+                              expression: "sougi.deadYear"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaYear" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadYear",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", [_vm._v("Choose...")]),
+                          _vm._v(" "),
+                          _vm._l(15, function(n) {
+                            return _c(
+                              "option",
+                              {
+                                domProps: {
+                                  value: _vm.sougi.todayYear - 15 + n
+                                }
+                              },
+                              [_vm._v(_vm._s(_vm.sougi.todayYear - 15 + n))]
+                            )
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadMonth,
+                              expression: "sougi.deadMonth"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaMonth" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadMonth",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", [_vm._v("Choose...")]),
+                          _vm._v(" "),
+                          _vm._l(12, function(i) {
+                            return _c("option", { domProps: { value: i } }, [
+                              _vm._v(_vm._s(i))
+                            ])
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadDay,
+                              expression: "sougi.deadDay"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaDay" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadDay",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", [_vm._v("Choose...")]),
+                          _vm._v(" "),
+                          _vm._l(31, function(i) {
+                            return _c("option", { domProps: { value: i } }, [
+                              _vm._v(_vm._s(i))
+                            ])
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaHour" } }, [
+                        _vm._v("時")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadHour,
+                              expression: "sougi.deadHour"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaHour" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadHour",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", { attrs: { selected: "" } }, [
+                            _vm._v("Choose...")
+                          ]),
+                          _vm._v(" "),
+                          _vm._l(24, function(n) {
+                            return _c(
+                              "option",
+                              { domProps: { value: n - 1 } },
+                              [_vm._v(_vm._s(n - 1))]
+                            )
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("分")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.deadMin,
+                              expression: "sougi.deadMin"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { id: "tuyaDay" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "deadMin",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        [
+                          _c("option", { attrs: { selected: "" } }, [
+                            _vm._v("Choose...")
+                          ]),
+                          _vm._v(" "),
+                          _vm._l(12, function(n) {
+                            return _c(
+                              "option",
+                              { domProps: { value: n * 5 } },
+                              [_vm._v(_vm._s(n * 5 - 5))]
+                            )
+                          })
+                        ],
+                        2
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("喪主様の情報")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputSouka" } }, [
+                        _vm._v("喪主名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuSpell,
+                            expression: "sougi.moshuSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka",
+                          placeholder: "(例)ときわだい"
+                        },
+                        domProps: { value: _vm.sougi.moshuSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuSpell",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("喪主名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuName,
+                            expression: "sougi.moshuName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuName",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("生年月日（喪主）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuBirthYear,
+                            expression: "sougi.moshuBirthYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge1",
+                          placeholder: "(例)1960"
+                        },
+                        domProps: { value: _vm.sougi.moshuBirthYear },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuBirthYear",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuBirthMonth,
+                            expression: "sougi.moshuBirthMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge2",
+                          placeholder: "(例)1"
+                        },
+                        domProps: { value: _vm.sougi.moshuBirthMonth },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuBirthMonth",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuBirthDay,
+                            expression: "sougi.moshuBirthDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge3",
+                          placeholder: "(例)20"
+                        },
+                        domProps: { value: _vm.sougi.moshuBirthDay },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuBirthDay",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "age_form" }, [
+                      _vm._v("満" + _vm._s(_vm.age2) + "歳")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("続柄")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuRelation,
+                            expression: "sougi.moshuRelation"
+                          }
+                        ],
+                        staticClass: "form-control col-md-2",
+                        attrs: { type: "text", placeholder: "(例)夫" },
+                        domProps: { value: _vm.sougi.moshuRelation },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuRelation",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("メールアドレス")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.moshuMail,
+                              expression: "sougi.moshuMail"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)celeste@icloud.me.com"
+                          },
+                          domProps: { value: _vm.sougi.moshuMail },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "moshuMail",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("電話番号")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.moshuTel1,
+                              expression: "sougi.moshuTel1"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.moshuTel1 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "moshuTel1",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("携帯電話")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.moshuTel2,
+                              expression: "sougi.moshuTel2"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.moshuTel2 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "moshuTel2",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("住民登録地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuAddress,
+                            expression: "sougi.moshuAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("世帯主")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuHead,
+                            expression: "sougi.moshuHead"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuHead },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuHead",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("本籍地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuPermAddress,
+                            expression: "sougi.moshuPermAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuPermAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuPermAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("筆頭者")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.moshuPrinciple,
+                            expression: "sougi.moshuPrinciple"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.moshuPrinciple },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "moshuPrinciple",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [
+                  _vm._v("届出人様の情報")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputSouka" } }, [
+                        _vm._v("届出人名（よみかた）")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repSpell,
+                            expression: "sougi.repSpell"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka",
+                          placeholder: "(例)ときわだい"
+                        },
+                        domProps: { value: _vm.sougi.repSpell },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "repSpell", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("届出人名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repName,
+                            expression: "sougi.repName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "repName", $event.target.value)
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [
+                    _vm._v("生年月日（届出人）")
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-row" }, [
+                    _c("div", { staticClass: "form-group col-md-4" }, [
+                      _c("label", { attrs: { for: "tuyaYear" } }, [
+                        _vm._v("年")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repBirthYear,
+                            expression: "sougi.repBirthYear"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge1",
+                          placeholder: "(例)1960"
+                        },
+                        domProps: { value: _vm.sougi.repBirthYear },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repBirthYear",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaMonth" } }, [
+                        _vm._v("月")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repBirthMonth,
+                            expression: "sougi.repBirthMonth"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge2",
+                          placeholder: "(例)1"
+                        },
+                        domProps: { value: _vm.sougi.repBirthMonth },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repBirthMonth",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-2" }, [
+                      _c("label", { attrs: { for: "tuyaDay" } }, [
+                        _vm._v("日")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repBirthDay,
+                            expression: "sougi.repBirthDay"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "number",
+                          id: "inputAge3",
+                          placeholder: "(例)20"
+                        },
+                        domProps: { value: _vm.sougi.repBirthDay },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repBirthDay",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "age_form" }, [
+                      _vm._v("満" + _vm._s(_vm.age3) + "歳")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("続柄")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repRelation,
+                            expression: "sougi.repRelation"
+                          }
+                        ],
+                        staticClass: "form-control col-md-2",
+                        attrs: { type: "text", placeholder: "(例)夫" },
+                        domProps: { value: _vm.sougi.repRelation },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repRelation",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("電話番号")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.repTel1,
+                              expression: "sougi.repTel1"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.repTel1 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "repTel1",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("携帯電話")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.repTel2,
+                              expression: "sougi.repTel2"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.repTel2 },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "repTel2",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("住民登録地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repAddress,
+                            expression: "sougi.repAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("世帯主")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repHead,
+                            expression: "sougi.repHead"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repHead },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "repHead", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("本籍地")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repPermAddress,
+                            expression: "sougi.repPermAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repPermAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repPermAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("筆頭者")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.repPrinciple,
+                            expression: "sougi.repPrinciple"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.repPrinciple },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "repPrinciple",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [_vm._v("請求情報")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("請求先名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.demName,
+                            expression: "sougi.demName"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.demName },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "demName", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "inputAddress" } }, [
+                          _vm._v("電話番号")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.demTel,
+                              expression: "sougi.demTel"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "(例)03-0000-0000"
+                          },
+                          domProps: { value: _vm.sougi.demTel },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(_vm.sougi, "demTel", $event.target.value)
+                            }
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress2" } }, [
+                        _vm._v("請求先ご住所")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.demAddress,
+                            expression: "sougi.demAddress"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "text",
+                          id: "inputSouka2",
+                          placeholder: "(例)常盤台"
+                        },
+                        domProps: { value: _vm.sougi.demAddress },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "demAddress",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "label_top" }, [_vm._v("精算方法")]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group pay_way" }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.payWay,
+                          expression: "sougi.payWay"
+                        }
+                      ],
+                      attrs: { type: "radio", value: "振込", id: "pay1" },
+                      domProps: { checked: _vm._q(_vm.sougi.payWay, "振込") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "payWay", "振込")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "pay1" } }, [_vm._v("振込")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.payWay,
+                          expression: "sougi.payWay"
+                        }
+                      ],
+                      attrs: { type: "radio", value: "集金", id: "pay2" },
+                      domProps: { checked: _vm._q(_vm.sougi.payWay, "集金") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "payWay", "集金")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "pay2" } }, [_vm._v("集金")]),
+                    _vm._v(" "),
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.sougi.payWay,
+                          expression: "sougi.payWay"
+                        }
+                      ],
+                      attrs: { type: "radio", value: "当日", id: "pay3" },
+                      domProps: { checked: _vm._q(_vm.sougi.payWay, "当日") },
+                      on: {
+                        change: function($event) {
+                          return _vm.$set(_vm.sougi, "payWay", "当日")
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("label", { attrs: { for: "pay3" } }, [_vm._v("当日")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "info_tag" }, [_vm._v("その他")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "moshu" }, [
+                  _c("div", { staticClass: "label_block" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("式場名")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.cereId,
+                              expression: "sougi.cereId"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "cereId",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        _vm._l(_vm.ceres, function(cere) {
+                          return _c(
+                            "option",
+                            { domProps: { value: cere.id } },
+                            [_vm._v(_vm._s(cere.name))]
+                          )
+                        }),
+                        0
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("火葬場")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.creId,
+                              expression: "sougi.creId"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.sougi,
+                                "creId",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
+                        },
+                        _vm._l(_vm.cres, function(cre) {
+                          return _c("option", { domProps: { value: cre.id } }, [
+                            _vm._v(_vm._s(cre.name))
+                          ])
+                        }),
+                        0
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("宗派・寺院名")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.shuha,
+                            expression: "sougi.shuha"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "text" },
+                        domProps: { value: _vm.sougi.shuha },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "shuha", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("御布施")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.ohuse,
+                            expression: "sougi.ohuse"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "text" },
+                        domProps: { value: _vm.sougi.ohuse },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.sougi, "ohuse", $event.target.value)
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("返礼品")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.sougi.returnItem,
+                            expression: "sougi.returnItem"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "text" },
+                        domProps: { value: _vm.sougi.returnItem },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(
+                              _vm.sougi,
+                              "returnItem",
+                              $event.target.value
+                            )
+                          }
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "inputAddress" } }, [
+                        _vm._v("特筆事項")
+                      ]),
+                      _vm._v(" "),
+                      _c("div", [
+                        _c("textarea", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.sougi.specialArea,
+                              expression: "sougi.specialArea"
+                            }
+                          ],
+                          staticClass: "col-md-12 tx-area",
+                          attrs: {
+                            placeholder: "Enterで複数行入力することができます"
+                          },
+                          domProps: { value: _vm.sougi.specialArea },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.sougi,
+                                "specialArea",
+                                $event.target.value
+                              )
+                            }
+                          }
+                        })
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary btn-lg btn-block",
+                    attrs: { disabled: _vm.isProcessing, type: "submit" }
+                  },
+                  [_vm._v("入力完了")]
+                )
+              ]
+            )
+          ])
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=template&id=03c1ad30&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SougiShowComponent.vue?vue&type=template&id=03c1ad30& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container showComponent" }, [
+    _c("h1", [_vm._v("御葬儀打合わせ事項")]),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "list" } } }, [
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-secondary btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("顧客リスト")]
-          )
+    _c("div", { staticClass: "table_flex" }, [
+      _c("table", { staticClass: "table1 show1" }, [
+        _c("tr", [
+          _c("td", { staticClass: "fc" }, [_vm._v("依頼年月日")]),
+          _vm._v(" "),
+          _c("td", { staticClass: "sc" }, [
+            _vm._v(
+              _vm._s(_vm.sougi.reqYear) +
+                "年" +
+                _vm._s(_vm.sougi.reqMonth) +
+                "月" +
+                _vm._s(_vm.sougi.reqDay) +
+                "日"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "spell" }, [
+          _c("td", { staticClass: "fc" }, [_vm._v("よみかた")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.soukaSpell))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", { staticClass: "fc", attrs: { td: "" } }, [
+            _vm._v("喪家名")
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.soukaName))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "spell" }, [
+          _c("td", { staticClass: "fc", attrs: { td: "" } }, [
+            _vm._v("よみかた")
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.kojinSpell))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", { staticClass: "fc", attrs: { td: "" } }, [
+            _vm._v("故人名")
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.kojinName))])
         ])
-      ],
-      1
-    ),
+      ]),
+      _vm._v(" "),
+      _c("table", { staticClass: "table2" }, [
+        _c("tr", [
+          _c("td", [
+            _vm._v(
+              "通夜式　" +
+                _vm._s(_vm.sougi.tuyaYear) +
+                "年" +
+                _vm._s(_vm.sougi.tuyaMonth) +
+                "月" +
+                _vm._s(_vm.sougi.tuyaDay) +
+                "日" +
+                _vm._s(_vm.sougi.tuyaHours) +
+                "時" +
+                _vm._s(_vm.sougi.tuyaHours) +
+                "分〜" +
+                _vm._s(_vm.sougi.tuyaHourf) +
+                "時" +
+                _vm._s(_vm.sougi.tuyaMins) +
+                "分"
+            ),
+            _c("br"),
+            _vm._v(
+              "集合時間　" +
+                _vm._s(_vm.sougi.tuyaHourf) +
+                "時" +
+                _vm._s(_vm.sougi.tuyaMinf) +
+                "分"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [
+            _vm._v(
+              "告別式　" +
+                _vm._s(_vm.sougi.kokubetsuYear) +
+                "年" +
+                _vm._s(_vm.sougi.kokubetsuMonth) +
+                "月" +
+                _vm._s(_vm.sougi.kokubetsuDay) +
+                "日" +
+                _vm._s(_vm.sougi.kokubetsuHours) +
+                "時" +
+                _vm._s(_vm.sougi.kokubetsuHours) +
+                "分〜" +
+                _vm._s(_vm.sougi.kokubetsuHourf) +
+                "時" +
+                _vm._s(_vm.sougi.kokubetsuMins) +
+                "分"
+            ),
+            _c("br"),
+            _vm._v(
+              "集合時間　" +
+                _vm._s(_vm.sougi.kokubetsuHourf) +
+                "時" +
+                _vm._s(_vm.sougi.kokubetsuMinf) +
+                "分"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [
+            _vm._v(
+              "火葬式　" +
+                _vm._s(_vm.sougi.kasouYear) +
+                "年" +
+                _vm._s(_vm.sougi.kasouMonth) +
+                "月" +
+                _vm._s(_vm.sougi.kasouDay) +
+                "日" +
+                _vm._s(_vm.sougi.kasouHours) +
+                "時" +
+                _vm._s(_vm.sougi.kasouHours) +
+                "分〜" +
+                _vm._s(_vm.sougi.kasouHourf) +
+                "時" +
+                _vm._s(_vm.sougi.kasouMins) +
+                "分"
+            ),
+            _c("br"),
+            _vm._v(
+              "集合時間　" +
+                _vm._s(_vm.sougi.kasouHourf) +
+                "時" +
+                _vm._s(_vm.sougi.kasouMinf) +
+                "分"
+            )
+          ])
+        ])
+      ])
+    ]),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "manage" } } }, [
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-success btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("入力管理")]
-          )
+    _c("div", { staticClass: "second_div" }, [
+      _c("table", { staticClass: "table3" }, [
+        _c("tr", { staticClass: "col1" }, [
+          _c("td", [_vm._v("住民登録地")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.kojinAddress))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("世帯主")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.kojinHead))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col2" }, [
+          _c("td", [_vm._v("本籍地")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.kojinPermAddress))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("筆頭者")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.kojinPrinciple))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col3" }, [
+          _c("td", [_vm._v("配偶者")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "5" } }, [
+            _vm._v(
+              _vm._s(_vm.sougi.spouse) +
+                "（満" +
+                _vm._s(_vm.sougi.spouseAge) +
+                "歳）"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col4" }, [
+          _c("td", [_vm._v("生年月日")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(
+              _vm._s(_vm.sougi.kojinBirthYear) +
+                "年" +
+                _vm._s(_vm.sougi.kojinBirthMonth) +
+                "月" +
+                _vm._s(_vm.sougi.kojinBirthDay) +
+                "日"
+            )
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("年齢・性別")]),
+          _vm._v(" "),
+          _c("td", [
+            _vm._v(
+              _vm._s(_vm.sougi.kojinAge) + "歳・" + _vm._s(_vm.sougi.kojinSex)
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col5" }, [
+          _c("td", [_vm._v("死亡したとき")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "5" } }, [
+            _vm._v(
+              _vm._s(_vm.sougi.deadYear) +
+                "年" +
+                _vm._s(_vm.sougi.deadMonth) +
+                "月" +
+                _vm._s(_vm.sougi.deadDay) +
+                "日" +
+                _vm._s(_vm.sougi.deadHour) +
+                "時" +
+                _vm._s(_vm.sougi.deadMin) +
+                "分"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col6 spell2" }, [
+          _c("td", [_vm._v("よみかた")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.moshuSpell))]),
+          _vm._v(" "),
+          _c("td", [_vm._v("生年月日")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(
+              _vm._s(_vm.sougi.moshuBirthYear) +
+                "年" +
+                _vm._s(_vm.sougi.moshuBirthMonth) +
+                "月" +
+                _vm._s(_vm.sougi.moshuBirthDay) +
+                "日"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col7" }, [
+          _c("td", [_vm._v("喪主名")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.moshuName))]),
+          _vm._v(" "),
+          _c("td", [_vm._v("続柄")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.moshuRelation))]),
+          _vm._v(" "),
+          _c("td", [_vm._v("電話")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.moshuTel1))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col8" }, [
+          _c("td", [_vm._v("住民登録地")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.moshuAddless))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("世帯主")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.moshuHead))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col9" }, [
+          _c("td", [_vm._v("本籍地")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.moshuPermAddress))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("筆頭者")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.moshuPrinciple))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col10 spell2" }, [
+          _c("td", [_vm._v("よみかた")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.repSpell))]),
+          _vm._v(" "),
+          _c("td", [_vm._v("生年月日")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(
+              _vm._s(_vm.sougi.repBirthYear) +
+                "年" +
+                _vm._s(_vm.sougi.repBirthMonth) +
+                "月" +
+                _vm._s(_vm.sougi.repBirthDay) +
+                "日"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col11" }, [
+          _c("td", { staticClass: "fc" }, [_vm._v("届出人名")]),
+          _vm._v(" "),
+          _c("td", { staticClass: "td2" }, [_vm._v(_vm._s(_vm.sougi.repName))]),
+          _vm._v(" "),
+          _c("td", { staticClass: "td3" }, [_vm._v("続柄")]),
+          _vm._v(" "),
+          _c("td", { staticClass: "td4" }, [
+            _vm._v(_vm._s(_vm.sougi.repRelation))
+          ]),
+          _vm._v(" "),
+          _c("td", { staticClass: "td5" }, [_vm._v("電話")]),
+          _vm._v(" "),
+          _c("td", { staticClass: "td6" }, [_vm._v(_vm._s(_vm.sougi.repTel1))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col12" }, [
+          _c("td", [_vm._v("住民登録地")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.repAddress))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("世帯主")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.repHead))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col13" }, [
+          _c("td", [_vm._v("本籍地")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.repPermAddress))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("筆頭者")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.repPrinciple))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col14" }, [
+          _c("td", [_vm._v("請求先名")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.demName))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("電話")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.demTel))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "col15" }, [
+          _c("td", [_vm._v("請求先ご住所")]),
+          _vm._v(" "),
+          _c("td", { attrs: { colspan: "3" } }, [
+            _vm._v(_vm._s(_vm.sougi.demAddress))
+          ]),
+          _vm._v(" "),
+          _c("td", [_vm._v("精算方法")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.payWay))])
         ])
-      ],
-      1
-    ),
+      ])
+    ]),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticStyle: { margin: "20px 0" } },
-      [
-        _c("router-link", { attrs: { to: { name: "shijuukunichi" } } }, [
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-danger btn-lg btn-block",
-              staticStyle: { padding: "20px 0" }
-            },
-            [_vm._v("四十九日の法要")]
-          )
+    _c("div", { staticClass: "table_flex margin_div" }, [
+      _c("table", { staticClass: "table4" }, [
+        _c("tr", [
+          _c("td", { staticClass: "fc" }, [_vm._v("式場名")]),
+          _vm._v(" "),
+          _c("td", { staticClass: "ttd2" }, [_vm._v(_vm._s(_vm.cere.name))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_vm._v("式場住所")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.cere.address))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_vm._v("式場電話")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.cere.tel1))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_vm._v("火葬場")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.cre.name))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_vm._v("宗派・寺院名")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.shuha))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_vm._v("御布施")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.ohuse))])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("td", [_vm._v("返礼品")]),
+          _vm._v(" "),
+          _c("td", [_vm._v(_vm._s(_vm.sougi.returnItem))])
         ])
-      ],
-      1
-    )
+      ]),
+      _vm._v(" "),
+      _c("table", { staticClass: "table5" }, [
+        _c("tr", { staticClass: "longtr" }, [
+          _c("td", { staticClass: "std" }, [
+            _vm._v(_vm._s(_vm.sougi.specialArea))
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "nonborder cn" }, [
+          _c("td", [_vm._v(_vm._s(_vm.comp.name))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "nonborder" }, [
+          _c("td", [_vm._v("TEL " + _vm._s(_vm.comp.tel1))])
+        ]),
+        _vm._v(" "),
+        _c("tr", { staticClass: "nonborder" }, [
+          _c("td", [_vm._v("FAX " + _vm._s(_vm.comp.tel2))])
+        ])
+      ])
+    ])
   ])
 }
 var staticRenderFns = []
@@ -63690,7 +77645,7 @@ var render = function() {
               staticClass: "btn btn-primary btn-lg btn-block",
               staticStyle: { padding: "20px 0" }
             },
-            [_vm._v("御葬儀の作成（顧客登録）")]
+            [_vm._v("葬儀の作成（顧客登録）")]
           )
         ])
       ],
@@ -63705,7 +77660,25 @@ var render = function() {
           _c(
             "button",
             {
-              staticClass: "btn btn-secondary btn-lg btn-block",
+              staticClass: "btn btn-warning btn-lg btn-block",
+              staticStyle: { padding: "20px 0" }
+            },
+            [_vm._v("葬儀リスト")]
+          )
+        ])
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticStyle: { margin: "20px 0" } },
+      [
+        _c("router-link", { attrs: { to: { name: "customer" } } }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-danger btn-lg btn-block",
               staticStyle: { padding: "20px 0" }
             },
             [_vm._v("顧客リスト")]
@@ -63741,7 +77714,7 @@ var render = function() {
           _c(
             "button",
             {
-              staticClass: "btn btn-danger btn-lg btn-block",
+              staticClass: "btn btn-secondary btn-lg btn-block",
               staticStyle: { padding: "20px 0" }
             },
             [_vm._v("四十九日の法要")]
@@ -63868,6 +77841,2933 @@ function normalizeComponent (
   }
 }
 
+
+/***/ }),
+
+/***/ "./node_modules/vue-loading-template/dist/vueLoading.common.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/vue-loading-template/dist/vueLoading.common.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "fb15");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "0026":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("bc35");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("496ca1c6", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ "2350":
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "2557":
+/***/ (function(module, exports) {
+
+module.exports = "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\nviewBox=\"0 0 32 32\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n  <circle cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(45 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.125s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(90 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.25s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(135 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.375s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(180 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.5s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(225 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.625s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(270 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.75s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(315 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.875s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"rotate(180 16 16)\" cx=\"16\" cy=\"3\" r=\"0\">\n    <animate attributeName=\"r\" values=\"0;3;0;0\" dur=\"1s\" repeatCount=\"indefinite\" begin=\"0.5s\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n</svg>"
+
+/***/ }),
+
+/***/ "30ed":
+/***/ (function(module, exports) {
+
+module.exports = "  <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 50 50\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n  <path d=\"M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z\">\n    <animateTransform attributeType=\"xml\"\n      attributeName=\"transform\"\n      type=\"rotate\"\n      from=\"0 25 25\"\n      to=\"360 25 25\"\n      dur=\"0.6s\"\n      repeatCount=\"indefinite\"/>\n    </path>\n  </svg>"
+
+/***/ }),
+
+/***/ "4362":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.nextTick = function nextTick(fn) {
+	setTimeout(fn, 0);
+};
+
+exports.platform = exports.arch = 
+exports.execPath = exports.title = 'browser';
+exports.pid = 1;
+exports.browser = true;
+exports.env = {};
+exports.argv = [];
+
+exports.binding = function (name) {
+	throw new Error('No such module. (Possibly not yet loaded)')
+};
+
+(function () {
+    var cwd = '/';
+    var path;
+    exports.cwd = function () { return cwd };
+    exports.chdir = function (dir) {
+        if (!path) path = __webpack_require__("df7c");
+        cwd = path.resolve(dir, cwd);
+    };
+})();
+
+exports.exit = exports.kill = 
+exports.umask = exports.dlopen = 
+exports.uptime = exports.memoryUsage = 
+exports.uvCounters = function() {};
+exports.features = {};
+
+
+/***/ }),
+
+/***/ "499e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/vue-style-loader/lib/listToStyles.js
+/**
+ * Translates the list format produced by css-loader into something
+ * easier to manipulate.
+ */
+function listToStyles (parentId, list) {
+  var styles = []
+  var newStyles = {}
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i]
+    var id = item[0]
+    var css = item[1]
+    var media = item[2]
+    var sourceMap = item[3]
+    var part = {
+      id: parentId + ':' + i,
+      css: css,
+      media: media,
+      sourceMap: sourceMap
+    }
+    if (!newStyles[id]) {
+      styles.push(newStyles[id] = { id: id, parts: [part] })
+    } else {
+      newStyles[id].parts.push(part)
+    }
+  }
+  return styles
+}
+
+// CONCATENATED MODULE: ./node_modules/vue-style-loader/lib/addStylesClient.js
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return addStylesClient; });
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+  Modified by Evan You @yyx990803
+*/
+
+
+
+var hasDocument = typeof document !== 'undefined'
+
+if (typeof DEBUG !== 'undefined' && DEBUG) {
+  if (!hasDocument) {
+    throw new Error(
+    'vue-style-loader cannot be used in a non-browser environment. ' +
+    "Use { target: 'node' } in your Webpack config to indicate a server-rendering environment."
+  ) }
+}
+
+/*
+type StyleObject = {
+  id: number;
+  parts: Array<StyleObjectPart>
+}
+
+type StyleObjectPart = {
+  css: string;
+  media: string;
+  sourceMap: ?string
+}
+*/
+
+var stylesInDom = {/*
+  [id: number]: {
+    id: number,
+    refs: number,
+    parts: Array<(obj?: StyleObjectPart) => void>
+  }
+*/}
+
+var head = hasDocument && (document.head || document.getElementsByTagName('head')[0])
+var singletonElement = null
+var singletonCounter = 0
+var isProduction = false
+var noop = function () {}
+var options = null
+var ssrIdKey = 'data-vue-ssr-id'
+
+// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+// tags it will allow on a page
+var isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\b/.test(navigator.userAgent.toLowerCase())
+
+function addStylesClient (parentId, list, _isProduction, _options) {
+  isProduction = _isProduction
+
+  options = _options || {}
+
+  var styles = listToStyles(parentId, list)
+  addStylesToDom(styles)
+
+  return function update (newList) {
+    var mayRemove = []
+    for (var i = 0; i < styles.length; i++) {
+      var item = styles[i]
+      var domStyle = stylesInDom[item.id]
+      domStyle.refs--
+      mayRemove.push(domStyle)
+    }
+    if (newList) {
+      styles = listToStyles(parentId, newList)
+      addStylesToDom(styles)
+    } else {
+      styles = []
+    }
+    for (var i = 0; i < mayRemove.length; i++) {
+      var domStyle = mayRemove[i]
+      if (domStyle.refs === 0) {
+        for (var j = 0; j < domStyle.parts.length; j++) {
+          domStyle.parts[j]()
+        }
+        delete stylesInDom[domStyle.id]
+      }
+    }
+  }
+}
+
+function addStylesToDom (styles /* Array<StyleObject> */) {
+  for (var i = 0; i < styles.length; i++) {
+    var item = styles[i]
+    var domStyle = stylesInDom[item.id]
+    if (domStyle) {
+      domStyle.refs++
+      for (var j = 0; j < domStyle.parts.length; j++) {
+        domStyle.parts[j](item.parts[j])
+      }
+      for (; j < item.parts.length; j++) {
+        domStyle.parts.push(addStyle(item.parts[j]))
+      }
+      if (domStyle.parts.length > item.parts.length) {
+        domStyle.parts.length = item.parts.length
+      }
+    } else {
+      var parts = []
+      for (var j = 0; j < item.parts.length; j++) {
+        parts.push(addStyle(item.parts[j]))
+      }
+      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }
+    }
+  }
+}
+
+function createStyleElement () {
+  var styleElement = document.createElement('style')
+  styleElement.type = 'text/css'
+  head.appendChild(styleElement)
+  return styleElement
+}
+
+function addStyle (obj /* StyleObjectPart */) {
+  var update, remove
+  var styleElement = document.querySelector('style[' + ssrIdKey + '~="' + obj.id + '"]')
+
+  if (styleElement) {
+    if (isProduction) {
+      // has SSR styles and in production mode.
+      // simply do nothing.
+      return noop
+    } else {
+      // has SSR styles but in dev mode.
+      // for some reason Chrome can't handle source map in server-rendered
+      // style tags - source maps in <style> only works if the style tag is
+      // created and inserted dynamically. So we remove the server rendered
+      // styles and inject new ones.
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  if (isOldIE) {
+    // use singleton mode for IE9.
+    var styleIndex = singletonCounter++
+    styleElement = singletonElement || (singletonElement = createStyleElement())
+    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)
+    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)
+  } else {
+    // use multi-style-tag mode in all other cases
+    styleElement = createStyleElement()
+    update = applyToTag.bind(null, styleElement)
+    remove = function () {
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  update(obj)
+
+  return function updateStyle (newObj /* StyleObjectPart */) {
+    if (newObj) {
+      if (newObj.css === obj.css &&
+          newObj.media === obj.media &&
+          newObj.sourceMap === obj.sourceMap) {
+        return
+      }
+      update(obj = newObj)
+    } else {
+      remove()
+    }
+  }
+}
+
+var replaceText = (function () {
+  var textStore = []
+
+  return function (index, replacement) {
+    textStore[index] = replacement
+    return textStore.filter(Boolean).join('\n')
+  }
+})()
+
+function applyToSingletonTag (styleElement, index, remove, obj) {
+  var css = remove ? '' : obj.css
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = replaceText(index, css)
+  } else {
+    var cssNode = document.createTextNode(css)
+    var childNodes = styleElement.childNodes
+    if (childNodes[index]) styleElement.removeChild(childNodes[index])
+    if (childNodes.length) {
+      styleElement.insertBefore(cssNode, childNodes[index])
+    } else {
+      styleElement.appendChild(cssNode)
+    }
+  }
+}
+
+function applyToTag (styleElement, obj) {
+  var css = obj.css
+  var media = obj.media
+  var sourceMap = obj.sourceMap
+
+  if (media) {
+    styleElement.setAttribute('media', media)
+  }
+  if (options.ssrId) {
+    styleElement.setAttribute(ssrIdKey, obj.id)
+  }
+
+  if (sourceMap) {
+    // https://developer.chrome.com/devtools/docs/javascript-debugging
+    // this makes source maps inside style tags work properly in Chrome
+    css += '\n/*# sourceURL=' + sourceMap.sources[0] + ' */'
+    // http://stackoverflow.com/a/26603875
+    css += '\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'
+  }
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild)
+    }
+    styleElement.appendChild(document.createTextNode(css))
+  }
+}
+
+
+/***/ }),
+
+/***/ "5abc":
+/***/ (function(module, exports) {
+
+module.exports = "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nviewBox=\"0 0 30 30\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n  <circle transform=\"translate(8 0)\" cx=\"0\" cy=\"16\" r=\"0\"> \n    <animate attributeName=\"r\" values=\"0; 4; 0; 0\" dur=\"1.2s\" repeatCount=\"indefinite\" begin=\"0\"\n      keytimes=\"0;0.2;0.7;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"translate(16 0)\" cx=\"0\" cy=\"16\" r=\"0\"> \n    <animate attributeName=\"r\" values=\"0; 4; 0; 0\" dur=\"1.2s\" repeatCount=\"indefinite\" begin=\"0.3\"\n      keytimes=\"0;0.2;0.7;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n  <circle transform=\"translate(24 0)\" cx=\"0\" cy=\"16\" r=\"0\"> \n    <animate attributeName=\"r\" values=\"0; 4; 0; 0\" dur=\"1.2s\" repeatCount=\"indefinite\" begin=\"0.6\"\n      keytimes=\"0;0.2;0.7;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.6 0.4 0.8\" calcMode=\"spline\" />\n  </circle>\n</svg>\n\n"
+
+/***/ }),
+
+/***/ "65d9":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+  * vue-class-component v6.2.0
+  * (c) 2015-present Evan You
+  * @license MIT
+  */
+
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var Vue = _interopDefault(__webpack_require__("8bbf"));
+
+var hasProto = { __proto__: [] } instanceof Array;
+function createDecorator(factory) {
+    return function (target, key, index) {
+        var Ctor = typeof target === 'function'
+            ? target
+            : target.constructor;
+        if (!Ctor.__decorators__) {
+            Ctor.__decorators__ = [];
+        }
+        if (typeof index !== 'number') {
+            index = undefined;
+        }
+        Ctor.__decorators__.push(function (options) { return factory(options, key, index); });
+    };
+}
+function mixins() {
+    var Ctors = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        Ctors[_i] = arguments[_i];
+    }
+    return Vue.extend({ mixins: Ctors });
+}
+function isPrimitive(value) {
+    var type = typeof value;
+    return value == null || (type !== "object" && type !== "function");
+}
+function warn(message) {
+    if (typeof console !== 'undefined') {
+        console.warn('[vue-class-component] ' + message);
+    }
+}
+
+function collectDataFromConstructor(vm, Component) {
+    // override _init to prevent to init as Vue instance
+    var originalInit = Component.prototype._init;
+    Component.prototype._init = function () {
+        var _this = this;
+        // proxy to actual vm
+        var keys = Object.getOwnPropertyNames(vm);
+        // 2.2.0 compat (props are no longer exposed as self properties)
+        if (vm.$options.props) {
+            for (var key in vm.$options.props) {
+                if (!vm.hasOwnProperty(key)) {
+                    keys.push(key);
+                }
+            }
+        }
+        keys.forEach(function (key) {
+            if (key.charAt(0) !== '_') {
+                Object.defineProperty(_this, key, {
+                    get: function () { return vm[key]; },
+                    set: function (value) { return vm[key] = value; },
+                    configurable: true
+                });
+            }
+        });
+    };
+    // should be acquired class property values
+    var data = new Component();
+    // restore original _init to avoid memory leak (#209)
+    Component.prototype._init = originalInit;
+    // create plain data object
+    var plainData = {};
+    Object.keys(data).forEach(function (key) {
+        if (data[key] !== undefined) {
+            plainData[key] = data[key];
+        }
+    });
+    if (false) {}
+    return plainData;
+}
+
+var $internalHooks = [
+    'data',
+    'beforeCreate',
+    'created',
+    'beforeMount',
+    'mounted',
+    'beforeDestroy',
+    'destroyed',
+    'beforeUpdate',
+    'updated',
+    'activated',
+    'deactivated',
+    'render',
+    'errorCaptured' // 2.5
+];
+function componentFactory(Component, options) {
+    if (options === void 0) { options = {}; }
+    options.name = options.name || Component._componentTag || Component.name;
+    // prototype props.
+    var proto = Component.prototype;
+    Object.getOwnPropertyNames(proto).forEach(function (key) {
+        if (key === 'constructor') {
+            return;
+        }
+        // hooks
+        if ($internalHooks.indexOf(key) > -1) {
+            options[key] = proto[key];
+            return;
+        }
+        var descriptor = Object.getOwnPropertyDescriptor(proto, key);
+        if (typeof descriptor.value === 'function') {
+            // methods
+            (options.methods || (options.methods = {}))[key] = descriptor.value;
+        }
+        else if (descriptor.get || descriptor.set) {
+            // computed properties
+            (options.computed || (options.computed = {}))[key] = {
+                get: descriptor.get,
+                set: descriptor.set
+            };
+        }
+    });
+    (options.mixins || (options.mixins = [])).push({
+        data: function () {
+            return collectDataFromConstructor(this, Component);
+        }
+    });
+    // decorate options
+    var decorators = Component.__decorators__;
+    if (decorators) {
+        decorators.forEach(function (fn) { return fn(options); });
+        delete Component.__decorators__;
+    }
+    // find super
+    var superProto = Object.getPrototypeOf(Component.prototype);
+    var Super = superProto instanceof Vue
+        ? superProto.constructor
+        : Vue;
+    var Extended = Super.extend(options);
+    forwardStaticMembers(Extended, Component, Super);
+    return Extended;
+}
+var reservedPropertyNames = [
+    // Unique id
+    'cid',
+    // Super Vue constructor
+    'super',
+    // Component options that will be used by the component
+    'options',
+    'superOptions',
+    'extendOptions',
+    'sealedOptions',
+    // Private assets
+    'component',
+    'directive',
+    'filter'
+];
+function forwardStaticMembers(Extended, Original, Super) {
+    // We have to use getOwnPropertyNames since Babel registers methods as non-enumerable
+    Object.getOwnPropertyNames(Original).forEach(function (key) {
+        // `prototype` should not be overwritten
+        if (key === 'prototype') {
+            return;
+        }
+        // Some browsers does not allow reconfigure built-in properties
+        var extendedDescriptor = Object.getOwnPropertyDescriptor(Extended, key);
+        if (extendedDescriptor && !extendedDescriptor.configurable) {
+            return;
+        }
+        var descriptor = Object.getOwnPropertyDescriptor(Original, key);
+        // If the user agent does not support `__proto__` or its family (IE <= 10),
+        // the sub class properties may be inherited properties from the super class in TypeScript.
+        // We need to exclude such properties to prevent to overwrite
+        // the component options object which stored on the extended constructor (See #192).
+        // If the value is a referenced value (object or function),
+        // we can check equality of them and exclude it if they have the same reference.
+        // If it is a primitive value, it will be forwarded for safety.
+        if (!hasProto) {
+            // Only `cid` is explicitly exluded from property forwarding
+            // because we cannot detect whether it is a inherited property or not
+            // on the no `__proto__` environment even though the property is reserved.
+            if (key === 'cid') {
+                return;
+            }
+            var superDescriptor = Object.getOwnPropertyDescriptor(Super, key);
+            if (!isPrimitive(descriptor.value)
+                && superDescriptor
+                && superDescriptor.value === descriptor.value) {
+                return;
+            }
+        }
+        // Warn if the users manually declare reserved properties
+        if (false) {}
+        Object.defineProperty(Extended, key, descriptor);
+    });
+}
+
+function Component(options) {
+    if (typeof options === 'function') {
+        return componentFactory(options);
+    }
+    return function (Component) {
+        return componentFactory(Component, options);
+    };
+}
+(function (Component) {
+    function registerHooks(keys) {
+        $internalHooks.push.apply($internalHooks, keys);
+    }
+    Component.registerHooks = registerHooks;
+})(Component || (Component = {}));
+var Component$1 = Component;
+
+exports.default = Component$1;
+exports.createDecorator = createDecorator;
+exports.mixins = mixins;
+
+
+/***/ }),
+
+/***/ "8bbf":
+/***/ (function(module, exports) {
+
+module.exports = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+
+/***/ }),
+
+/***/ "8d4d":
+/***/ (function(module, exports) {
+
+module.exports = "  <svg  xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n     width=\"24px\" height=\"30px\" viewBox=\"0 0 30 30\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n    <rect x=\"0\" y=\"0\" width=\"4\" height=\"20\" >\n      <animate attributeName=\"opacity\" attributeType=\"XML\"\n        values=\"1; .2; 1\" \n        begin=\"0s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    </rect>\n    <rect x=\"7\" y=\"0\" width=\"4\" height=\"20\" >\n      <animate attributeName=\"opacity\" attributeType=\"XML\"\n        values=\"1; .2; 1\" \n        begin=\"0.2s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    </rect>\n    <rect x=\"14\" y=\"0\" width=\"4\" height=\"20\" >\n      <animate attributeName=\"opacity\" attributeType=\"XML\"\n        values=\"1; .2; 1\" \n        begin=\"0.4s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    </rect>\n  </svg>"
+
+/***/ }),
+
+/***/ "8d87":
+/***/ (function(module, exports) {
+
+module.exports = "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nviewBox=\"0 0 30 30\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n  <rect x=\"0\" y=\"13\" width=\"4\" height=\"5\" >\n    <animate attributeName=\"height\" attributeType=\"XML\"\n      values=\"5;21;5\" \n      begin=\"0s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    <animate attributeName=\"y\" attributeType=\"XML\"\n      values=\"13; 5; 13\"\n      begin=\"0s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n  </rect>\n  <rect x=\"10\" y=\"13\" width=\"4\" height=\"5\" >\n    <animate attributeName=\"height\" attributeType=\"XML\"\n      values=\"5;21;5\" \n      begin=\"0.15s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    <animate attributeName=\"y\" attributeType=\"XML\"\n      values=\"13; 5; 13\"\n      begin=\"0.15s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n  </rect>\n  <rect x=\"20\" y=\"13\" width=\"4\" height=\"5\">\n    <animate attributeName=\"height\" attributeType=\"XML\"\n      values=\"5;21;5\" \n      begin=\"0.3s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    <animate attributeName=\"y\" attributeType=\"XML\"\n      values=\"13; 5; 13\"\n      begin=\"0.3s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n  </rect>\n</svg>\n\n  "
+
+/***/ }),
+
+/***/ "98db":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process, global) {/*! *****************************************************************************
+Copyright (C) Microsoft. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
+var Reflect;
+(function (Reflect) {
+    // Metadata Proposal
+    // https://rbuckton.github.io/reflect-metadata/
+    (function (factory) {
+        var root = typeof global === "object" ? global :
+            typeof self === "object" ? self :
+                typeof this === "object" ? this :
+                    Function("return this;")();
+        var exporter = makeExporter(Reflect);
+        if (typeof root.Reflect === "undefined") {
+            root.Reflect = Reflect;
+        }
+        else {
+            exporter = makeExporter(root.Reflect, exporter);
+        }
+        factory(exporter);
+        function makeExporter(target, previous) {
+            return function (key, value) {
+                if (typeof target[key] !== "function") {
+                    Object.defineProperty(target, key, { configurable: true, writable: true, value: value });
+                }
+                if (previous)
+                    previous(key, value);
+            };
+        }
+    })(function (exporter) {
+        var hasOwn = Object.prototype.hasOwnProperty;
+        // feature test for Symbol support
+        var supportsSymbol = typeof Symbol === "function";
+        var toPrimitiveSymbol = supportsSymbol && typeof Symbol.toPrimitive !== "undefined" ? Symbol.toPrimitive : "@@toPrimitive";
+        var iteratorSymbol = supportsSymbol && typeof Symbol.iterator !== "undefined" ? Symbol.iterator : "@@iterator";
+        var supportsCreate = typeof Object.create === "function"; // feature test for Object.create support
+        var supportsProto = { __proto__: [] } instanceof Array; // feature test for __proto__ support
+        var downLevel = !supportsCreate && !supportsProto;
+        var HashMap = {
+            // create an object in dictionary mode (a.k.a. "slow" mode in v8)
+            create: supportsCreate
+                ? function () { return MakeDictionary(Object.create(null)); }
+                : supportsProto
+                    ? function () { return MakeDictionary({ __proto__: null }); }
+                    : function () { return MakeDictionary({}); },
+            has: downLevel
+                ? function (map, key) { return hasOwn.call(map, key); }
+                : function (map, key) { return key in map; },
+            get: downLevel
+                ? function (map, key) { return hasOwn.call(map, key) ? map[key] : undefined; }
+                : function (map, key) { return map[key]; },
+        };
+        // Load global or shim versions of Map, Set, and WeakMap
+        var functionPrototype = Object.getPrototypeOf(Function);
+        var usePolyfill = typeof process === "object" && Object({"NODE_ENV":"production","BASE_URL":"/vue-loading/"}) && Object({"NODE_ENV":"production","BASE_URL":"/vue-loading/"})["REFLECT_METADATA_USE_MAP_POLYFILL"] === "true";
+        var _Map = !usePolyfill && typeof Map === "function" && typeof Map.prototype.entries === "function" ? Map : CreateMapPolyfill();
+        var _Set = !usePolyfill && typeof Set === "function" && typeof Set.prototype.entries === "function" ? Set : CreateSetPolyfill();
+        var _WeakMap = !usePolyfill && typeof WeakMap === "function" ? WeakMap : CreateWeakMapPolyfill();
+        // [[Metadata]] internal slot
+        // https://rbuckton.github.io/reflect-metadata/#ordinary-object-internal-methods-and-internal-slots
+        var Metadata = new _WeakMap();
+        /**
+         * Applies a set of decorators to a property of a target object.
+         * @param decorators An array of decorators.
+         * @param target The target object.
+         * @param propertyKey (Optional) The property key to decorate.
+         * @param attributes (Optional) The property descriptor for the target key.
+         * @remarks Decorators are applied in reverse order.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     Example = Reflect.decorate(decoratorsArray, Example);
+         *
+         *     // property (on constructor)
+         *     Reflect.decorate(decoratorsArray, Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     Reflect.decorate(decoratorsArray, Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     Object.defineProperty(Example, "staticMethod",
+         *         Reflect.decorate(decoratorsArray, Example, "staticMethod",
+         *             Object.getOwnPropertyDescriptor(Example, "staticMethod")));
+         *
+         *     // method (on prototype)
+         *     Object.defineProperty(Example.prototype, "method",
+         *         Reflect.decorate(decoratorsArray, Example.prototype, "method",
+         *             Object.getOwnPropertyDescriptor(Example.prototype, "method")));
+         *
+         */
+        function decorate(decorators, target, propertyKey, attributes) {
+            if (!IsUndefined(propertyKey)) {
+                if (!IsArray(decorators))
+                    throw new TypeError();
+                if (!IsObject(target))
+                    throw new TypeError();
+                if (!IsObject(attributes) && !IsUndefined(attributes) && !IsNull(attributes))
+                    throw new TypeError();
+                if (IsNull(attributes))
+                    attributes = undefined;
+                propertyKey = ToPropertyKey(propertyKey);
+                return DecorateProperty(decorators, target, propertyKey, attributes);
+            }
+            else {
+                if (!IsArray(decorators))
+                    throw new TypeError();
+                if (!IsConstructor(target))
+                    throw new TypeError();
+                return DecorateConstructor(decorators, target);
+            }
+        }
+        exporter("decorate", decorate);
+        // 4.1.2 Reflect.metadata(metadataKey, metadataValue)
+        // https://rbuckton.github.io/reflect-metadata/#reflect.metadata
+        /**
+         * A default metadata decorator factory that can be used on a class, class member, or parameter.
+         * @param metadataKey The key for the metadata entry.
+         * @param metadataValue The value for the metadata entry.
+         * @returns A decorator function.
+         * @remarks
+         * If `metadataKey` is already defined for the target and target key, the
+         * metadataValue for that key will be overwritten.
+         * @example
+         *
+         *     // constructor
+         *     @Reflect.metadata(key, value)
+         *     class Example {
+         *     }
+         *
+         *     // property (on constructor, TypeScript only)
+         *     class Example {
+         *         @Reflect.metadata(key, value)
+         *         static staticProperty;
+         *     }
+         *
+         *     // property (on prototype, TypeScript only)
+         *     class Example {
+         *         @Reflect.metadata(key, value)
+         *         property;
+         *     }
+         *
+         *     // method (on constructor)
+         *     class Example {
+         *         @Reflect.metadata(key, value)
+         *         static staticMethod() { }
+         *     }
+         *
+         *     // method (on prototype)
+         *     class Example {
+         *         @Reflect.metadata(key, value)
+         *         method() { }
+         *     }
+         *
+         */
+        function metadata(metadataKey, metadataValue) {
+            function decorator(target, propertyKey) {
+                if (!IsObject(target))
+                    throw new TypeError();
+                if (!IsUndefined(propertyKey) && !IsPropertyKey(propertyKey))
+                    throw new TypeError();
+                OrdinaryDefineOwnMetadata(metadataKey, metadataValue, target, propertyKey);
+            }
+            return decorator;
+        }
+        exporter("metadata", metadata);
+        /**
+         * Define a unique metadata entry on the target.
+         * @param metadataKey A key used to store and retrieve metadata.
+         * @param metadataValue A value that contains attached metadata.
+         * @param target The target object on which to define metadata.
+         * @param propertyKey (Optional) The property key for the target.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     Reflect.defineMetadata("custom:annotation", options, Example);
+         *
+         *     // property (on constructor)
+         *     Reflect.defineMetadata("custom:annotation", options, Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     Reflect.defineMetadata("custom:annotation", options, Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     Reflect.defineMetadata("custom:annotation", options, Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     Reflect.defineMetadata("custom:annotation", options, Example.prototype, "method");
+         *
+         *     // decorator factory as metadata-producing annotation.
+         *     function MyAnnotation(options): Decorator {
+         *         return (target, key?) => Reflect.defineMetadata("custom:annotation", options, target, key);
+         *     }
+         *
+         */
+        function defineMetadata(metadataKey, metadataValue, target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            return OrdinaryDefineOwnMetadata(metadataKey, metadataValue, target, propertyKey);
+        }
+        exporter("defineMetadata", defineMetadata);
+        /**
+         * Gets a value indicating whether the target object or its prototype chain has the provided metadata key defined.
+         * @param metadataKey A key used to store and retrieve metadata.
+         * @param target The target object on which the metadata is defined.
+         * @param propertyKey (Optional) The property key for the target.
+         * @returns `true` if the metadata key was defined on the target object or its prototype chain; otherwise, `false`.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     result = Reflect.hasMetadata("custom:annotation", Example);
+         *
+         *     // property (on constructor)
+         *     result = Reflect.hasMetadata("custom:annotation", Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     result = Reflect.hasMetadata("custom:annotation", Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     result = Reflect.hasMetadata("custom:annotation", Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     result = Reflect.hasMetadata("custom:annotation", Example.prototype, "method");
+         *
+         */
+        function hasMetadata(metadataKey, target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            return OrdinaryHasMetadata(metadataKey, target, propertyKey);
+        }
+        exporter("hasMetadata", hasMetadata);
+        /**
+         * Gets a value indicating whether the target object has the provided metadata key defined.
+         * @param metadataKey A key used to store and retrieve metadata.
+         * @param target The target object on which the metadata is defined.
+         * @param propertyKey (Optional) The property key for the target.
+         * @returns `true` if the metadata key was defined on the target object; otherwise, `false`.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     result = Reflect.hasOwnMetadata("custom:annotation", Example);
+         *
+         *     // property (on constructor)
+         *     result = Reflect.hasOwnMetadata("custom:annotation", Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     result = Reflect.hasOwnMetadata("custom:annotation", Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     result = Reflect.hasOwnMetadata("custom:annotation", Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     result = Reflect.hasOwnMetadata("custom:annotation", Example.prototype, "method");
+         *
+         */
+        function hasOwnMetadata(metadataKey, target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            return OrdinaryHasOwnMetadata(metadataKey, target, propertyKey);
+        }
+        exporter("hasOwnMetadata", hasOwnMetadata);
+        /**
+         * Gets the metadata value for the provided metadata key on the target object or its prototype chain.
+         * @param metadataKey A key used to store and retrieve metadata.
+         * @param target The target object on which the metadata is defined.
+         * @param propertyKey (Optional) The property key for the target.
+         * @returns The metadata value for the metadata key if found; otherwise, `undefined`.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     result = Reflect.getMetadata("custom:annotation", Example);
+         *
+         *     // property (on constructor)
+         *     result = Reflect.getMetadata("custom:annotation", Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     result = Reflect.getMetadata("custom:annotation", Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     result = Reflect.getMetadata("custom:annotation", Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     result = Reflect.getMetadata("custom:annotation", Example.prototype, "method");
+         *
+         */
+        function getMetadata(metadataKey, target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            return OrdinaryGetMetadata(metadataKey, target, propertyKey);
+        }
+        exporter("getMetadata", getMetadata);
+        /**
+         * Gets the metadata value for the provided metadata key on the target object.
+         * @param metadataKey A key used to store and retrieve metadata.
+         * @param target The target object on which the metadata is defined.
+         * @param propertyKey (Optional) The property key for the target.
+         * @returns The metadata value for the metadata key if found; otherwise, `undefined`.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     result = Reflect.getOwnMetadata("custom:annotation", Example);
+         *
+         *     // property (on constructor)
+         *     result = Reflect.getOwnMetadata("custom:annotation", Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     result = Reflect.getOwnMetadata("custom:annotation", Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     result = Reflect.getOwnMetadata("custom:annotation", Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     result = Reflect.getOwnMetadata("custom:annotation", Example.prototype, "method");
+         *
+         */
+        function getOwnMetadata(metadataKey, target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            return OrdinaryGetOwnMetadata(metadataKey, target, propertyKey);
+        }
+        exporter("getOwnMetadata", getOwnMetadata);
+        /**
+         * Gets the metadata keys defined on the target object or its prototype chain.
+         * @param target The target object on which the metadata is defined.
+         * @param propertyKey (Optional) The property key for the target.
+         * @returns An array of unique metadata keys.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     result = Reflect.getMetadataKeys(Example);
+         *
+         *     // property (on constructor)
+         *     result = Reflect.getMetadataKeys(Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     result = Reflect.getMetadataKeys(Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     result = Reflect.getMetadataKeys(Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     result = Reflect.getMetadataKeys(Example.prototype, "method");
+         *
+         */
+        function getMetadataKeys(target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            return OrdinaryMetadataKeys(target, propertyKey);
+        }
+        exporter("getMetadataKeys", getMetadataKeys);
+        /**
+         * Gets the unique metadata keys defined on the target object.
+         * @param target The target object on which the metadata is defined.
+         * @param propertyKey (Optional) The property key for the target.
+         * @returns An array of unique metadata keys.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     result = Reflect.getOwnMetadataKeys(Example);
+         *
+         *     // property (on constructor)
+         *     result = Reflect.getOwnMetadataKeys(Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     result = Reflect.getOwnMetadataKeys(Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     result = Reflect.getOwnMetadataKeys(Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     result = Reflect.getOwnMetadataKeys(Example.prototype, "method");
+         *
+         */
+        function getOwnMetadataKeys(target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            return OrdinaryOwnMetadataKeys(target, propertyKey);
+        }
+        exporter("getOwnMetadataKeys", getOwnMetadataKeys);
+        /**
+         * Deletes the metadata entry from the target object with the provided key.
+         * @param metadataKey A key used to store and retrieve metadata.
+         * @param target The target object on which the metadata is defined.
+         * @param propertyKey (Optional) The property key for the target.
+         * @returns `true` if the metadata entry was found and deleted; otherwise, false.
+         * @example
+         *
+         *     class Example {
+         *         // property declarations are not part of ES6, though they are valid in TypeScript:
+         *         // static staticProperty;
+         *         // property;
+         *
+         *         constructor(p) { }
+         *         static staticMethod(p) { }
+         *         method(p) { }
+         *     }
+         *
+         *     // constructor
+         *     result = Reflect.deleteMetadata("custom:annotation", Example);
+         *
+         *     // property (on constructor)
+         *     result = Reflect.deleteMetadata("custom:annotation", Example, "staticProperty");
+         *
+         *     // property (on prototype)
+         *     result = Reflect.deleteMetadata("custom:annotation", Example.prototype, "property");
+         *
+         *     // method (on constructor)
+         *     result = Reflect.deleteMetadata("custom:annotation", Example, "staticMethod");
+         *
+         *     // method (on prototype)
+         *     result = Reflect.deleteMetadata("custom:annotation", Example.prototype, "method");
+         *
+         */
+        function deleteMetadata(metadataKey, target, propertyKey) {
+            if (!IsObject(target))
+                throw new TypeError();
+            if (!IsUndefined(propertyKey))
+                propertyKey = ToPropertyKey(propertyKey);
+            var metadataMap = GetOrCreateMetadataMap(target, propertyKey, /*Create*/ false);
+            if (IsUndefined(metadataMap))
+                return false;
+            if (!metadataMap.delete(metadataKey))
+                return false;
+            if (metadataMap.size > 0)
+                return true;
+            var targetMetadata = Metadata.get(target);
+            targetMetadata.delete(propertyKey);
+            if (targetMetadata.size > 0)
+                return true;
+            Metadata.delete(target);
+            return true;
+        }
+        exporter("deleteMetadata", deleteMetadata);
+        function DecorateConstructor(decorators, target) {
+            for (var i = decorators.length - 1; i >= 0; --i) {
+                var decorator = decorators[i];
+                var decorated = decorator(target);
+                if (!IsUndefined(decorated) && !IsNull(decorated)) {
+                    if (!IsConstructor(decorated))
+                        throw new TypeError();
+                    target = decorated;
+                }
+            }
+            return target;
+        }
+        function DecorateProperty(decorators, target, propertyKey, descriptor) {
+            for (var i = decorators.length - 1; i >= 0; --i) {
+                var decorator = decorators[i];
+                var decorated = decorator(target, propertyKey, descriptor);
+                if (!IsUndefined(decorated) && !IsNull(decorated)) {
+                    if (!IsObject(decorated))
+                        throw new TypeError();
+                    descriptor = decorated;
+                }
+            }
+            return descriptor;
+        }
+        function GetOrCreateMetadataMap(O, P, Create) {
+            var targetMetadata = Metadata.get(O);
+            if (IsUndefined(targetMetadata)) {
+                if (!Create)
+                    return undefined;
+                targetMetadata = new _Map();
+                Metadata.set(O, targetMetadata);
+            }
+            var metadataMap = targetMetadata.get(P);
+            if (IsUndefined(metadataMap)) {
+                if (!Create)
+                    return undefined;
+                metadataMap = new _Map();
+                targetMetadata.set(P, metadataMap);
+            }
+            return metadataMap;
+        }
+        // 3.1.1.1 OrdinaryHasMetadata(MetadataKey, O, P)
+        // https://rbuckton.github.io/reflect-metadata/#ordinaryhasmetadata
+        function OrdinaryHasMetadata(MetadataKey, O, P) {
+            var hasOwn = OrdinaryHasOwnMetadata(MetadataKey, O, P);
+            if (hasOwn)
+                return true;
+            var parent = OrdinaryGetPrototypeOf(O);
+            if (!IsNull(parent))
+                return OrdinaryHasMetadata(MetadataKey, parent, P);
+            return false;
+        }
+        // 3.1.2.1 OrdinaryHasOwnMetadata(MetadataKey, O, P)
+        // https://rbuckton.github.io/reflect-metadata/#ordinaryhasownmetadata
+        function OrdinaryHasOwnMetadata(MetadataKey, O, P) {
+            var metadataMap = GetOrCreateMetadataMap(O, P, /*Create*/ false);
+            if (IsUndefined(metadataMap))
+                return false;
+            return ToBoolean(metadataMap.has(MetadataKey));
+        }
+        // 3.1.3.1 OrdinaryGetMetadata(MetadataKey, O, P)
+        // https://rbuckton.github.io/reflect-metadata/#ordinarygetmetadata
+        function OrdinaryGetMetadata(MetadataKey, O, P) {
+            var hasOwn = OrdinaryHasOwnMetadata(MetadataKey, O, P);
+            if (hasOwn)
+                return OrdinaryGetOwnMetadata(MetadataKey, O, P);
+            var parent = OrdinaryGetPrototypeOf(O);
+            if (!IsNull(parent))
+                return OrdinaryGetMetadata(MetadataKey, parent, P);
+            return undefined;
+        }
+        // 3.1.4.1 OrdinaryGetOwnMetadata(MetadataKey, O, P)
+        // https://rbuckton.github.io/reflect-metadata/#ordinarygetownmetadata
+        function OrdinaryGetOwnMetadata(MetadataKey, O, P) {
+            var metadataMap = GetOrCreateMetadataMap(O, P, /*Create*/ false);
+            if (IsUndefined(metadataMap))
+                return undefined;
+            return metadataMap.get(MetadataKey);
+        }
+        // 3.1.5.1 OrdinaryDefineOwnMetadata(MetadataKey, MetadataValue, O, P)
+        // https://rbuckton.github.io/reflect-metadata/#ordinarydefineownmetadata
+        function OrdinaryDefineOwnMetadata(MetadataKey, MetadataValue, O, P) {
+            var metadataMap = GetOrCreateMetadataMap(O, P, /*Create*/ true);
+            metadataMap.set(MetadataKey, MetadataValue);
+        }
+        // 3.1.6.1 OrdinaryMetadataKeys(O, P)
+        // https://rbuckton.github.io/reflect-metadata/#ordinarymetadatakeys
+        function OrdinaryMetadataKeys(O, P) {
+            var ownKeys = OrdinaryOwnMetadataKeys(O, P);
+            var parent = OrdinaryGetPrototypeOf(O);
+            if (parent === null)
+                return ownKeys;
+            var parentKeys = OrdinaryMetadataKeys(parent, P);
+            if (parentKeys.length <= 0)
+                return ownKeys;
+            if (ownKeys.length <= 0)
+                return parentKeys;
+            var set = new _Set();
+            var keys = [];
+            for (var _i = 0, ownKeys_1 = ownKeys; _i < ownKeys_1.length; _i++) {
+                var key = ownKeys_1[_i];
+                var hasKey = set.has(key);
+                if (!hasKey) {
+                    set.add(key);
+                    keys.push(key);
+                }
+            }
+            for (var _a = 0, parentKeys_1 = parentKeys; _a < parentKeys_1.length; _a++) {
+                var key = parentKeys_1[_a];
+                var hasKey = set.has(key);
+                if (!hasKey) {
+                    set.add(key);
+                    keys.push(key);
+                }
+            }
+            return keys;
+        }
+        // 3.1.7.1 OrdinaryOwnMetadataKeys(O, P)
+        // https://rbuckton.github.io/reflect-metadata/#ordinaryownmetadatakeys
+        function OrdinaryOwnMetadataKeys(O, P) {
+            var keys = [];
+            var metadataMap = GetOrCreateMetadataMap(O, P, /*Create*/ false);
+            if (IsUndefined(metadataMap))
+                return keys;
+            var keysObj = metadataMap.keys();
+            var iterator = GetIterator(keysObj);
+            var k = 0;
+            while (true) {
+                var next = IteratorStep(iterator);
+                if (!next) {
+                    keys.length = k;
+                    return keys;
+                }
+                var nextValue = IteratorValue(next);
+                try {
+                    keys[k] = nextValue;
+                }
+                catch (e) {
+                    try {
+                        IteratorClose(iterator);
+                    }
+                    finally {
+                        throw e;
+                    }
+                }
+                k++;
+            }
+        }
+        // 6 ECMAScript Data Typ0es and Values
+        // https://tc39.github.io/ecma262/#sec-ecmascript-data-types-and-values
+        function Type(x) {
+            if (x === null)
+                return 1 /* Null */;
+            switch (typeof x) {
+                case "undefined": return 0 /* Undefined */;
+                case "boolean": return 2 /* Boolean */;
+                case "string": return 3 /* String */;
+                case "symbol": return 4 /* Symbol */;
+                case "number": return 5 /* Number */;
+                case "object": return x === null ? 1 /* Null */ : 6 /* Object */;
+                default: return 6 /* Object */;
+            }
+        }
+        // 6.1.1 The Undefined Type
+        // https://tc39.github.io/ecma262/#sec-ecmascript-language-types-undefined-type
+        function IsUndefined(x) {
+            return x === undefined;
+        }
+        // 6.1.2 The Null Type
+        // https://tc39.github.io/ecma262/#sec-ecmascript-language-types-null-type
+        function IsNull(x) {
+            return x === null;
+        }
+        // 6.1.5 The Symbol Type
+        // https://tc39.github.io/ecma262/#sec-ecmascript-language-types-symbol-type
+        function IsSymbol(x) {
+            return typeof x === "symbol";
+        }
+        // 6.1.7 The Object Type
+        // https://tc39.github.io/ecma262/#sec-object-type
+        function IsObject(x) {
+            return typeof x === "object" ? x !== null : typeof x === "function";
+        }
+        // 7.1 Type Conversion
+        // https://tc39.github.io/ecma262/#sec-type-conversion
+        // 7.1.1 ToPrimitive(input [, PreferredType])
+        // https://tc39.github.io/ecma262/#sec-toprimitive
+        function ToPrimitive(input, PreferredType) {
+            switch (Type(input)) {
+                case 0 /* Undefined */: return input;
+                case 1 /* Null */: return input;
+                case 2 /* Boolean */: return input;
+                case 3 /* String */: return input;
+                case 4 /* Symbol */: return input;
+                case 5 /* Number */: return input;
+            }
+            var hint = PreferredType === 3 /* String */ ? "string" : PreferredType === 5 /* Number */ ? "number" : "default";
+            var exoticToPrim = GetMethod(input, toPrimitiveSymbol);
+            if (exoticToPrim !== undefined) {
+                var result = exoticToPrim.call(input, hint);
+                if (IsObject(result))
+                    throw new TypeError();
+                return result;
+            }
+            return OrdinaryToPrimitive(input, hint === "default" ? "number" : hint);
+        }
+        // 7.1.1.1 OrdinaryToPrimitive(O, hint)
+        // https://tc39.github.io/ecma262/#sec-ordinarytoprimitive
+        function OrdinaryToPrimitive(O, hint) {
+            if (hint === "string") {
+                var toString_1 = O.toString;
+                if (IsCallable(toString_1)) {
+                    var result = toString_1.call(O);
+                    if (!IsObject(result))
+                        return result;
+                }
+                var valueOf = O.valueOf;
+                if (IsCallable(valueOf)) {
+                    var result = valueOf.call(O);
+                    if (!IsObject(result))
+                        return result;
+                }
+            }
+            else {
+                var valueOf = O.valueOf;
+                if (IsCallable(valueOf)) {
+                    var result = valueOf.call(O);
+                    if (!IsObject(result))
+                        return result;
+                }
+                var toString_2 = O.toString;
+                if (IsCallable(toString_2)) {
+                    var result = toString_2.call(O);
+                    if (!IsObject(result))
+                        return result;
+                }
+            }
+            throw new TypeError();
+        }
+        // 7.1.2 ToBoolean(argument)
+        // https://tc39.github.io/ecma262/2016/#sec-toboolean
+        function ToBoolean(argument) {
+            return !!argument;
+        }
+        // 7.1.12 ToString(argument)
+        // https://tc39.github.io/ecma262/#sec-tostring
+        function ToString(argument) {
+            return "" + argument;
+        }
+        // 7.1.14 ToPropertyKey(argument)
+        // https://tc39.github.io/ecma262/#sec-topropertykey
+        function ToPropertyKey(argument) {
+            var key = ToPrimitive(argument, 3 /* String */);
+            if (IsSymbol(key))
+                return key;
+            return ToString(key);
+        }
+        // 7.2 Testing and Comparison Operations
+        // https://tc39.github.io/ecma262/#sec-testing-and-comparison-operations
+        // 7.2.2 IsArray(argument)
+        // https://tc39.github.io/ecma262/#sec-isarray
+        function IsArray(argument) {
+            return Array.isArray
+                ? Array.isArray(argument)
+                : argument instanceof Object
+                    ? argument instanceof Array
+                    : Object.prototype.toString.call(argument) === "[object Array]";
+        }
+        // 7.2.3 IsCallable(argument)
+        // https://tc39.github.io/ecma262/#sec-iscallable
+        function IsCallable(argument) {
+            // NOTE: This is an approximation as we cannot check for [[Call]] internal method.
+            return typeof argument === "function";
+        }
+        // 7.2.4 IsConstructor(argument)
+        // https://tc39.github.io/ecma262/#sec-isconstructor
+        function IsConstructor(argument) {
+            // NOTE: This is an approximation as we cannot check for [[Construct]] internal method.
+            return typeof argument === "function";
+        }
+        // 7.2.7 IsPropertyKey(argument)
+        // https://tc39.github.io/ecma262/#sec-ispropertykey
+        function IsPropertyKey(argument) {
+            switch (Type(argument)) {
+                case 3 /* String */: return true;
+                case 4 /* Symbol */: return true;
+                default: return false;
+            }
+        }
+        // 7.3 Operations on Objects
+        // https://tc39.github.io/ecma262/#sec-operations-on-objects
+        // 7.3.9 GetMethod(V, P)
+        // https://tc39.github.io/ecma262/#sec-getmethod
+        function GetMethod(V, P) {
+            var func = V[P];
+            if (func === undefined || func === null)
+                return undefined;
+            if (!IsCallable(func))
+                throw new TypeError();
+            return func;
+        }
+        // 7.4 Operations on Iterator Objects
+        // https://tc39.github.io/ecma262/#sec-operations-on-iterator-objects
+        function GetIterator(obj) {
+            var method = GetMethod(obj, iteratorSymbol);
+            if (!IsCallable(method))
+                throw new TypeError(); // from Call
+            var iterator = method.call(obj);
+            if (!IsObject(iterator))
+                throw new TypeError();
+            return iterator;
+        }
+        // 7.4.4 IteratorValue(iterResult)
+        // https://tc39.github.io/ecma262/2016/#sec-iteratorvalue
+        function IteratorValue(iterResult) {
+            return iterResult.value;
+        }
+        // 7.4.5 IteratorStep(iterator)
+        // https://tc39.github.io/ecma262/#sec-iteratorstep
+        function IteratorStep(iterator) {
+            var result = iterator.next();
+            return result.done ? false : result;
+        }
+        // 7.4.6 IteratorClose(iterator, completion)
+        // https://tc39.github.io/ecma262/#sec-iteratorclose
+        function IteratorClose(iterator) {
+            var f = iterator["return"];
+            if (f)
+                f.call(iterator);
+        }
+        // 9.1 Ordinary Object Internal Methods and Internal Slots
+        // https://tc39.github.io/ecma262/#sec-ordinary-object-internal-methods-and-internal-slots
+        // 9.1.1.1 OrdinaryGetPrototypeOf(O)
+        // https://tc39.github.io/ecma262/#sec-ordinarygetprototypeof
+        function OrdinaryGetPrototypeOf(O) {
+            var proto = Object.getPrototypeOf(O);
+            if (typeof O !== "function" || O === functionPrototype)
+                return proto;
+            // TypeScript doesn't set __proto__ in ES5, as it's non-standard.
+            // Try to determine the superclass constructor. Compatible implementations
+            // must either set __proto__ on a subclass constructor to the superclass constructor,
+            // or ensure each class has a valid `constructor` property on its prototype that
+            // points back to the constructor.
+            // If this is not the same as Function.[[Prototype]], then this is definately inherited.
+            // This is the case when in ES6 or when using __proto__ in a compatible browser.
+            if (proto !== functionPrototype)
+                return proto;
+            // If the super prototype is Object.prototype, null, or undefined, then we cannot determine the heritage.
+            var prototype = O.prototype;
+            var prototypeProto = prototype && Object.getPrototypeOf(prototype);
+            if (prototypeProto == null || prototypeProto === Object.prototype)
+                return proto;
+            // If the constructor was not a function, then we cannot determine the heritage.
+            var constructor = prototypeProto.constructor;
+            if (typeof constructor !== "function")
+                return proto;
+            // If we have some kind of self-reference, then we cannot determine the heritage.
+            if (constructor === O)
+                return proto;
+            // we have a pretty good guess at the heritage.
+            return constructor;
+        }
+        // naive Map shim
+        function CreateMapPolyfill() {
+            var cacheSentinel = {};
+            var arraySentinel = [];
+            var MapIterator = (function () {
+                function MapIterator(keys, values, selector) {
+                    this._index = 0;
+                    this._keys = keys;
+                    this._values = values;
+                    this._selector = selector;
+                }
+                MapIterator.prototype["@@iterator"] = function () { return this; };
+                MapIterator.prototype[iteratorSymbol] = function () { return this; };
+                MapIterator.prototype.next = function () {
+                    var index = this._index;
+                    if (index >= 0 && index < this._keys.length) {
+                        var result = this._selector(this._keys[index], this._values[index]);
+                        if (index + 1 >= this._keys.length) {
+                            this._index = -1;
+                            this._keys = arraySentinel;
+                            this._values = arraySentinel;
+                        }
+                        else {
+                            this._index++;
+                        }
+                        return { value: result, done: false };
+                    }
+                    return { value: undefined, done: true };
+                };
+                MapIterator.prototype.throw = function (error) {
+                    if (this._index >= 0) {
+                        this._index = -1;
+                        this._keys = arraySentinel;
+                        this._values = arraySentinel;
+                    }
+                    throw error;
+                };
+                MapIterator.prototype.return = function (value) {
+                    if (this._index >= 0) {
+                        this._index = -1;
+                        this._keys = arraySentinel;
+                        this._values = arraySentinel;
+                    }
+                    return { value: value, done: true };
+                };
+                return MapIterator;
+            }());
+            return (function () {
+                function Map() {
+                    this._keys = [];
+                    this._values = [];
+                    this._cacheKey = cacheSentinel;
+                    this._cacheIndex = -2;
+                }
+                Object.defineProperty(Map.prototype, "size", {
+                    get: function () { return this._keys.length; },
+                    enumerable: true,
+                    configurable: true
+                });
+                Map.prototype.has = function (key) { return this._find(key, /*insert*/ false) >= 0; };
+                Map.prototype.get = function (key) {
+                    var index = this._find(key, /*insert*/ false);
+                    return index >= 0 ? this._values[index] : undefined;
+                };
+                Map.prototype.set = function (key, value) {
+                    var index = this._find(key, /*insert*/ true);
+                    this._values[index] = value;
+                    return this;
+                };
+                Map.prototype.delete = function (key) {
+                    var index = this._find(key, /*insert*/ false);
+                    if (index >= 0) {
+                        var size = this._keys.length;
+                        for (var i = index + 1; i < size; i++) {
+                            this._keys[i - 1] = this._keys[i];
+                            this._values[i - 1] = this._values[i];
+                        }
+                        this._keys.length--;
+                        this._values.length--;
+                        if (key === this._cacheKey) {
+                            this._cacheKey = cacheSentinel;
+                            this._cacheIndex = -2;
+                        }
+                        return true;
+                    }
+                    return false;
+                };
+                Map.prototype.clear = function () {
+                    this._keys.length = 0;
+                    this._values.length = 0;
+                    this._cacheKey = cacheSentinel;
+                    this._cacheIndex = -2;
+                };
+                Map.prototype.keys = function () { return new MapIterator(this._keys, this._values, getKey); };
+                Map.prototype.values = function () { return new MapIterator(this._keys, this._values, getValue); };
+                Map.prototype.entries = function () { return new MapIterator(this._keys, this._values, getEntry); };
+                Map.prototype["@@iterator"] = function () { return this.entries(); };
+                Map.prototype[iteratorSymbol] = function () { return this.entries(); };
+                Map.prototype._find = function (key, insert) {
+                    if (this._cacheKey !== key) {
+                        this._cacheIndex = this._keys.indexOf(this._cacheKey = key);
+                    }
+                    if (this._cacheIndex < 0 && insert) {
+                        this._cacheIndex = this._keys.length;
+                        this._keys.push(key);
+                        this._values.push(undefined);
+                    }
+                    return this._cacheIndex;
+                };
+                return Map;
+            }());
+            function getKey(key, _) {
+                return key;
+            }
+            function getValue(_, value) {
+                return value;
+            }
+            function getEntry(key, value) {
+                return [key, value];
+            }
+        }
+        // naive Set shim
+        function CreateSetPolyfill() {
+            return (function () {
+                function Set() {
+                    this._map = new _Map();
+                }
+                Object.defineProperty(Set.prototype, "size", {
+                    get: function () { return this._map.size; },
+                    enumerable: true,
+                    configurable: true
+                });
+                Set.prototype.has = function (value) { return this._map.has(value); };
+                Set.prototype.add = function (value) { return this._map.set(value, value), this; };
+                Set.prototype.delete = function (value) { return this._map.delete(value); };
+                Set.prototype.clear = function () { this._map.clear(); };
+                Set.prototype.keys = function () { return this._map.keys(); };
+                Set.prototype.values = function () { return this._map.values(); };
+                Set.prototype.entries = function () { return this._map.entries(); };
+                Set.prototype["@@iterator"] = function () { return this.keys(); };
+                Set.prototype[iteratorSymbol] = function () { return this.keys(); };
+                return Set;
+            }());
+        }
+        // naive WeakMap shim
+        function CreateWeakMapPolyfill() {
+            var UUID_SIZE = 16;
+            var keys = HashMap.create();
+            var rootKey = CreateUniqueKey();
+            return (function () {
+                function WeakMap() {
+                    this._key = CreateUniqueKey();
+                }
+                WeakMap.prototype.has = function (target) {
+                    var table = GetOrCreateWeakMapTable(target, /*create*/ false);
+                    return table !== undefined ? HashMap.has(table, this._key) : false;
+                };
+                WeakMap.prototype.get = function (target) {
+                    var table = GetOrCreateWeakMapTable(target, /*create*/ false);
+                    return table !== undefined ? HashMap.get(table, this._key) : undefined;
+                };
+                WeakMap.prototype.set = function (target, value) {
+                    var table = GetOrCreateWeakMapTable(target, /*create*/ true);
+                    table[this._key] = value;
+                    return this;
+                };
+                WeakMap.prototype.delete = function (target) {
+                    var table = GetOrCreateWeakMapTable(target, /*create*/ false);
+                    return table !== undefined ? delete table[this._key] : false;
+                };
+                WeakMap.prototype.clear = function () {
+                    // NOTE: not a real clear, just makes the previous data unreachable
+                    this._key = CreateUniqueKey();
+                };
+                return WeakMap;
+            }());
+            function CreateUniqueKey() {
+                var key;
+                do
+                    key = "@@WeakMap@@" + CreateUUID();
+                while (HashMap.has(keys, key));
+                keys[key] = true;
+                return key;
+            }
+            function GetOrCreateWeakMapTable(target, create) {
+                if (!hasOwn.call(target, rootKey)) {
+                    if (!create)
+                        return undefined;
+                    Object.defineProperty(target, rootKey, { value: HashMap.create() });
+                }
+                return target[rootKey];
+            }
+            function FillRandomBytes(buffer, size) {
+                for (var i = 0; i < size; ++i)
+                    buffer[i] = Math.random() * 0xff | 0;
+                return buffer;
+            }
+            function GenRandomBytes(size) {
+                if (typeof Uint8Array === "function") {
+                    if (typeof crypto !== "undefined")
+                        return crypto.getRandomValues(new Uint8Array(size));
+                    if (typeof msCrypto !== "undefined")
+                        return msCrypto.getRandomValues(new Uint8Array(size));
+                    return FillRandomBytes(new Uint8Array(size), size);
+                }
+                return FillRandomBytes(new Array(size), size);
+            }
+            function CreateUUID() {
+                var data = GenRandomBytes(UUID_SIZE);
+                // mark as random - RFC 4122 § 4.4
+                data[6] = data[6] & 0x4f | 0x40;
+                data[8] = data[8] & 0xbf | 0x80;
+                var result = "";
+                for (var offset = 0; offset < UUID_SIZE; ++offset) {
+                    var byte = data[offset];
+                    if (offset === 4 || offset === 6 || offset === 8)
+                        result += "-";
+                    if (byte < 16)
+                        result += "0";
+                    result += byte.toString(16).toLowerCase();
+                }
+                return result;
+            }
+        }
+        // uses a heuristic used by v8 and chakra to force an object into dictionary mode.
+        function MakeDictionary(obj) {
+            obj.__ = undefined;
+            delete obj.__;
+            return obj;
+        }
+    });
+})(Reflect || (Reflect = {}));
+//# sourceMappingURL=Reflect.js.map
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("4362"), __webpack_require__("c8ba")))
+
+/***/ }),
+
+/***/ "9de4":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nviewBox=\"0 0 30 30\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n  <path transform=\"translate(-8 0)\" d=\"M4 12 A4 4 0 0 0 4 20 A4 4 0 0 0 4 12\"> \n    <animateTransform attributeName=\"transform\" type=\"translate\" values=\"-8 0; 2 0; 2 0;\" dur=\"0.8s\" repeatCount=\"indefinite\" begin=\"0\" keytimes=\"0;.25;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8\" calcMode=\"spline\"  />\n  </path>\n  <path transform=\"translate(2 0)\" d=\"M4 12 A4 4 0 0 0 4 20 A4 4 0 0 0 4 12\"> \n    <animateTransform attributeName=\"transform\" type=\"translate\" values=\"2 0; 12 0; 12 0;\" dur=\"0.8s\" repeatCount=\"indefinite\" begin=\"0\" keytimes=\"0;.35;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8\" calcMode=\"spline\"  />\n  </path>\n  <path transform=\"translate(12 0)\" d=\"M4 12 A4 4 0 0 0 4 20 A4 4 0 0 0 4 12\"> \n    <animateTransform attributeName=\"transform\" type=\"translate\" values=\"12 0; 22 0; 22 0;\" dur=\"0.8s\" repeatCount=\"indefinite\" begin=\"0\" keytimes=\"0;.45;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8\" calcMode=\"spline\"  />\n  </path>\n  <path transform=\"translate(24 0)\" d=\"M4 12 A4 4 0 0 0 4 20 A4 4 0 0 0 4 12\"> \n    <animateTransform attributeName=\"transform\" type=\"translate\" values=\"22 0; 32 0; 32 0;\" dur=\"0.8s\" repeatCount=\"indefinite\" begin=\"0\" keytimes=\"0;.55;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8\" calcMode=\"spline\"  />\n  </path>\n</svg>"
+
+/***/ }),
+
+/***/ "aa05":
+/***/ (function(module, exports) {
+
+module.exports = "\n  <svg  xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nviewBox=\"0 0 30 30\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n    <rect x=\"0\" y=\"0\" width=\"4\" height=\"10\" >\n      <animateTransform attributeType=\"xml\"\n        attributeName=\"transform\" type=\"translate\"\n        values=\"0 0; 0 20; 0 0\"\n        begin=\"0\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    </rect>\n    <rect x=\"10\" y=\"0\" width=\"4\" height=\"10\" >\n      <animateTransform attributeType=\"xml\"\n        attributeName=\"transform\" type=\"translate\"\n        values=\"0 0; 0 20; 0 0\"\n        begin=\"0.2s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    </rect>\n    <rect x=\"20\" y=\"0\" width=\"4\" height=\"10\">\n      <animateTransform attributeType=\"xml\"\n        attributeName=\"transform\" type=\"translate\"\n        values=\"0 0; 0 20; 0 0\"\n        begin=\"0.4s\" dur=\"0.6s\" repeatCount=\"indefinite\" />\n    </rect>\n  </svg>\n\n"
+
+/***/ }),
+
+/***/ "b82c":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\nviewBox=\"0 0 30 30\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n  <path transform=\"translate(0 0)\" d=\"M0 12 V20 H4 V12z\">\n    <animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0; 28 0; 0 0; 0 0\" dur=\"1.5s\" begin=\"0\" repeatCount=\"indefinite\" keytimes=\"0;0.3;0.6;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </path>\n  <path opacity=\"0.5\" transform=\"translate(0 0)\" d=\"M0 12 V20 H4 V12z\">\n    <animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0; 28 0; 0 0; 0 0\" dur=\"1.5s\" begin=\"0.1s\" repeatCount=\"indefinite\" keytimes=\"0;0.3;0.6;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </path>\n  <path opacity=\"0.25\" transform=\"translate(0 0)\" d=\"M0 12 V20 H4 V12z\">\n    <animateTransform attributeName=\"transform\" type=\"translate\" values=\"0 0; 28 0; 0 0; 0 0\" dur=\"1.5s\" begin=\"0.2s\" repeatCount=\"indefinite\" keytimes=\"0;0.3;0.6;1\" keySplines=\"0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8\" calcMode=\"spline\" />\n  </path>\n</svg>"
+
+/***/ }),
+
+/***/ "bc35":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("2350")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".vue-loading[data-v-6ae436b8]{margin:auto}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "c8ba":
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ "cfcc":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Loading_vue_vue_type_style_index_0_id_6ae436b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("0026");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Loading_vue_vue_type_style_index_0_id_6ae436b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Loading_vue_vue_type_style_index_0_id_6ae436b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Loading_vue_vue_type_style_index_0_id_6ae436b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "df7c":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process) {// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+// resolves . and .. elements in a path array with directory names there
+// must be no slashes, empty elements, or device names (c:\) in the array
+// (so also no leading and trailing slashes - it does not distinguish
+// relative and absolute paths)
+function normalizeArray(parts, allowAboveRoot) {
+  // if the path tries to go above the root, `up` ends up > 0
+  var up = 0;
+  for (var i = parts.length - 1; i >= 0; i--) {
+    var last = parts[i];
+    if (last === '.') {
+      parts.splice(i, 1);
+    } else if (last === '..') {
+      parts.splice(i, 1);
+      up++;
+    } else if (up) {
+      parts.splice(i, 1);
+      up--;
+    }
+  }
+
+  // if the path is allowed to go above the root, restore leading ..s
+  if (allowAboveRoot) {
+    for (; up--; up) {
+      parts.unshift('..');
+    }
+  }
+
+  return parts;
+}
+
+// Split a filename into [root, dir, basename, ext], unix version
+// 'root' is just a slash, or nothing.
+var splitPathRe =
+    /^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$/;
+var splitPath = function(filename) {
+  return splitPathRe.exec(filename).slice(1);
+};
+
+// path.resolve([from ...], to)
+// posix version
+exports.resolve = function() {
+  var resolvedPath = '',
+      resolvedAbsolute = false;
+
+  for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {
+    var path = (i >= 0) ? arguments[i] : process.cwd();
+
+    // Skip empty and invalid entries
+    if (typeof path !== 'string') {
+      throw new TypeError('Arguments to path.resolve must be strings');
+    } else if (!path) {
+      continue;
+    }
+
+    resolvedPath = path + '/' + resolvedPath;
+    resolvedAbsolute = path.charAt(0) === '/';
+  }
+
+  // At this point the path should be resolved to a full absolute path, but
+  // handle relative paths to be safe (might happen when process.cwd() fails)
+
+  // Normalize the path
+  resolvedPath = normalizeArray(filter(resolvedPath.split('/'), function(p) {
+    return !!p;
+  }), !resolvedAbsolute).join('/');
+
+  return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';
+};
+
+// path.normalize(path)
+// posix version
+exports.normalize = function(path) {
+  var isAbsolute = exports.isAbsolute(path),
+      trailingSlash = substr(path, -1) === '/';
+
+  // Normalize the path
+  path = normalizeArray(filter(path.split('/'), function(p) {
+    return !!p;
+  }), !isAbsolute).join('/');
+
+  if (!path && !isAbsolute) {
+    path = '.';
+  }
+  if (path && trailingSlash) {
+    path += '/';
+  }
+
+  return (isAbsolute ? '/' : '') + path;
+};
+
+// posix version
+exports.isAbsolute = function(path) {
+  return path.charAt(0) === '/';
+};
+
+// posix version
+exports.join = function() {
+  var paths = Array.prototype.slice.call(arguments, 0);
+  return exports.normalize(filter(paths, function(p, index) {
+    if (typeof p !== 'string') {
+      throw new TypeError('Arguments to path.join must be strings');
+    }
+    return p;
+  }).join('/'));
+};
+
+
+// path.relative(from, to)
+// posix version
+exports.relative = function(from, to) {
+  from = exports.resolve(from).substr(1);
+  to = exports.resolve(to).substr(1);
+
+  function trim(arr) {
+    var start = 0;
+    for (; start < arr.length; start++) {
+      if (arr[start] !== '') break;
+    }
+
+    var end = arr.length - 1;
+    for (; end >= 0; end--) {
+      if (arr[end] !== '') break;
+    }
+
+    if (start > end) return [];
+    return arr.slice(start, end - start + 1);
+  }
+
+  var fromParts = trim(from.split('/'));
+  var toParts = trim(to.split('/'));
+
+  var length = Math.min(fromParts.length, toParts.length);
+  var samePartsLength = length;
+  for (var i = 0; i < length; i++) {
+    if (fromParts[i] !== toParts[i]) {
+      samePartsLength = i;
+      break;
+    }
+  }
+
+  var outputParts = [];
+  for (var i = samePartsLength; i < fromParts.length; i++) {
+    outputParts.push('..');
+  }
+
+  outputParts = outputParts.concat(toParts.slice(samePartsLength));
+
+  return outputParts.join('/');
+};
+
+exports.sep = '/';
+exports.delimiter = ':';
+
+exports.dirname = function(path) {
+  var result = splitPath(path),
+      root = result[0],
+      dir = result[1];
+
+  if (!root && !dir) {
+    // No dirname whatsoever
+    return '.';
+  }
+
+  if (dir) {
+    // It has a dirname, strip trailing slash
+    dir = dir.substr(0, dir.length - 1);
+  }
+
+  return root + dir;
+};
+
+
+exports.basename = function(path, ext) {
+  var f = splitPath(path)[2];
+  // TODO: make this comparison case-insensitive on windows?
+  if (ext && f.substr(-1 * ext.length) === ext) {
+    f = f.substr(0, f.length - ext.length);
+  }
+  return f;
+};
+
+
+exports.extname = function(path) {
+  return splitPath(path)[3];
+};
+
+function filter (xs, f) {
+    if (xs.filter) return xs.filter(f);
+    var res = [];
+    for (var i = 0; i < xs.length; i++) {
+        if (f(xs[i], i, xs)) res.push(xs[i]);
+    }
+    return res;
+}
+
+// String.prototype.substr - negative index don't work in IE8
+var substr = 'ab'.substr(-1) === 'b'
+    ? function (str, start, len) { return str.substr(start, len) }
+    : function (str, start, len) {
+        if (start < 0) start = str.length + start;
+        return str.substr(start, len);
+    }
+;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("4362")))
+
+/***/ }),
+
+/***/ "fb15":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var svg_namespaceObject = {};
+__webpack_require__.r(svg_namespaceObject);
+__webpack_require__.d(svg_namespaceObject, "balls", function() { return loading_balls_default.a; });
+__webpack_require__.d(svg_namespaceObject, "bars", function() { return loading_bars_default.a; });
+__webpack_require__.d(svg_namespaceObject, "beat", function() { return loading_beat_default.a; });
+__webpack_require__.d(svg_namespaceObject, "bubbles", function() { return loading_bubbles_default.a; });
+__webpack_require__.d(svg_namespaceObject, "cylon", function() { return loading_cylon_default.a; });
+__webpack_require__.d(svg_namespaceObject, "spin", function() { return loading_spin_default.a; });
+__webpack_require__.d(svg_namespaceObject, "spiningDubbles", function() { return loading_spining_dubbles_default.a; });
+__webpack_require__.d(svg_namespaceObject, "barsCylon", function() { return loading_bars_cylon_default.a; });
+
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
+// This file is imported into lib/wc client bundles.
+
+if (typeof window !== 'undefined') {
+  var i
+  if ((i = window.document.currentScript) && (i = i.src.match(/(.+\/)[^/]+\.js(\?.*)?$/))) {
+    __webpack_require__.p = i[1] // eslint-disable-line
+  }
+}
+
+// Indicate to webpack that this file can be concatenated
+/* harmony default export */ var setPublicPath = (null);
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/createClass.js
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js
+
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return _assertThisInitialized(self);
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/inherits.js
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf(subClass, superClass);
+}
+// CONCATENATED MODULE: ./node_modules/tslib/tslib.es6.js
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
+/* global Reflect, Promise */
+
+var extendStatics = function(d, b) {
+    extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return extendStatics(d, b);
+};
+
+function __extends(d, b) {
+    extendStatics(d, b);
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+}
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    }
+    return __assign.apply(this, arguments);
+}
+
+function __rest(s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
+    return t;
+}
+
+function __decorate(decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+}
+
+function __param(paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+}
+
+function __metadata(metadataKey, metadataValue) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
+}
+
+function __awaiter(thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+}
+
+function __generator(thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+}
+
+function __exportStar(m, exports) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+
+function __values(o) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator], i = 0;
+    if (m) return m.call(o);
+    return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+}
+
+function __read(o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+}
+
+function __spread() {
+    for (var ar = [], i = 0; i < arguments.length; i++)
+        ar = ar.concat(__read(arguments[i]));
+    return ar;
+}
+
+function __await(v) {
+    return this instanceof __await ? (this.v = v, this) : new __await(v);
+}
+
+function __asyncGenerator(thisArg, _arguments, generator) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var g = generator.apply(thisArg, _arguments || []), i, q = [];
+    return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
+    function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+    function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
+    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
+    function fulfill(value) { resume("next", value); }
+    function reject(value) { resume("throw", value); }
+    function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
+}
+
+function __asyncDelegator(o) {
+    var i, p;
+    return i = {}, verb("next"), verb("throw", function (e) { throw e; }), verb("return"), i[Symbol.iterator] = function () { return this; }, i;
+    function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === "return" } : f ? f(v) : v; } : f; }
+}
+
+function __asyncValues(o) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var m = o[Symbol.asyncIterator], i;
+    return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
+    function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
+    function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
+}
+
+function __makeTemplateObject(cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+
+function __importStar(mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result.default = mod;
+    return result;
+}
+
+function __importDefault(mod) {
+    return (mod && mod.__esModule) ? mod : { default: mod };
+}
+
+// EXTERNAL MODULE: ./src/svg/loading-balls.svg
+var loading_balls = __webpack_require__("9de4");
+var loading_balls_default = /*#__PURE__*/__webpack_require__.n(loading_balls);
+
+// EXTERNAL MODULE: ./src/svg/loading-bars.svg
+var loading_bars = __webpack_require__("8d87");
+var loading_bars_default = /*#__PURE__*/__webpack_require__.n(loading_bars);
+
+// EXTERNAL MODULE: ./src/svg/loading-beat.svg
+var loading_beat = __webpack_require__("aa05");
+var loading_beat_default = /*#__PURE__*/__webpack_require__.n(loading_beat);
+
+// EXTERNAL MODULE: ./src/svg/loading-bubbles.svg
+var loading_bubbles = __webpack_require__("5abc");
+var loading_bubbles_default = /*#__PURE__*/__webpack_require__.n(loading_bubbles);
+
+// EXTERNAL MODULE: ./src/svg/loading-cylon.svg
+var loading_cylon = __webpack_require__("b82c");
+var loading_cylon_default = /*#__PURE__*/__webpack_require__.n(loading_cylon);
+
+// EXTERNAL MODULE: ./src/svg/loading-spin.svg
+var loading_spin = __webpack_require__("30ed");
+var loading_spin_default = /*#__PURE__*/__webpack_require__.n(loading_spin);
+
+// EXTERNAL MODULE: ./src/svg/loading-spining-dubbles.svg
+var loading_spining_dubbles = __webpack_require__("2557");
+var loading_spining_dubbles_default = /*#__PURE__*/__webpack_require__.n(loading_spining_dubbles);
+
+// EXTERNAL MODULE: ./src/svg/loading-bars-cylon.svg
+var loading_bars_cylon = __webpack_require__("8d4d");
+var loading_bars_cylon_default = /*#__PURE__*/__webpack_require__.n(loading_bars_cylon);
+
+// CONCATENATED MODULE: ./src/svg/index.ts
+
+
+
+
+
+
+
+
+// EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
+var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
+var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
+
+// EXTERNAL MODULE: ./node_modules/vue-class-component/dist/vue-class-component.common.js
+var vue_class_component_common = __webpack_require__("65d9");
+var vue_class_component_common_default = /*#__PURE__*/__webpack_require__.n(vue_class_component_common);
+
+// EXTERNAL MODULE: ./node_modules/reflect-metadata/Reflect.js
+var reflect_metadata_Reflect = __webpack_require__("98db");
+
+// CONCATENATED MODULE: ./node_modules/vue-property-decorator/lib/vue-property-decorator.js
+/** vue-property-decorator verson 6.1.0 MIT LICENSE copyright 2018 kaorun343 */
+
+
+
+
+
+/**
+ * decorator of an inject
+ * @param from key
+ * @return PropertyDecorator
+ */
+function Inject(options) {
+    return Object(vue_class_component_common["createDecorator"])(function (componentOptions, key) {
+        if (typeof componentOptions.inject === 'undefined') {
+            componentOptions.inject = {};
+        }
+        if (!Array.isArray(componentOptions.inject)) {
+            componentOptions.inject[key] = options || key;
+        }
+    });
+}
+/**
+ * decorator of a provide
+ * @param key key
+ * @return PropertyDecorator | void
+ */
+function Provide(key) {
+    return Object(vue_class_component_common["createDecorator"])(function (componentOptions, k) {
+        var provide = componentOptions.provide;
+        if (typeof provide !== 'function' || !provide.managed) {
+            var original_1 = componentOptions.provide;
+            provide = componentOptions.provide = function () {
+                var rv = Object.create((typeof original_1 === 'function' ? original_1.call(this) : original_1) || null);
+                for (var i in provide.managed)
+                    rv[provide.managed[i]] = this[i];
+                return rv;
+            };
+            provide.managed = {};
+        }
+        provide.managed[k] = key || k;
+    });
+}
+/**
+ * decorator of model
+ * @param  event event name
+ * @return PropertyDecorator
+ */
+function Model(event, options) {
+    if (options === void 0) { options = {}; }
+    return function (target, key) {
+        if (!Array.isArray(options) && typeof options.type === 'undefined') {
+            options.type = Reflect.getMetadata('design:type', target, key);
+        }
+        Object(vue_class_component_common["createDecorator"])(function (componentOptions, k) {
+            (componentOptions.props || (componentOptions.props = {}))[k] = options;
+            componentOptions.model = { prop: k, event: event || k };
+        })(target, key);
+    };
+}
+/**
+ * decorator of a prop
+ * @param  options the options for the prop
+ * @return PropertyDecorator | void
+ */
+function Prop(options) {
+    if (options === void 0) { options = {}; }
+    return function (target, key) {
+        if (!Array.isArray(options) && typeof options.type === 'undefined') {
+            options.type = Reflect.getMetadata('design:type', target, key);
+        }
+        Object(vue_class_component_common["createDecorator"])(function (componentOptions, k) {
+            (componentOptions.props || (componentOptions.props = {}))[k] = options;
+        })(target, key);
+    };
+}
+/**
+ * decorator of a watch function
+ * @param  path the path or the expression to observe
+ * @param  WatchOption
+ * @return MethodDecorator
+ */
+function Watch(path, options) {
+    if (options === void 0) { options = {}; }
+    var _a = options.deep, deep = _a === void 0 ? false : _a, _b = options.immediate, immediate = _b === void 0 ? false : _b;
+    return Object(vue_class_component_common["createDecorator"])(function (componentOptions, handler) {
+        if (typeof componentOptions.watch !== 'object') {
+            componentOptions.watch = Object.create(null);
+        }
+        componentOptions.watch[path] = { handler: handler, deep: deep, immediate: immediate };
+    });
+}
+// Code copied from Vue/src/shared/util.js
+var hyphenateRE = /\B([A-Z])/g;
+var hyphenate = function (str) { return str.replace(hyphenateRE, '-$1').toLowerCase(); };
+/**
+ * decorator of an event-emitter function
+ * @param  event The name of the event
+ * @return MethodDecorator
+ */
+function Emit(event) {
+    return function (target, key, descriptor) {
+        key = hyphenate(key);
+        var original = descriptor.value;
+        descriptor.value = function emitter() {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            if (original.apply(this, args) !== false)
+                this.$emit.apply(this, [event || key].concat(args));
+        };
+    };
+}
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--14-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--14-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Loading.vue?vue&type=script&lang=tsx&
+
+
+
+
+
+
+
+
+
+var Loadingvue_type_script_lang_tsx_VueLoading =
+/*#__PURE__*/
+function (_Vue) {
+  _inherits(VueLoading, _Vue);
+
+  function VueLoading() {
+    _classCallCheck(this, VueLoading);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(VueLoading).apply(this, arguments));
+  }
+
+  _createClass(VueLoading, [{
+    key: "render",
+    value: function render() {
+      var h = arguments[0];
+      return h("div", {
+        "class": "vue-loading",
+        domProps: {
+          "innerHTML": this.svg
+        },
+        style: this.loadingStyle
+      });
+    }
+  }, {
+    key: "svg",
+    get: function get() {
+      return svg_namespaceObject[this.type];
+    }
+  }, {
+    key: "loadingStyle",
+    get: function get() {
+      return {
+        fill: this.color,
+        width: this.size.width,
+        height: this.size.height
+      };
+    }
+  }]);
+
+  return VueLoading;
+}(external_commonjs_vue_commonjs2_vue_root_Vue_default.a);
+
+__decorate([Prop({
+  default: 'bead',
+  type: String,
+  required: false
+}), __metadata("design:type", String)], Loadingvue_type_script_lang_tsx_VueLoading.prototype, "type", void 0);
+
+__decorate([Prop({
+  default: '#5ac1dd',
+  type: String,
+  required: false
+}), __metadata("design:type", String)], Loadingvue_type_script_lang_tsx_VueLoading.prototype, "color", void 0);
+
+__decorate([Prop({
+  default: function _default() {
+    return {
+      width: '30px',
+      height: '30px'
+    };
+  },
+  type: Object,
+  required: false
+}), __metadata("design:type", Object)], Loadingvue_type_script_lang_tsx_VueLoading.prototype, "size", void 0);
+
+Loadingvue_type_script_lang_tsx_VueLoading = __decorate([vue_class_component_common_default()({
+  name: 'vueLoading'
+})], Loadingvue_type_script_lang_tsx_VueLoading);
+/* harmony default export */ var Loadingvue_type_script_lang_tsx_ = (Loadingvue_type_script_lang_tsx_VueLoading);
+// CONCATENATED MODULE: ./src/components/Loading.vue?vue&type=script&lang=tsx&
+ /* harmony default export */ var components_Loadingvue_type_script_lang_tsx_ = (Loadingvue_type_script_lang_tsx_); 
+// EXTERNAL MODULE: ./src/components/Loading.vue?vue&type=style&index=0&id=6ae436b8&scoped=true&lang=css&
+var Loadingvue_type_style_index_0_id_6ae436b8_scoped_true_lang_css_ = __webpack_require__("cfcc");
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functioal component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+// CONCATENATED MODULE: ./src/components/Loading.vue
+var render, staticRenderFns
+
+
+
+
+
+/* normalize component */
+
+var component = normalizeComponent(
+  components_Loadingvue_type_script_lang_tsx_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "6ae436b8",
+  null
+  
+)
+
+component.options.__file = "Loading.vue"
+/* harmony default export */ var Loading = (component.exports);
+// CONCATENATED MODULE: ./src/index.ts
+/**
+ * Vue-loading-template
+ * @author jkchao
+ */
+
+
+var src_install = function install(vue, options) {
+  if (options) {
+    var componentProps = new Loading().$options.props;
+    componentProps.type.default = options.type || 'balls';
+    componentProps.color.default = options.color || '#5ac1dd';
+
+    componentProps.size.default = function () {
+      return options.size || {
+        width: '30px',
+        height: '30px'
+      };
+    };
+  }
+
+  vue.component('vue-loading', Loading);
+}; // 导出模块
+
+
+
+/* harmony default export */ var src = ({
+  install: src_install
+});
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
+/* concated harmony reexport VueLoading */__webpack_require__.d(__webpack_exports__, "VueLoading", function() { return Loading; });
+
+
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (src);
+
+
+
+/***/ })
+
+/******/ });
+//# sourceMappingURL=vueLoading.common.js.map
 
 /***/ }),
 
@@ -79013,13 +95913,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_HeaderComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/HeaderComponent */ "./resources/js/components/HeaderComponent.vue");
 /* harmony import */ var _components_TopComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/TopComponent */ "./resources/js/components/TopComponent.vue");
 /* harmony import */ var _components_ListComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/ListComponent */ "./resources/js/components/ListComponent.vue");
-/* harmony import */ var _components_ManageComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/ManageComponent */ "./resources/js/components/ManageComponent.vue");
-/* harmony import */ var _components_ShijuukunichiComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/ShijuukunichiComponent */ "./resources/js/components/ShijuukunichiComponent.vue");
-/* harmony import */ var _components_CreateComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/CreateComponent */ "./resources/js/components/CreateComponent.vue");
-/* harmony import */ var _components_TaskListComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/TaskListComponent */ "./resources/js/components/TaskListComponent.vue");
-/* harmony import */ var _components_TaskShowComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/TaskShowComponent */ "./resources/js/components/TaskShowComponent.vue");
-/* harmony import */ var _components_TaskCreateComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/TaskCreateComponent */ "./resources/js/components/TaskCreateComponent.vue");
-/* harmony import */ var _components_TaskEditComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/TaskEditComponent */ "./resources/js/components/TaskEditComponent.vue");
+/* harmony import */ var _components_CustomerListComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/CustomerListComponent */ "./resources/js/components/CustomerListComponent.vue");
+/* harmony import */ var _components_SougiShowComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/SougiShowComponent */ "./resources/js/components/SougiShowComponent.vue");
+/* harmony import */ var _components_EstimateShowComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/EstimateShowComponent */ "./resources/js/components/EstimateShowComponent.vue");
+/* harmony import */ var _components_SougiEditComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/SougiEditComponent */ "./resources/js/components/SougiEditComponent.vue");
+/* harmony import */ var _components_EstimateEditComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/EstimateEditComponent */ "./resources/js/components/EstimateEditComponent.vue");
+/* harmony import */ var _components_ManageComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/ManageComponent */ "./resources/js/components/ManageComponent.vue");
+/* harmony import */ var _components_ManageEditComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/ManageEditComponent */ "./resources/js/components/ManageEditComponent.vue");
+/* harmony import */ var _components_ShijuukunichiComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/ShijuukunichiComponent */ "./resources/js/components/ShijuukunichiComponent.vue");
+/* harmony import */ var _components_CreateComponent__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/CreateComponent */ "./resources/js/components/CreateComponent.vue");
+/* harmony import */ var _components_TaskListComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/TaskListComponent */ "./resources/js/components/TaskListComponent.vue");
+/* harmony import */ var _components_TaskShowComponent__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/TaskShowComponent */ "./resources/js/components/TaskShowComponent.vue");
+/* harmony import */ var _components_TaskCreateComponent__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/TaskCreateComponent */ "./resources/js/components/TaskCreateComponent.vue");
+/* harmony import */ var _components_TaskEditComponent__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/TaskEditComponent */ "./resources/js/components/TaskEditComponent.vue");
+
+
+
+
+
+
 
 
 
@@ -79046,7 +95958,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: [{
     path: '/tasks',
     name: 'task.list',
-    component: _components_TaskListComponent__WEBPACK_IMPORTED_MODULE_7__["default"]
+    component: _components_TaskListComponent__WEBPACK_IMPORTED_MODULE_13__["default"]
   }, {
     path: '/top',
     name: 'top',
@@ -79056,30 +95968,59 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
     name: 'list',
     component: _components_ListComponent__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
+    path: '/customer',
+    name: 'customer',
+    component: _components_CustomerListComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
+  }, {
+    path: '/list/:sougiId/show1',
+    name: 'sougi.show1',
+    component: _components_SougiShowComponent__WEBPACK_IMPORTED_MODULE_5__["default"],
+    props: true
+  }, {
+    path: '/list/:sougiId/show2',
+    name: 'sougi.show2',
+    component: _components_EstimateShowComponent__WEBPACK_IMPORTED_MODULE_6__["default"],
+    props: true
+  }, {
+    path: '/list/:sougiId/edit',
+    name: 'sougi.edit',
+    component: _components_SougiEditComponent__WEBPACK_IMPORTED_MODULE_7__["default"],
+    props: true
+  }, {
+    path: '/list/:sougiId/estimate',
+    name: 'sougi.estimate.edit',
+    component: _components_EstimateEditComponent__WEBPACK_IMPORTED_MODULE_8__["default"],
+    props: true
+  }, {
     path: '/create',
     name: 'create',
-    component: _components_CreateComponent__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _components_CreateComponent__WEBPACK_IMPORTED_MODULE_12__["default"]
   }, {
     path: '/manage',
     name: 'manage',
-    component: _components_ManageComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
+    component: _components_ManageComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
+  }, {
+    path: '/manage/:manageId',
+    name: 'manage.edit',
+    component: _components_ManageEditComponent__WEBPACK_IMPORTED_MODULE_10__["default"],
+    props: true
   }, {
     path: '/shijuukunichi',
     name: 'shijuukunichi',
-    component: _components_ShijuukunichiComponent__WEBPACK_IMPORTED_MODULE_5__["default"]
+    component: _components_ShijuukunichiComponent__WEBPACK_IMPORTED_MODULE_11__["default"]
   }, {
     path: '/tasks/create',
     name: 'task.create',
-    component: _components_TaskCreateComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
+    component: _components_TaskCreateComponent__WEBPACK_IMPORTED_MODULE_15__["default"]
   }, {
     path: '/tasks/:taskId',
     name: 'task.show',
-    component: _components_TaskShowComponent__WEBPACK_IMPORTED_MODULE_8__["default"],
+    component: _components_TaskShowComponent__WEBPACK_IMPORTED_MODULE_14__["default"],
     props: true
   }, {
     path: '/tasks/:taskId/edit',
     name: 'task.edit',
-    component: _components_TaskEditComponent__WEBPACK_IMPORTED_MODULE_10__["default"],
+    component: _components_TaskEditComponent__WEBPACK_IMPORTED_MODULE_16__["default"],
     props: true
   }]
 });
@@ -79157,14 +96098,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!*****************************************************!*\
   !*** ./resources/js/components/CreateComponent.vue ***!
   \*****************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CreateComponent_vue_vue_type_template_id_75da6b46___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateComponent.vue?vue&type=template&id=75da6b46& */ "./resources/js/components/CreateComponent.vue?vue&type=template&id=75da6b46&");
 /* harmony import */ var _CreateComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/CreateComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _CreateComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CreateComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/CreateComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _CreateComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _CreateComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _CreateComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CreateComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/CreateComponent.vue?vue&type=style&index=0&lang=css&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -79196,7 +96138,7 @@ component.options.__file = "resources/js/components/CreateComponent.vue"
 /*!******************************************************************************!*\
   !*** ./resources/js/components/CreateComponent.vue?vue&type=script&lang=js& ***!
   \******************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -79235,6 +96177,249 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateComponent_vue_vue_type_template_id_75da6b46___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateComponent_vue_vue_type_template_id_75da6b46___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/CustomerListComponent.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/CustomerListComponent.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CustomerListComponent_vue_vue_type_template_id_8dfe8634___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CustomerListComponent.vue?vue&type=template&id=8dfe8634& */ "./resources/js/components/CustomerListComponent.vue?vue&type=template&id=8dfe8634&");
+/* harmony import */ var _CustomerListComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomerListComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/CustomerListComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CustomerListComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CustomerListComponent_vue_vue_type_template_id_8dfe8634___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CustomerListComponent_vue_vue_type_template_id_8dfe8634___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/CustomerListComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/CustomerListComponent.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/CustomerListComponent.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerListComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./CustomerListComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CustomerListComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerListComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/CustomerListComponent.vue?vue&type=template&id=8dfe8634&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/CustomerListComponent.vue?vue&type=template&id=8dfe8634& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerListComponent_vue_vue_type_template_id_8dfe8634___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./CustomerListComponent.vue?vue&type=template&id=8dfe8634& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CustomerListComponent.vue?vue&type=template&id=8dfe8634&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerListComponent_vue_vue_type_template_id_8dfe8634___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CustomerListComponent_vue_vue_type_template_id_8dfe8634___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateEditComponent.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/EstimateEditComponent.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _EstimateEditComponent_vue_vue_type_template_id_498b86f0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EstimateEditComponent.vue?vue&type=template&id=498b86f0& */ "./resources/js/components/EstimateEditComponent.vue?vue&type=template&id=498b86f0&");
+/* harmony import */ var _EstimateEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EstimateEditComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/EstimateEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _EstimateEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./EstimateEditComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _EstimateEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _EstimateEditComponent_vue_vue_type_template_id_498b86f0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _EstimateEditComponent_vue_vue_type_template_id_498b86f0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/EstimateEditComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateEditComponent.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/EstimateEditComponent.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateEditComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateEditComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateEditComponent.vue?vue&type=template&id=498b86f0&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/EstimateEditComponent.vue?vue&type=template&id=498b86f0& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_template_id_498b86f0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateEditComponent.vue?vue&type=template&id=498b86f0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateEditComponent.vue?vue&type=template&id=498b86f0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_template_id_498b86f0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateEditComponent_vue_vue_type_template_id_498b86f0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateShowComponent.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/EstimateShowComponent.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _EstimateShowComponent_vue_vue_type_template_id_0c4a0646___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EstimateShowComponent.vue?vue&type=template&id=0c4a0646& */ "./resources/js/components/EstimateShowComponent.vue?vue&type=template&id=0c4a0646&");
+/* harmony import */ var _EstimateShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EstimateShowComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/EstimateShowComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _EstimateShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./EstimateShowComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _EstimateShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _EstimateShowComponent_vue_vue_type_template_id_0c4a0646___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _EstimateShowComponent_vue_vue_type_template_id_0c4a0646___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/EstimateShowComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateShowComponent.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/EstimateShowComponent.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateShowComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateShowComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/components/EstimateShowComponent.vue?vue&type=template&id=0c4a0646&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/EstimateShowComponent.vue?vue&type=template&id=0c4a0646& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_template_id_0c4a0646___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./EstimateShowComponent.vue?vue&type=template&id=0c4a0646& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/EstimateShowComponent.vue?vue&type=template&id=0c4a0646&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_template_id_0c4a0646___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EstimateShowComponent_vue_vue_type_template_id_0c4a0646___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -79389,7 +96574,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ListComponent_vue_vue_type_template_id_6ee53bb8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ListComponent.vue?vue&type=template&id=6ee53bb8& */ "./resources/js/components/ListComponent.vue?vue&type=template&id=6ee53bb8&");
 /* harmony import */ var _ListComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ListComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ListComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _ListComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ListComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -79397,7 +96584,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _ListComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _ListComponent_vue_vue_type_template_id_6ee53bb8___WEBPACK_IMPORTED_MODULE_0__["render"],
   _ListComponent_vue_vue_type_template_id_6ee53bb8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -79429,6 +96616,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ListComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./ListComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ListComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ListComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ListComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ListComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ListComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
 /***/ "./resources/js/components/ListComponent.vue?vue&type=template&id=6ee53bb8&":
 /*!**********************************************************************************!*\
   !*** ./resources/js/components/ListComponent.vue?vue&type=template&id=6ee53bb8& ***!
@@ -79442,6 +96645,180 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ListComponent_vue_vue_type_template_id_6ee53bb8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ListComponent_vue_vue_type_template_id_6ee53bb8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingBar.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/LoadingBar.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _LoadingBar_vue_vue_type_template_id_56180262___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LoadingBar.vue?vue&type=template&id=56180262& */ "./resources/js/components/LoadingBar.vue?vue&type=template&id=56180262&");
+/* harmony import */ var _LoadingBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoadingBar.vue?vue&type=script&lang=js& */ "./resources/js/components/LoadingBar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _LoadingBar_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LoadingBar.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _LoadingBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _LoadingBar_vue_vue_type_template_id_56180262___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _LoadingBar_vue_vue_type_template_id_56180262___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/LoadingBar.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingBar.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/LoadingBar.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingBar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingBar.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingBar.vue?vue&type=template&id=56180262&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/LoadingBar.vue?vue&type=template&id=56180262& ***!
+  \*******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_template_id_56180262___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingBar.vue?vue&type=template&id=56180262& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingBar.vue?vue&type=template&id=56180262&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_template_id_56180262___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingBar_vue_vue_type_template_id_56180262___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingDubbles.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/LoadingDubbles.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _LoadingDubbles_vue_vue_type_template_id_d58ee890___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LoadingDubbles.vue?vue&type=template&id=d58ee890& */ "./resources/js/components/LoadingDubbles.vue?vue&type=template&id=d58ee890&");
+/* harmony import */ var _LoadingDubbles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoadingDubbles.vue?vue&type=script&lang=js& */ "./resources/js/components/LoadingDubbles.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _LoadingDubbles_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LoadingDubbles.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _LoadingDubbles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _LoadingDubbles_vue_vue_type_template_id_d58ee890___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _LoadingDubbles_vue_vue_type_template_id_d58ee890___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/LoadingDubbles.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingDubbles.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/LoadingDubbles.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingDubbles.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingDubbles.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/components/LoadingDubbles.vue?vue&type=template&id=d58ee890&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/LoadingDubbles.vue?vue&type=template&id=d58ee890& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_template_id_d58ee890___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingDubbles.vue?vue&type=template&id=d58ee890& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LoadingDubbles.vue?vue&type=template&id=d58ee890&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_template_id_d58ee890___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingDubbles_vue_vue_type_template_id_d58ee890___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -79516,6 +96893,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ManageEditComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/ManageEditComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ManageEditComponent_vue_vue_type_template_id_04f08f93___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ManageEditComponent.vue?vue&type=template&id=04f08f93& */ "./resources/js/components/ManageEditComponent.vue?vue&type=template&id=04f08f93&");
+/* harmony import */ var _ManageEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ManageEditComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ManageEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ManageEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ManageEditComponent_vue_vue_type_template_id_04f08f93___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ManageEditComponent_vue_vue_type_template_id_04f08f93___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/ManageEditComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/ManageEditComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/ManageEditComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ManageEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ManageEditComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ManageEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ManageEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/ManageEditComponent.vue?vue&type=template&id=04f08f93&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/ManageEditComponent.vue?vue&type=template&id=04f08f93& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ManageEditComponent_vue_vue_type_template_id_04f08f93___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ManageEditComponent.vue?vue&type=template&id=04f08f93& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ManageEditComponent.vue?vue&type=template&id=04f08f93&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ManageEditComponent_vue_vue_type_template_id_04f08f93___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ManageEditComponent_vue_vue_type_template_id_04f08f93___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/ShijuukunichiComponent.vue":
 /*!************************************************************!*\
   !*** ./resources/js/components/ShijuukunichiComponent.vue ***!
@@ -79580,6 +97026,180 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ShijuukunichiComponent_vue_vue_type_template_id_64df035f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ShijuukunichiComponent_vue_vue_type_template_id_64df035f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiEditComponent.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/SougiEditComponent.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SougiEditComponent_vue_vue_type_template_id_53723743___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SougiEditComponent.vue?vue&type=template&id=53723743& */ "./resources/js/components/SougiEditComponent.vue?vue&type=template&id=53723743&");
+/* harmony import */ var _SougiEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SougiEditComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/SougiEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _SougiEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SougiEditComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _SougiEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SougiEditComponent_vue_vue_type_template_id_53723743___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SougiEditComponent_vue_vue_type_template_id_53723743___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/SougiEditComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiEditComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/SougiEditComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiEditComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiEditComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiEditComponent.vue?vue&type=template&id=53723743&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/SougiEditComponent.vue?vue&type=template&id=53723743& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_template_id_53723743___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiEditComponent.vue?vue&type=template&id=53723743& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiEditComponent.vue?vue&type=template&id=53723743&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_template_id_53723743___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiEditComponent_vue_vue_type_template_id_53723743___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiShowComponent.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/SougiShowComponent.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SougiShowComponent_vue_vue_type_template_id_03c1ad30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SougiShowComponent.vue?vue&type=template&id=03c1ad30& */ "./resources/js/components/SougiShowComponent.vue?vue&type=template&id=03c1ad30&");
+/* harmony import */ var _SougiShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SougiShowComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/SougiShowComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _SougiShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SougiShowComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _SougiShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _SougiShowComponent_vue_vue_type_template_id_03c1ad30___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SougiShowComponent_vue_vue_type_template_id_03c1ad30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/SougiShowComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiShowComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/SougiShowComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiShowComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiShowComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/components/SougiShowComponent.vue?vue&type=template&id=03c1ad30&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/SougiShowComponent.vue?vue&type=template&id=03c1ad30& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_template_id_03c1ad30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./SougiShowComponent.vue?vue&type=template&id=03c1ad30& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SougiShowComponent.vue?vue&type=template&id=03c1ad30&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_template_id_03c1ad30___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SougiShowComponent_vue_vue_type_template_id_03c1ad30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -79872,7 +97492,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _TopComponent_vue_vue_type_template_id_053669da___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TopComponent.vue?vue&type=template&id=053669da& */ "./resources/js/components/TopComponent.vue?vue&type=template&id=053669da&");
 /* harmony import */ var _TopComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TopComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/TopComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _TopComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TopComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -79880,7 +97502,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _TopComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _TopComponent_vue_vue_type_template_id_053669da___WEBPACK_IMPORTED_MODULE_0__["render"],
   _TopComponent_vue_vue_type_template_id_053669da___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -79909,6 +97531,22 @@ component.options.__file = "resources/js/components/TopComponent.vue"
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TopComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./TopComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TopComponent.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TopComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TopComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./TopComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TopComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TopComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TopComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TopComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TopComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
 
 /***/ }),
 

@@ -4,12 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Task;
 use Illuminate\Http\Request;
+use Illuminate\Support\Collection;
 
 class TaskController extends Controller
 {
     public function index()
     {
-        return Task::all();
+        $collection = Task::all();
+        $sorted = $collection->sortBy("id");
+        return $sorted->values()->all();
     }
     public function show(Task $task)
     {

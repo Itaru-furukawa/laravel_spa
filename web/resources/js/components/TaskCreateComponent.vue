@@ -26,7 +26,9 @@
     export default {
         data: function () {
             return {
-                task: {}
+                task: {
+                    "person_in_charge" : "おれ",
+                }
             }
         },
         methods: {
